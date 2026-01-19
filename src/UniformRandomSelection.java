@@ -6,9 +6,9 @@
 //Coding practices resource I have decided to primarily use: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
 class UniformRandomSelection {
-    public static void main()
-    {
-        check
+    public static void main(String[] args) {
+        System.out.println("");
+
     }
 }
 
