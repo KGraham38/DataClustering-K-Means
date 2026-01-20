@@ -7,8 +7,7 @@
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class UniformRandomSelection {
     public static void main(String[] args) {
@@ -16,8 +15,40 @@ public class UniformRandomSelection {
         Parameters parameters = parseUserArguments(args);
         Dataset dataset = readFromDataset(parameters.filename);
 
+        int[] randomIndexes= generateKRandomIndexes(dataset.numberOfPoints,parameters.numOfClusters, new Random());
 
+        printTheCenters(dataset.data, randomIndexes);
 
+    }
+
+    private static void printTheCenters(float[][] data, int[] randomIndexes) {
+    }
+
+    private static int[] generateKRandomIndexes(int numberOfPoints, int numOfClusters, Random random) {
+        if (numOfClusters > numberOfPoints)
+        {
+            System.err.println("Number of clusters cant be greater than the number of points.");
+            System.exit(1);
+
+        }
+
+        List<Integer> indexArray = new ArrayList<>();
+        int i = 0;
+        for (i=0; i< numberOfPoints; i++)
+        {
+            indexArray.add(i);
+        }
+
+        Collections.shuffle(indexArray, random);
+
+        int[] randomized = new int[numOfClusters];
+        int idx = 0;
+        for(idx=0; idx < numOfClusters; idx++)
+        {
+            randomized[idx]=indexArray.get(idx);
+        }
+
+        return randomized;
     }
 
     //This method will try to read data from the file specified by the users first argument
@@ -25,7 +56,6 @@ public class UniformRandomSelection {
 
         Scanner scanner = null;
         try {
-            System.err.println("Madeit");
             scanner= new Scanner(new File(filename));
 
         } catch (FileNotFoundException e) {
@@ -66,7 +96,7 @@ public class UniformRandomSelection {
 
         scanner.close();
 
-        //Now, only if were able to fill our matrix properly, we return the built dataset
+        //Now, only if were able to fill our matrix properly, we return the built dataset type
         return new Dataset(numPoints, dimensions, data);
     }
 
