@@ -5,18 +5,67 @@
 
 //Coding practices resource I have decided to primarily use: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
-class UniformRandomSelection {
+public class UniformRandomSelection {
     public static void main(String[] args) {
-        System.out.println("testsr");
+        Parameters parameters = parseUserArguments(args);
 
+    }
+
+    private static Parameters parseUserArguments(String[] args) {
+        //Must take 5 parameters
+        if(args.length != 5)
+        {
+            System.err.println("Incorrect Number of Arguments: Must have exactly 5 arguments");
+            System.exit(1);
+        }
+        return null;
+    }
+
+    //Class to handle and protect my different arguments
+    private static final class Parameters {
         //Indicated desired inputs for reference:
         //% F = iris_bezdek.txt (name of data file)
+        final String filename;
         //% K = 3 (number of clusters)
+        final int numOfClusters;
         //% I = 100 (maximum number of iterations in a run)
+        final int maxNumOfIterations;
         //% T = 0.000001 (convergence threshold)
+        final float convergenceThreshold;
         //% R = 100 (number of runs)
+        final int numOfRuns;
+
+        //Constructor params for Parameters class
+        private Parameters(String filename, int numOfClusters, int maxNumOfIterations, float convergenceThreshold, int numOfRuns) {
+            this.filename = filename;
+            this.numOfClusters = numOfClusters;
+            this.maxNumOfIterations = maxNumOfIterations;
+            this.convergenceThreshold = convergenceThreshold;
+            this.numOfRuns = numOfRuns;
+        }
+    }
+
+    //Class will hold the number of points, dimensions, and the actual data values.
+    private static final class Dataset{
+        final int numberOfPoints;
+        final int numOfDimensions;
+        final double[][] data;
+
+        //Constructor parameters for Dataset class
+        private Dataset(int numPoints, int numDimensions, double[][] data) {
+            this.numberOfPoints = numPoints;
+            this.numOfDimensions = numDimensions;
+            this.data = data;
+        }
+
+
         //% test is the name of the executable file
-        //% “>” indicates command-prompt, which is not part of the output
+            //% “>” indicates command-prompt, which is not part of the output
+
+
+        }
+
+
 
         //Valid command prompt
         //test iris_bezdek.txt 3 100 0.000001 100
@@ -27,7 +76,7 @@ class UniformRandomSelection {
         //4.6 3.1 1.5 0.2
 
         //Four dimensions so 4 items in each row, 3 lines because k = 3
-    }
+
 }
 
 
