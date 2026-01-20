@@ -5,8 +5,7 @@
 
 //Coding practices resource I have decided to primarily use: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.*;
 
 public class UniformRandomSelection {
@@ -17,11 +16,52 @@ public class UniformRandomSelection {
 
         int[] randomIndexes= generateKRandomIndexes(dataset.numberOfPoints,parameters.numOfClusters, new Random());
 
+        //Print to console
         printTheCenters(dataset.data, randomIndexes);
+
+        //Also print to my output files
+        String outputFilename = makeOutfileName(parameters.filename);
+        saveCenterOutputsToOutputFiles(dataset.data, randomIndexes,outputFilename);
 
     }
 
-    private static void printTheCenters(float[][] data, int[] randomIndexes) {
+    private static String makeOutfileName(String filename) {
+        String baseName= new File(filename).getName();
+        int endOfFilename = baseName.lastIndexOf('.');
+        if  (endOfFilename > 0) {
+            baseName = baseName.substring(0, endOfFilename);
+        }
+        return baseName + "_output.txt";
+        }
+
+    private static void saveCenterOutputsToOutputFiles(double[][] data, int[] randomIndexes, String outputFilename) {
+        try (PrintStream fileOut = new PrintStream(new FileOutputStream(outputFilename, true))) {
+            int index =0;
+            for (index =0; index< randomIndexes.length; index++)
+            {
+                int count = randomIndexes[index];
+                int j = 0;
+                for(j=0; j < data[count].length; j++)
+                {
+                    if (j>0){
+                        fileOut.print(" ");
+                    }
+                    fileOut.print(data[count][j]);
+
+                }
+                fileOut.println();
+            }
+            fileOut.println();
+
+            System.out.println("The file named -> "+ outputFilename + " <- Added To.");
+
+        } catch (IOException e) {
+            System.err.println("Error writing to the output file: " + outputFilename);
+            System.exit(1);
+        }
+    }
+
+    private static void printTheCenters(double[][] data, int[] randomIndexes) {
         int index =0;
         for (index =0; index< randomIndexes.length; index++)
         {
@@ -91,7 +131,7 @@ public class UniformRandomSelection {
         int dimensions = scanner.nextInt();
 
         //Set up the matrix for all points
-        float[][] data = new float[numPoints][dimensions];
+        double[][] data = new double[numPoints][dimensions];
 
         int index = 0;
         int j =0;
@@ -99,11 +139,11 @@ public class UniformRandomSelection {
         for (index =0; index < numPoints; index++)
         {
             for (j=0; j < dimensions; j++){
-                if(!scanner.hasNextFloat()){
+                if(!scanner.hasNextDouble()){
                     System.err.println("File either ended or was improperly formated: " + filename);
                     System.exit(1);
                 }
-                data[index][j] = scanner.nextFloat();
+                data[index][j] = scanner.nextDouble();
 
             }
 
@@ -124,7 +164,7 @@ public class UniformRandomSelection {
         }
         int numClusters = 0;
         int maxIteration = 0;
-        float convergenceThreshold= 0.00F;
+        double convergenceThreshold= 0.00;
         int numRuns = 0;
         String filename= args[0];
 
@@ -143,9 +183,9 @@ public class UniformRandomSelection {
         }
 
         try{
-            convergenceThreshold = Float.parseFloat(args[3]);
+            convergenceThreshold = Double.parseDouble(args[3]);
         }catch (NumberFormatException e) {
-            System.err.println("The format for the conversion threshold must be in float format.");
+            System.err.println("The format for the conversion threshold must be in double format.");
             System.exit(1);
         }
 
@@ -165,7 +205,7 @@ public class UniformRandomSelection {
             System.err.println("The maximum number of iterations must be a positive integer.");
             System.exit(1);
         }
-        if(convergenceThreshold<=0){
+        if(convergenceThreshold<0){
             System.err.println("The convergence threshold must be a non negative real number.");
             System.exit(1);
         }
@@ -188,12 +228,12 @@ public class UniformRandomSelection {
         //% I = 100 (maximum number of iterations in a run)
         final int maxNumOfIterations;
         //% T = 0.000001 (convergence threshold)
-        final float convergenceThreshold;
+        final double convergenceThreshold;
         //% R = 100 (number of runs)
         final int numOfRuns;
 
         //Constructor params for Parameters class
-        private Parameters(String filename, int numOfClusters, int maxNumOfIterations, float convergenceThreshold, int numOfRuns) {
+        private Parameters(String filename, int numOfClusters, int maxNumOfIterations, double convergenceThreshold, int numOfRuns) {
             this.filename = filename;
             this.numOfClusters = numOfClusters;
             this.maxNumOfIterations = maxNumOfIterations;
@@ -203,41 +243,17 @@ public class UniformRandomSelection {
     }
 
     //Class will hold the number of points, dimensions, and the actual data values.
-    private static final class Dataset{
+    private static final class Dataset {
         final int numberOfPoints;
         final int numOfDimensions;
-        final float[][] data;
+        final double[][] data;
 
         //Constructor parameters for Dataset class
-        private Dataset(int numPoints, int numDimensions, float[][] data) {
+        private Dataset(int numPoints, int numDimensions, double[][] data) {
             this.numberOfPoints = numPoints;
             this.numOfDimensions = numDimensions;
             this.data = data;
         }
-
-
-        //% test is the name of the executable file
-            //% “>” indicates command-prompt, which is not part of the output
-
-
-        }
-
-
-
-        //Valid command prompt
-        //test iris_bezdek.txt 3 100 0.000001 100
-
-        //Example output format:
-        //5.1 3.4 1.5 0.2
-        //7.2 3.2 6 1.8
-        //4.6 3.1 1.5 0.2
-
-        //Four dimensions so 4 items in each row, 3 lines because k = 3
+    }
 
 }
-
-
-
-//Java Practices and Style Guide from my Google search: This one seems to cover a little more https://google.github.io/styleguide/javaguide.html
-//However, I like the layout of the sections better on this one, so I will reference both (they should contain basically the same information as these practice are kind of industry standard I think)
-//but I will primarily use https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
