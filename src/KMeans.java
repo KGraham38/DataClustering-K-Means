@@ -3,7 +3,7 @@
 //Phase 2
 //For: Dr. Emre Celebi's Data Clustering Online Class - 4372
 
-//Coding practices resource I have decided to keep usingwsxc: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
+//Coding practices resource I have decided to keep primarily using: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -42,10 +42,59 @@ public class KMeans {
          */
     }
 
-    //K means object to keep track of results
-    private static KMeansResult (Dataset dataset,Parameters parameters, Random rng){
+    //K means setup section: Absolutely no pow like you made clear in your video and set up my steps just like phase 0 Algorithm 7.1 Basic K-means algorithm
+    //Just going to go ahead and redo my selected points instead of looping in main so i can encapsulate all my K means functionality.
+
+    //Start: K Means
+
+    //Euclidean Distance Squared
+    private static double squaredEuclideanDistance(double[] point1, double[] point2) {
+        double sum = 0.0;
+        int i = 0;
+        for (i = 0; i < point1.length; i++) {
+            double diff = point1[i] - point2[i];
+            sum += diff * diff;
+        }
+        return sum;
+    }
+    //Step 1: select K points as initial centroids rand
+    private static double[][] initialCentroids(Dataset dataset, int numberOfClusters, Random random) {
+        int[] centerIndexes =
+    }
+    //step 2: repeat
+    //Step 3: Form K clusters by assigning each point to its closest centroid
+    //I know the method name is long but it is a key method so I want its function very clear
+    private static int[] assignPointsToClosestCentroid(Dataset dataset, int numberOfClusters, Random random) {
 
     }
+    //Step 4: Recompute the centroid of each cluster
+    private static double[][] recomputeCentroids(Dataset dataset, int numClusters) {
+
+    }
+
+    //step 5: until Centroids do not change
+    private static double computeSSE(Dataset dataset, int numberOfClusters, Random random) {
+
+    }
+
+    //Additional step: going to need to check for flatline in improvements
+    private static boolean lineHasFlattened(double lastSSE, double curSSE, double threshold){
+
+    }
+
+    //Save the results
+    private static final class RunResults{
+
+    }
+
+    //Run a full sequence of my k mean steps till convergence
+    private static RunResults runKMeans(Dataset dataset, Parameters parameters, Random rand, PrintStream fileOut, int runNum){
+
+    }
+
+    //Anymore helpers for k means will go here
+
+    //End: K Means
 
     //Just the helper method for my output file name
     private static String makeOutfileName(String filename) {
@@ -118,7 +167,7 @@ public class KMeans {
         }
 
         //List that holds all of the possible indexes
-        List<Integer> indexArray = new ArrayList<>();
+        List<Integer> indexArray = new ArrayList<>(numberOfPoints);
 
         //Fill the list
         int i = 0;
