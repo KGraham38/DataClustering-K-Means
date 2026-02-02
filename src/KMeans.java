@@ -189,11 +189,35 @@ public class KMeans {
         int iterationsDone = 0;
 
         //Step 2
-        int i=0;
-        for (i = 0; i < params.numOfClusters; i++) {
+        int indexNumClus=0;
+        for (indexNumClus = 0; indexNumClus < params.numOfClusters; indexNumClus++) {
 
             //step 3
+            int[] assignPoints = assignPointsToClosestCentroid(dataset, centroids);
+
+            //step 4
+            double[][] newCentroids = recomputeCentroids(dataset, assignPoints, params.numOfClusters);
+
+            //SSE
+            curSSE = computeSSE(dataset, newCentroids, assignPoints);
+
+            //Output
+            System.out.println("Iteration " + indexNumClus + " : SSE = " + curSSE);
+            if (fileOut != null){
+                fileOut.println("Iteration " + indexNumClus + " : SSE = " + curSSE);
+            }
+            iterationsDone = indexNumClus;
+
+            //Step 5
+            if(lineHasFlattened(lastSSE,curSSE,params.convergenceThreshold)){
+                centroids = newCentroids;
+                break;
+            }
+            lastSSE = curSSE;
+            centroids = newCentroids;
         }
+
+
     }
 
     //Anymore helpers for k means will go here
