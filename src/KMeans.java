@@ -171,6 +171,29 @@ public class KMeans {
     //Run a full sequence of my k mean steps till convergence
     private static RunResults runKMeans(Dataset dataset, Parameters params, Random rand, PrintStream fileOut, int runNum){
 
+        //Print header in both console and my file
+        System.out.println("Run #: "+runNum);
+        System.out.println("-----------");
+
+        if (fileOut != null){
+            fileOut.println("Run #: "+runNum);
+            fileOut.println("-----------");
+        }
+
+        //Now call each of my steps
+        //Step 1
+        double[][] centroids = initialCentroids(dataset, params.numOfClusters, rand);
+        double lastSSE = Double.MAX_VALUE;
+        double curSSE = Double.MAX_VALUE;
+
+        int iterationsDone = 0;
+
+        //Step 2
+        int i=0;
+        for (i = 0; i < params.numOfClusters; i++) {
+
+            //step 3
+        }
     }
 
     //Anymore helpers for k means will go here
