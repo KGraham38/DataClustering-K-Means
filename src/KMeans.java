@@ -27,7 +27,7 @@ public class KMeans {
         Dataset dataset = readFromDataset(parameters.filename);
 
         //Generate my k random indexes, all unique
-        int[] randomIndexes= generateKRandomIndexes(dataset.numberOfPoints,parameters.numOfClusters, new Random());
+        int[] randomIndexes = generateKRandomIndexes(dataset.numberOfPoints, parameters.numOfClusters, new Random());
 
         /*
         Not for phase 2 but ill leave it for testing
@@ -57,6 +57,7 @@ public class KMeans {
         }
         return sum;
     }
+
     //Step 1: select K points as initial centroids rand
     private static double[][] initialCentroids(Dataset dataset, int numberOfClusters, Random random) {
         int[] centerIndexes = generateKRandomIndexes(dataset.numberOfPoints, numberOfClusters, random);
@@ -116,12 +117,12 @@ public class KMeans {
             }
         }
         int cent = 0;
-        for ( cent = 0; cent < numClusters; cent++) {
-            if (pointsPerCluster[cent]==0){
+        for (cent = 0; cent < numClusters; cent++) {
+            if (pointsPerCluster[cent] == 0) {
                 continue;
             }
 
-            int dim_index =0;
+            int dim_index = 0;
             for (dim_index = 0; dim_index < dimensions; dim_index++) {
                 newCentroids[cent][dim_index] /= pointsPerCluster[cent];
 
@@ -135,7 +136,7 @@ public class KMeans {
         double sse = 0.0;
 
         int i = 0;
-        for (i=0; i < dataset.numberOfPoints; i++) {
+        for (i = 0; i < dataset.numberOfPoints; i++) {
             int cent = assignedPoints[i];
             sse += squaredEuclideanDistance(dataset.data[i], centers[cent]);
         }
@@ -143,18 +144,18 @@ public class KMeans {
     }
 
     //Additional step: going to need to check for flatline in improvements
-    private static boolean lineHasFlattened(double lastSSE, double curSSE, double threshold){
-        if (lastSSE == Double.MAX_VALUE){
+    private static boolean lineHasFlattened(double lastSSE, double curSSE, double threshold) {
+        if (lastSSE == Double.MAX_VALUE) {
             return false;
         }
-        double improveCheck = (lastSSE - curSSE)/lastSSE;
+        double improveCheck = (lastSSE - curSSE) / lastSSE;
         boolean hasImproved = improveCheck > threshold;
 
         return hasImproved;
     }
 
     //Save the results
-    private static final class RunResults{
+    private static final class RunResults {
         int runNumber;
         int iterations;
         double finalSSE;
@@ -169,14 +170,14 @@ public class KMeans {
     }
 
     //Run a full sequence of my k mean steps till convergence
-    private static RunResults runKMeans(Dataset dataset, Parameters params, Random rand, PrintStream fileOut, int runNum){
+    private static RunResults runKMeans(Dataset dataset, Parameters params, Random rand, PrintStream fileOut, int runNum) {
 
         //Print header in both console and my file
-        System.out.println("Run #: "+runNum);
+        System.out.println("Run #: " + runNum);
         System.out.println("-----------");
 
-        if (fileOut != null){
-            fileOut.println("Run #: "+runNum);
+        if (fileOut != null) {
+            fileOut.println("Run #: " + runNum);
             fileOut.println("-----------");
         }
 
@@ -189,7 +190,7 @@ public class KMeans {
         int iterationsDone = 0;
 
         //Step 2
-        int indexNumClus=0;
+        int indexNumClus = 0;
         for (indexNumClus = 0; indexNumClus < params.numOfClusters; indexNumClus++) {
 
             //step 3
@@ -203,13 +204,13 @@ public class KMeans {
 
             //Output
             System.out.println("Iteration " + indexNumClus + " : SSE = " + curSSE);
-            if (fileOut != null){
+            if (fileOut != null) {
                 fileOut.println("Iteration " + indexNumClus + " : SSE = " + curSSE);
             }
             iterationsDone = indexNumClus;
 
             //Step 5
-            if(lineHasFlattened(lastSSE,curSSE,params.convergenceThreshold)){
+            if (lineHasFlattened(lastSSE, curSSE, params.convergenceThreshold)) {
                 centroids = newCentroids;
                 break;
             }
@@ -217,7 +218,13 @@ public class KMeans {
             centroids = newCentroids;
         }
 
+        //Blank Line between the runs
+        System.out.println(" ");
+        if (fileOut != null) {
+            fileOut.println();
+        }
 
+        return new RunResults(runNum, iterationsDone, curSSE, centroids);
     }
 
     //Anymore helpers for k means will go here
