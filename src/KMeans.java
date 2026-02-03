@@ -43,13 +43,14 @@ public class KMeans {
 
                 RunResults results = runKMeans(dataset, parameters, random, outFile, runIndex);
 
-                if (bestRun == null) {
+                if (bestRun == null || results.finalSSE < bestRun.finalSSE) {
                     bestRun = results;
                 }
+            }
 
                 System.out.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
                 outFile.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
-            }
+
 
         } catch (FileNotFoundException e) {
             System.err.println("Error writing to output file: " + outputFilename);
@@ -57,7 +58,7 @@ public class KMeans {
         }
     }
 
-    //K means setup section: Absolutely no pow like you made clear in your video and set up my steps just like phase 0 Algorithm 7.1 Basic K-means algorithm
+    //K means setup section: Absolutely no pow like you made clear in your video and set up my steps just like phase 0 Algorithm 7.1 the Basic K-means algorithm
     //Just going to go ahead and redo my selected points instead of looping in main so i can encapsulate all my K means functionality.
 
     //Start: K Means
@@ -113,36 +114,39 @@ public class KMeans {
     }
 
     //Step 4: Recompute the centroid of each cluster
-    private static double[][] recomputeCentroids(Dataset dataset, int[] assignedPoints, int numClusters) {
+    private static double[][] recomputeCentroids(Dataset dataset, int[] assignedPoints, int numClusters, double[][] lastCentroid) {
 
         int dimensions = dataset.numOfDimensions;
 
         double[][] newCentroids = new double[numClusters][dimensions];
         int[] pointsPerCluster = new int[numClusters];
 
+        //Add the points into their cluster
         int i = 0;
         for (i = 0; i < dataset.numberOfPoints; i++) {
-            int center = assignedPoints[i];
-            pointsPerCluster[center]++;
+            int cluster = assignedPoints[i];
+            pointsPerCluster[cluster]++;
 
             double[] point = dataset.data[i];
             int j = 0;
             for (j = 0; j < pointsPerCluster.length; j++) {
-                newCentroids[i][j] += point[j];
+                newCentroids[cluster][j] += point[j];
             }
         }
+
+        //Divide by clus counts and keep the old centroid for empty clusters
         int cent = 0;
         for (cent = 0; cent < numClusters; cent++) {
             if (pointsPerCluster[cent] == 0) {
+                System.arraycopy(lastCentroid[cent],0, newCentroids[cent], 0, dimensions);
                 continue;
             }
-
             int dim_index = 0;
             for (dim_index = 0; dim_index < dimensions; dim_index++) {
                 newCentroids[cent][dim_index] /= pointsPerCluster[cent];
-
             }
         }
+
         return newCentroids;
     }
 
@@ -212,7 +216,7 @@ public class KMeans {
             int[] assignPoints = assignPointsToClosestCentroid(dataset, centroids);
 
             //step 4
-            double[][] newCentroids = recomputeCentroids(dataset, assignPoints, params.numOfClusters);
+            double[][] newCentroids = recomputeCentroids(dataset, assignPoints, params.numOfClusters, centroids);
 
             //SSE
             curSSE = computeSSE(dataset, newCentroids, assignPoints);
