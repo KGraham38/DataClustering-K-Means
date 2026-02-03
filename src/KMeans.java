@@ -30,19 +30,25 @@ public class KMeans {
         //Had to build my file name outside of main since filename is static here
         String outputFilename = makeOutfileName(parameters.filename);
 
+        //Track my best run and may implement a function for tracking the avg total
+        //of all runs and comparing it to the best run
         RunResults bestRun = null;
         RunResults allRuns = null;
 
+        //overwrite existing file and automatically close
         try (PrintStream outFile = new PrintStream(new FileOutputStream(outputFilename))){
 
             Random random = new Random();
 
             int runIndex = 1;
 
+            //Each run uses different real random centers just like my original phase 1
             for (runIndex=1;runIndex<= parameters.numOfRuns;runIndex++) {
 
+                //Run my whole K Means function
                 RunResults results = runKMeans(dataset, parameters, random, outFile, runIndex);
 
+                //If first run or smaller SSE update
                 if (bestRun == null || results.finalSSE < bestRun.finalSSE) {
                     bestRun = results;
                 }
@@ -61,25 +67,33 @@ public class KMeans {
     //K means setup section: Absolutely no pow like you made clear in your video and set up my steps just like phase 0 Algorithm 7.1 the Basic K-means algorithm
     //Just going to go ahead and redo my selected points instead of looping in main so i can encapsulate all my K means functionality.
 
-    //Start: K Means
+    //Start: My K Means Algorithm Section
+    //Steps straight from our phase 0
 
     //Euclidean Distance Squared
     private static double squaredEuclideanDistance(double[] point1, double[] point2) {
-        double sum = 0.0;
-        int i = 0;
-        for (i = 0; i < point1.length; i++) {
-            double diff = point1[i] - point2[i];
-            sum += diff * diff;
+        double squaredDist = 0.0;
+        int dimension = 0;
+
+        //loop over each dimension
+        for (dimension = 0; dimension < point1.length; dimension++) {
+            double diff = point1[dimension] - point2[dimension];
+
+            //Just like your video said, no POW!
+            squaredDist += diff * diff;
         }
-        return sum;
+        return squaredDist;
     }
 
     //Step 1: select K points as initial centroids rand
     private static double[][] initialCentroids(Dataset dataset, int numberOfClusters, Random random) {
+
+        //Select the unique point indexes
         int[] centerIndexes = generateKRandomIndexes(dataset.numberOfPoints, numberOfClusters, random);
 
         double[][] centroids = new double[numberOfClusters][dataset.numOfDimensions];
 
+        //Copy data points to my centroid array
         int i = 0;
         for (i = 0; i < centerIndexes.length; i++) {
             System.arraycopy(dataset.data[centerIndexes[i]], 0, centroids[i], 0, dataset.numOfDimensions);
@@ -95,9 +109,12 @@ public class KMeans {
 
         int i = 0;
         for (i = 0; i < dataset.numberOfPoints; i++) {
+
+            //Keep track best distance
             double bestDistance = Double.MAX_VALUE;
             int bestCenter = 0;
 
+            //Loop over each of the centroids
             int j = 0;
             for (j = 0; j < centroids.length; j++) {
                 double distance = squaredEuclideanDistance(dataset.data[i], centroids[j]);
@@ -107,6 +124,7 @@ public class KMeans {
                     bestCenter = j;
                 }
             }
+            //Store the chosen centroid for the i-th point
             assignedPoints[i] = bestCenter;
         }
 
@@ -118,6 +136,7 @@ public class KMeans {
 
         int dimensions = dataset.numOfDimensions;
 
+        //Stores coordinate sum for each of my clusters
         double[][] newCentroids = new double[numClusters][dimensions];
         int[] pointsPerCluster = new int[numClusters];
 
@@ -128,19 +147,23 @@ public class KMeans {
             pointsPerCluster[cluster]++;
 
             double[] point = dataset.data[i];
+
+            //Add coord to cluster sum
             int j = 0;
             for (j = 0; j < dimensions; j++) {
                 newCentroids[cluster][j] += point[j];
             }
         }
 
-        //Divide by clus counts and keep the old centroid for empty clusters
+        //Keep the old centroid for empty clusters
         int cent = 0;
         for (cent = 0; cent < numClusters; cent++) {
             if (pointsPerCluster[cent] == 0) {
                 System.arraycopy(lastCentroid[cent],0, newCentroids[cent], 0, dimensions);
                 continue;
             }
+
+            //Otherwise divide the sums by count to get the means
             int dim_index = 0;
             for (dim_index = 0; dim_index < dimensions; dim_index++) {
                 newCentroids[cent][dim_index] /= pointsPerCluster[cent];
@@ -156,7 +179,9 @@ public class KMeans {
 
         int i = 0;
         for (i = 0; i < dataset.numberOfPoints; i++) {
+            //find the assigned cluster for the i-th point
             int cent = assignedPoints[i];
+            //Add sd to centroid
             sse += squaredEuclideanDistance(dataset.data[i], centers[cent]);
         }
         return sse;
@@ -173,7 +198,7 @@ public class KMeans {
         return hasImproved;
     }
 
-    //Save the results
+    //Class to save the results for each run
     private static final class RunResults {
         int runNumber;
         int iterations;
@@ -188,7 +213,7 @@ public class KMeans {
         }
     }
 
-    //Run a full sequence of my k mean steps till convergence
+    //Run a full sequence of my k mean steps till convergence, basically the main for calling my K Means method
     private static RunResults runKMeans(Dataset dataset, Parameters params, Random rand, PrintStream fileOut, int runNum) {
 
         //Print header in both console and my file
@@ -248,7 +273,7 @@ public class KMeans {
 
     //Anymore helpers for k means will go here
 
-    //End: K Means
+    //End: K Means Algorithm Section
 
     //Just the helper method for my output file name
     private static String makeOutfileName(String filename) {
