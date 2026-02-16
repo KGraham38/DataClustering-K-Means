@@ -3,6 +3,12 @@
 //Phase 2
 //For: Dr. Emre Celebi's Data Clustering Online Class - 4372
 
+//Bonus 2 attempt
+//I would say no, a k means algorithm initialized uniformly at random should not encounter empty clusters because at
+//minimum at initialization the centroid point, which is in the dataset, must be within the cluster. After that each
+//iterations centroid location change should be getting more centered towards the mean distance of the points around it
+//so I don’t see an empty cluster being likely.
+
 //Coding practices resource I have decided to keep primarily using: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
 import java.io.File;
@@ -65,7 +71,7 @@ public class KMeans {
     }
 
     //K means setup section: Absolutely no pow like you made clear in your video and set up my steps just like phase 0 Algorithm 7.1 the Basic K-means algorithm
-    //Just going to go ahead and redo my selected points instead of looping in main so i can encapsulate all my K means functionality.
+    //Just going to go ahead and redo my selected points instead of looping in main so i can encapsulate all my K means functionality in my new functions.
 
     //Start: My K Means Algorithm Section
     //Steps straight from our phase 0
@@ -101,7 +107,8 @@ public class KMeans {
         return centroids;
     }
 
-    //step 2: repeat
+    //step 2: repeat steps 3 and 4 until step 5 is met
+
     //Step 3: Form K clusters by assigning each point to its closest centroid
     //I know the method name is long but it is a key method so I want its function very clear
     private static int[] assignPointsToClosestCentroid(Dataset dataset, double[][] centroids) {
@@ -149,21 +156,16 @@ public class KMeans {
             double[] point = dataset.data[i];
 
             //Add coord to cluster sum
-            int j = 0;
-            for (j = 0; j < dimensions; j++) {
-                newCentroids[cluster][j] += point[j];
+            int dimIndex = 0;
+            for (dimIndex = 0; dimIndex < dimensions; dimIndex++) {
+                newCentroids[cluster][dimIndex] += point[dimIndex];
             }
         }
 
-        //Keep the old centroid for empty clusters
+        //Divide the sums by count to get the means
         int cent = 0;
-        for (cent = 0; cent < numClusters; cent++) {
-            if (pointsPerCluster[cent] == 0) {
-                System.arraycopy(lastCentroid[cent],0, newCentroids[cent], 0, dimensions);
-                continue;
-            }
+        for(cent = 0; cent < numClusters; cent++) {
 
-            //Otherwise divide the sums by count to get the means
             int dim_index = 0;
             for (dim_index = 0; dim_index < dimensions; dim_index++) {
                 newCentroids[cent][dim_index] /= pointsPerCluster[cent];
@@ -188,14 +190,22 @@ public class KMeans {
     }
 
     //Additional step: going to need to check for flatline in improvements
-    private static boolean lineHasFlattened(double lastSSE, double curSSE, double threshold) {
-        if (lastSSE == Double.MAX_VALUE) {
+    private static boolean hasFlattened(double lastSSE, double curSSE, double threshold) {
+        if (Double.isInfinite(lastSSE)) {
             return false;
         }
-        double improveCheck = (lastSSE - curSSE) / lastSSE;
-        boolean hasImproved = improveCheck < threshold;
 
-        return hasImproved;
+        //If back to back runs have same SSE obviously we have converged
+        if(curSSE == lastSSE){
+            return true;
+        }
+
+        double improveCheck = (lastSSE - curSSE) / lastSSE;
+
+        //Not really a fan of returning an argument instead of a variable but intelliJ was giving me a warning saying
+        //declaring a variable just to return it on the next line was redundant and I could not find a mention of how to
+        //handle this in my code style document so just went wit intelliJ's recommendation.
+        return improveCheck < threshold;
     }
 
     //Class to save the results for each run
@@ -228,8 +238,9 @@ public class KMeans {
         //Now call each of my steps
         //Step 1
         double[][] centroids = initialCentroids(dataset, params.numOfClusters, rand);
-        double lastSSE = Double.MAX_VALUE;
-        double curSSE = Double.MAX_VALUE;
+
+        double lastSSE = Double.POSITIVE_INFINITY;
+        double curSSE = Double.POSITIVE_INFINITY;
 
         int iterationsDone = 0;
 
@@ -254,7 +265,7 @@ public class KMeans {
             iterationsDone = indexNumClus;
 
             //Step 5
-            if (lineHasFlattened(lastSSE, curSSE, params.convergenceThreshold)) {
+            if (hasFlattened(lastSSE, curSSE, params.convergenceThreshold)) {
                 centroids = newCentroids;
                 break;
             }
