@@ -1,0 +1,2187 @@
+Run #: 1
+-----------
+Iteration 1 : SSE = 4244.915092556389
+Iteration 2 : SSE = 3243.4039799988973
+Iteration 3 : SSE = 3007.7913516662275
+Iteration 4 : SSE = 2924.75870496878
+Iteration 5 : SSE = 2885.95308661091
+Iteration 6 : SSE = 2865.227024864814
+Iteration 7 : SSE = 2851.2301635945782
+Iteration 8 : SSE = 2841.871178826624
+Iteration 9 : SSE = 2833.155497571658
+Iteration 10 : SSE = 2825.6119907442735
+Iteration 11 : SSE = 2819.454444911091
+Iteration 12 : SSE = 2814.03010835163
+Iteration 13 : SSE = 2809.652783483067
+Iteration 14 : SSE = 2806.9104648978355
+
+Run #: 2
+-----------
+Iteration 1 : SSE = 4192.933588156336
+Iteration 2 : SSE = 3338.827675085778
+Iteration 3 : SSE = 3111.594567821563
+Iteration 4 : SSE = 2998.676233463034
+Iteration 5 : SSE = 2911.4469602794297
+Iteration 6 : SSE = 2858.9574829824332
+Iteration 7 : SSE = 2833.9592373316136
+Iteration 8 : SSE = 2818.5614796555124
+Iteration 9 : SSE = 2811.0259926327576
+Iteration 10 : SSE = 2806.5449206499447
+Iteration 11 : SSE = 2803.3798356491216
+Iteration 12 : SSE = 2800.832464034683
+
+Run #: 3
+-----------
+Iteration 1 : SSE = 4360.805905148329
+Iteration 2 : SSE = 3412.076816578297
+Iteration 3 : SSE = 3181.9192637834776
+Iteration 4 : SSE = 3011.6605700948353
+Iteration 5 : SSE = 2922.76898571062
+Iteration 6 : SSE = 2866.733352476704
+Iteration 7 : SSE = 2826.8809133241607
+Iteration 8 : SSE = 2808.6580770322084
+Iteration 9 : SSE = 2800.88678858681
+Iteration 10 : SSE = 2796.2911229014976
+Iteration 11 : SSE = 2792.5537692322514
+Iteration 12 : SSE = 2788.5511795177913
+Iteration 13 : SSE = 2784.4231693229885
+Iteration 14 : SSE = 2780.8656988809194
+Iteration 15 : SSE = 2777.3942207925966
+Iteration 16 : SSE = 2773.922230118129
+Iteration 17 : SSE = 2769.8602855289514
+Iteration 18 : SSE = 2766.6769837456654
+Iteration 19 : SSE = 2763.910317987031
+
+Run #: 4
+-----------
+Iteration 1 : SSE = 4274.955927530651
+Iteration 2 : SSE = 3373.6534029311088
+Iteration 3 : SSE = 3091.529967511653
+Iteration 4 : SSE = 2987.8947330181927
+Iteration 5 : SSE = 2943.3960571086664
+Iteration 6 : SSE = 2910.0102949298175
+Iteration 7 : SSE = 2878.9774403203714
+Iteration 8 : SSE = 2861.1382736099936
+Iteration 9 : SSE = 2849.6619989822743
+Iteration 10 : SSE = 2838.6088097714705
+Iteration 11 : SSE = 2824.6808385586173
+Iteration 12 : SSE = 2813.945682872951
+Iteration 13 : SSE = 2807.2246805065715
+Iteration 14 : SSE = 2801.511389156407
+Iteration 15 : SSE = 2797.1725173855366
+Iteration 16 : SSE = 2793.7687349478742
+Iteration 17 : SSE = 2791.384762466886
+
+Run #: 5
+-----------
+Iteration 1 : SSE = 4361.177832809882
+Iteration 2 : SSE = 3285.6402446383768
+Iteration 3 : SSE = 3056.543671297263
+Iteration 4 : SSE = 2985.0330587719304
+Iteration 5 : SSE = 2944.6028639800184
+Iteration 6 : SSE = 2905.3521781868344
+Iteration 7 : SSE = 2875.8030465445
+Iteration 8 : SSE = 2855.7657930958467
+Iteration 9 : SSE = 2837.6133028447985
+Iteration 10 : SSE = 2824.5067309521437
+Iteration 11 : SSE = 2816.4058192962502
+Iteration 12 : SSE = 2810.157860282694
+Iteration 13 : SSE = 2804.6260717426585
+Iteration 14 : SSE = 2799.8573577961624
+Iteration 15 : SSE = 2795.85423482208
+Iteration 16 : SSE = 2792.351621757552
+Iteration 17 : SSE = 2788.3415725839495
+Iteration 18 : SSE = 2784.890040505043
+Iteration 19 : SSE = 2781.425854608509
+Iteration 20 : SSE = 2778.199102903099
+Iteration 21 : SSE = 2775.238989933294
+Iteration 22 : SSE = 2772.756118155212
+
+Run #: 6
+-----------
+Iteration 1 : SSE = 4297.417818820896
+Iteration 2 : SSE = 3405.3080651104433
+Iteration 3 : SSE = 3174.12368576186
+Iteration 4 : SSE = 3062.455699578519
+Iteration 5 : SSE = 2994.8987391854303
+Iteration 6 : SSE = 2957.5150974728035
+Iteration 7 : SSE = 2933.3367921558374
+Iteration 8 : SSE = 2913.88371460812
+Iteration 9 : SSE = 2895.7246091636234
+Iteration 10 : SSE = 2881.4681787271525
+Iteration 11 : SSE = 2871.175126059408
+Iteration 12 : SSE = 2860.8672045576554
+Iteration 13 : SSE = 2851.8806161200287
+Iteration 14 : SSE = 2844.011001365106
+Iteration 15 : SSE = 2834.648930022194
+Iteration 16 : SSE = 2825.321947825313
+Iteration 17 : SSE = 2819.4373455280224
+Iteration 18 : SSE = 2814.472053887117
+Iteration 19 : SSE = 2811.186870797462
+Iteration 20 : SSE = 2809.1444617029256
+
+Run #: 7
+-----------
+Iteration 1 : SSE = 4147.865977145883
+Iteration 2 : SSE = 3265.2949830585135
+Iteration 3 : SSE = 3027.1591310173108
+Iteration 4 : SSE = 2939.6297786320256
+Iteration 5 : SSE = 2888.937994504476
+Iteration 6 : SSE = 2854.7725853556562
+Iteration 7 : SSE = 2829.4506571145444
+Iteration 8 : SSE = 2813.57407011641
+Iteration 9 : SSE = 2803.893228953988
+Iteration 10 : SSE = 2796.3068158493866
+Iteration 11 : SSE = 2790.9919681417255
+Iteration 12 : SSE = 2788.0225637294448
+Iteration 13 : SSE = 2786.0826075325467
+
+Run #: 8
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 8
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 8
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 8
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 8
+-----------
+Iteration 1 : SSE = 4038.9568676140902
+Iteration 2 : SSE = 3300.045992175885
+Iteration 3 : SSE = 3097.7322702756887
+Iteration 4 : SSE = 2972.3457314402085
+Iteration 5 : SSE = 2889.0190663492285
+Iteration 6 : SSE = 2851.738416839037
+Iteration 7 : SSE = 2831.0215038603797
+Iteration 8 : SSE = 2817.1790665375424
+Iteration 9 : SSE = 2807.912781716935
+Iteration 10 : SSE = 2800.51742613754
+Iteration 11 : SSE = 2795.1271624644414
+Iteration 12 : SSE = 2789.9993100052684
+Iteration 13 : SSE = 2782.977491540843
+Iteration 14 : SSE = 2773.059172342118
+Iteration 15 : SSE = 2763.4988872493786
+Iteration 16 : SSE = 2754.3892634067784
+Iteration 17 : SSE = 2748.1126153029795
+Iteration 18 : SSE = 2745.8234248901117
+
+Run #: 9
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 9
+-----------
+Iteration 1 : SSE = 4163.562891877931
+Iteration 2 : SSE = 3333.171503126181
+Iteration 3 : SSE = 3077.2540113659934
+Iteration 4 : SSE = 2967.627136275763
+Iteration 5 : SSE = 2902.0145328706076
+Iteration 6 : SSE = 2867.8991242564844
+Iteration 7 : SSE = 2848.180425433475
+Iteration 8 : SSE = 2832.689028776663
+Iteration 9 : SSE = 2820.419646590403
+Iteration 10 : SSE = 2812.0175702249085
+Iteration 11 : SSE = 2806.9502602672283
+Iteration 12 : SSE = 2802.0301995089726
+Iteration 13 : SSE = 2797.71411379958
+Iteration 14 : SSE = 2794.166132143088
+Iteration 15 : SSE = 2791.3614248554386
+Iteration 16 : SSE = 2789.086748007986
+
+Run #: 10
+-----------
+Iteration 1 : SSE = 4362.559846106077
+Iteration 2 : SSE = 3344.034056087218
+Iteration 3 : SSE = 3069.116084148694
+Iteration 4 : SSE = 2976.2770798587308
+Iteration 5 : SSE = 2927.0927537768102
+Iteration 6 : SSE = 2888.782993494758
+Iteration 7 : SSE = 2855.504775429074
+Iteration 8 : SSE = 2826.6641958246264
+Iteration 9 : SSE = 2803.434471782626
+Iteration 10 : SSE = 2794.8705291171623
+Iteration 11 : SSE = 2791.7718841721844
+Iteration 12 : SSE = 2790.1572880413173
+
+Run #: 11
+-----------
+Iteration 1 : SSE = 4341.755600803372
+Iteration 2 : SSE = 3393.636187441938
+Iteration 3 : SSE = 3073.3578893612885
+Iteration 4 : SSE = 2923.3607837767167
+Iteration 5 : SSE = 2850.6472669194513
+Iteration 6 : SSE = 2814.492721752552
+Iteration 7 : SSE = 2798.3236336200625
+Iteration 8 : SSE = 2789.6044259358932
+Iteration 9 : SSE = 2783.992941422876
+Iteration 10 : SSE = 2780.1409712229315
+Iteration 11 : SSE = 2777.319706295454
+Iteration 12 : SSE = 2775.0860334044783
+
+Run #: 12
+-----------
+Iteration 1 : SSE = 4291.4667856633705
+Iteration 2 : SSE = 3446.2151804397745
+Iteration 3 : SSE = 3134.4681888920272
+Iteration 4 : SSE = 3031.469422651211
+Iteration 5 : SSE = 2961.745239616704
+Iteration 6 : SSE = 2916.1083402481627
+Iteration 7 : SSE = 2890.6719218867374
+Iteration 8 : SSE = 2870.631252316829
+Iteration 9 : SSE = 2849.1401755998613
+Iteration 10 : SSE = 2827.487141866942
+Iteration 11 : SSE = 2813.4946169440323
+Iteration 12 : SSE = 2805.381378194235
+Iteration 13 : SSE = 2798.647041036023
+Iteration 14 : SSE = 2790.577029822042
+Iteration 15 : SSE = 2780.885548020523
+Iteration 16 : SSE = 2774.170022217849
+Iteration 17 : SSE = 2770.719054047427
+Iteration 18 : SSE = 2768.6562820603913
+
+Run #: 13
+-----------
+Iteration 1 : SSE = 4337.75762390858
+Iteration 2 : SSE = 3406.624868220614
+Iteration 3 : SSE = 3120.899588069975
+Iteration 4 : SSE = 2995.4227461764526
+Iteration 5 : SSE = 2931.100970474426
+Iteration 6 : SSE = 2897.9088284634668
+Iteration 7 : SSE = 2869.6336468103104
+Iteration 8 : SSE = 2846.5241161641793
+Iteration 9 : SSE = 2829.6864570546836
+Iteration 10 : SSE = 2817.48247190655
+Iteration 11 : SSE = 2808.1475482142105
+Iteration 12 : SSE = 2801.416406358807
+Iteration 13 : SSE = 2795.964315046019
+Iteration 14 : SSE = 2791.711040120435
+Iteration 15 : SSE = 2787.3831539383723
+Iteration 16 : SSE = 2784.708892443503
+
+Run #: 14
+-----------
+Iteration 1 : SSE = 4356.5395089893855
+Iteration 2 : SSE = 3347.8048570633305
+Iteration 3 : SSE = 3117.502861818115
+Iteration 4 : SSE = 2973.467341478241
+Iteration 5 : SSE = 2857.8719967530965
+Iteration 6 : SSE = 2828.404292723938
+Iteration 7 : SSE = 2813.267575151024
+Iteration 8 : SSE = 2802.3698019833764
+Iteration 9 : SSE = 2792.305251125757
+Iteration 10 : SSE = 2783.9935658798854
+Iteration 11 : SSE = 2776.921997430795
+Iteration 12 : SSE = 2770.997649544049
+Iteration 13 : SSE = 2765.7032967286405
+Iteration 14 : SSE = 2761.1081302682337
+Iteration 15 : SSE = 2757.4204927142837
+Iteration 16 : SSE = 2755.122301252573
+
+Run #: 15
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 15
+-----------
+Iteration 1 : SSE = 4062.345181239593
+Iteration 2 : SSE = 3284.8428779704223
+Iteration 3 : SSE = 3087.050335435765
+Iteration 4 : SSE = 2948.699608615925
+Iteration 5 : SSE = 2881.7265562099733
+Iteration 6 : SSE = 2850.6980860266835
+Iteration 7 : SSE = 2836.3998919763812
+Iteration 8 : SSE = 2823.145846627146
+Iteration 9 : SSE = 2808.777447357727
+Iteration 10 : SSE = 2798.4935388330214
+Iteration 11 : SSE = 2793.4063577768584
+Iteration 12 : SSE = 2789.859452807186
+Iteration 13 : SSE = 2786.709582453048
+Iteration 14 : SSE = 2783.0543948319687
+Iteration 15 : SSE = 2779.5438385629955
+Iteration 16 : SSE = 2776.5405319693646
+Iteration 17 : SSE = 2773.933457529795
+
+Run #: 16
+-----------
+Iteration 1 : SSE = 4209.435469374018
+Iteration 2 : SSE = 3343.48689710622
+Iteration 3 : SSE = 3053.8939334156817
+Iteration 4 : SSE = 2907.2396962535536
+Iteration 5 : SSE = 2852.3620883881617
+Iteration 6 : SSE = 2822.164257641511
+Iteration 7 : SSE = 2808.7825289719494
+Iteration 8 : SSE = 2802.2069397036453
+Iteration 9 : SSE = 2797.425703232637
+Iteration 10 : SSE = 2794.0666079846005
+Iteration 11 : SSE = 2790.452112280867
+Iteration 12 : SSE = 2785.0183522605485
+Iteration 13 : SSE = 2781.259404709244
+Iteration 14 : SSE = 2777.391740752668
+Iteration 15 : SSE = 2772.1491838841384
+Iteration 16 : SSE = 2766.890574947636
+Iteration 17 : SSE = 2762.2978879684983
+Iteration 18 : SSE = 2758.5720028460464
+Iteration 19 : SSE = 2756.231290357789
+
+Run #: 17
+-----------
+Iteration 1 : SSE = 4478.1354495429305
+Iteration 2 : SSE = 3544.148458366107
+Iteration 3 : SSE = 3177.217691783183
+Iteration 4 : SSE = 2992.0648731941656
+Iteration 5 : SSE = 2921.1825797665874
+Iteration 6 : SSE = 2895.717261578033
+Iteration 7 : SSE = 2878.7660688031765
+Iteration 8 : SSE = 2867.3334609747235
+Iteration 9 : SSE = 2858.035478380777
+Iteration 10 : SSE = 2849.4549689828114
+Iteration 11 : SSE = 2841.693082362124
+Iteration 12 : SSE = 2836.5192841210887
+Iteration 13 : SSE = 2834.1872314707994
+
+Run #: 18
+-----------
+Iteration 1 : SSE = 4259.838718515374
+Iteration 2 : SSE = 3327.8323253905564
+Iteration 3 : SSE = 3081.3691056872403
+Iteration 4 : SSE = 2995.9264091662067
+Iteration 5 : SSE = 2942.888103538368
+Iteration 6 : SSE = 2905.5986944279757
+Iteration 7 : SSE = 2882.953608664407
+Iteration 8 : SSE = 2868.0187083052756
+Iteration 9 : SSE = 2855.426584077684
+Iteration 10 : SSE = 2843.8132035196936
+Iteration 11 : SSE = 2828.9793058198907
+Iteration 12 : SSE = 2824.06552319066
+Iteration 13 : SSE = 2821.3195312546713
+
+Run #: 19
+-----------
+Iteration 1 : SSE = 4156.172102800356
+Iteration 2 : SSE = 3335.434620207487
+Iteration 3 : SSE = 3116.4073822862115
+Iteration 4 : SSE = 2991.3298528173773
+Iteration 5 : SSE = 2937.2748467894558
+Iteration 6 : SSE = 2922.2566291698236
+Iteration 7 : SSE = 2912.5380428033377
+Iteration 8 : SSE = 2902.839579088091
+Iteration 9 : SSE = 2892.4257746658295
+Iteration 10 : SSE = 2881.260557997329
+Iteration 11 : SSE = 2871.9882552761483
+Iteration 12 : SSE = 2863.3952645827035
+Iteration 13 : SSE = 2856.3119671781906
+Iteration 14 : SSE = 2850.4485885219187
+Iteration 15 : SSE = 2845.947090187765
+Iteration 16 : SSE = 2841.992869871019
+Iteration 17 : SSE = 2837.8442741544713
+Iteration 18 : SSE = 2833.7524824296515
+Iteration 19 : SSE = 2830.5102348758096
+Iteration 20 : SSE = 2828.1326375372105
+
+Run #: 20
+-----------
+Iteration 1 : SSE = 4172.553700345117
+Iteration 2 : SSE = 3300.6408092978813
+Iteration 3 : SSE = 3065.8298782470133
+Iteration 4 : SSE = 2982.6419137311605
+Iteration 5 : SSE = 2933.7304144378877
+Iteration 6 : SSE = 2892.9139801242954
+Iteration 7 : SSE = 2862.6611383551735
+Iteration 8 : SSE = 2843.114004975648
+Iteration 9 : SSE = 2831.34662616876
+Iteration 10 : SSE = 2825.093494877456
+Iteration 11 : SSE = 2820.8644100523784
+Iteration 12 : SSE = 2817.242106089335
+Iteration 13 : SSE = 2814.3190397443286
+Iteration 14 : SSE = 2812.1218433945246
+
+Run #: 21
+-----------
+Iteration 1 : SSE = 4164.000187302065
+Iteration 2 : SSE = 3406.715805222266
+Iteration 3 : SSE = 3114.6932510687047
+Iteration 4 : SSE = 3004.780372803224
+Iteration 5 : SSE = 2950.766056571165
+Iteration 6 : SSE = 2914.356065280089
+Iteration 7 : SSE = 2889.5738908729645
+Iteration 8 : SSE = 2871.7543249182704
+Iteration 9 : SSE = 2857.2483023423056
+Iteration 10 : SSE = 2848.37204912264
+Iteration 11 : SSE = 2841.7113890972864
+Iteration 12 : SSE = 2837.036938567062
+Iteration 13 : SSE = 2834.0867692092734
+Iteration 14 : SSE = 2832.338512618771
+
+Run #: 22
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 22
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 22
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 22
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 22
+-----------
+Iteration 1 : SSE = 4112.316618037511
+Iteration 2 : SSE = 3279.4990908743825
+Iteration 3 : SSE = 3083.9984661123935
+Iteration 4 : SSE = 2988.6781251621405
+Iteration 5 : SSE = 2903.5669549474496
+Iteration 6 : SSE = 2832.844843233325
+Iteration 7 : SSE = 2806.465413834652
+Iteration 8 : SSE = 2787.698960777514
+Iteration 9 : SSE = 2776.291857354761
+Iteration 10 : SSE = 2769.2478244911645
+Iteration 11 : SSE = 2764.9748158120415
+Iteration 12 : SSE = 2761.9663606041963
+Iteration 13 : SSE = 2759.419661172766
+
+Run #: 23
+-----------
+Iteration 1 : SSE = 4388.592945940309
+Iteration 2 : SSE = 3299.043413447642
+Iteration 3 : SSE = 3015.301703277354
+Iteration 4 : SSE = 2922.7129784253234
+Iteration 5 : SSE = 2888.680399520609
+Iteration 6 : SSE = 2860.5419925133456
+Iteration 7 : SSE = 2831.22426297463
+Iteration 8 : SSE = 2809.485571454096
+Iteration 9 : SSE = 2793.4321683950366
+Iteration 10 : SSE = 2781.990195140363
+Iteration 11 : SSE = 2774.5542587916443
+Iteration 12 : SSE = 2770.5717712778833
+Iteration 13 : SSE = 2767.1270785075703
+Iteration 14 : SSE = 2764.0680698663477
+Iteration 15 : SSE = 2761.188763287112
+Iteration 16 : SSE = 2758.4110164105136
+Iteration 17 : SSE = 2756.342430141281
+
+Run #: 24
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 24
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 24
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 24
+-----------
+Iteration 1 : SSE = 4414.501588040371
+Iteration 2 : SSE = 3442.7199643507315
+Iteration 3 : SSE = 3188.4357244665503
+Iteration 4 : SSE = 3083.1356282992233
+Iteration 5 : SSE = 3031.8188263129464
+Iteration 6 : SSE = 2993.545446695611
+Iteration 7 : SSE = 2963.8548911943794
+Iteration 8 : SSE = 2939.8398782429904
+Iteration 9 : SSE = 2895.497528558393
+Iteration 10 : SSE = 2876.7902017682422
+Iteration 11 : SSE = 2867.635808101906
+Iteration 12 : SSE = 2861.956322521053
+Iteration 13 : SSE = 2856.567663287823
+Iteration 14 : SSE = 2850.481026599756
+Iteration 15 : SSE = 2843.1199904692653
+Iteration 16 : SSE = 2835.6606590493616
+Iteration 17 : SSE = 2828.6098453007558
+Iteration 18 : SSE = 2822.5897090248063
+Iteration 19 : SSE = 2818.2108203487037
+Iteration 20 : SSE = 2815.4034599590227
+
+Run #: 25
+-----------
+Iteration 1 : SSE = 4340.207440624083
+Iteration 2 : SSE = 3346.4790488782724
+Iteration 3 : SSE = 3132.9480576358983
+Iteration 4 : SSE = 3030.6898432322964
+Iteration 5 : SSE = 2939.078725608846
+Iteration 6 : SSE = 2900.945646087148
+Iteration 7 : SSE = 2877.0281935712665
+Iteration 8 : SSE = 2861.714474136918
+Iteration 9 : SSE = 2851.705303822506
+Iteration 10 : SSE = 2845.855643338421
+Iteration 11 : SSE = 2841.5405091464463
+Iteration 12 : SSE = 2837.4894699329097
+Iteration 13 : SSE = 2832.5573392669876
+Iteration 14 : SSE = 2825.1234704969656
+Iteration 15 : SSE = 2813.2522203736503
+Iteration 16 : SSE = 2807.24395412445
+Iteration 17 : SSE = 2804.2718389895626
+Iteration 18 : SSE = 2801.4368312327915
+Iteration 19 : SSE = 2798.840484113756
+
+Run #: 26
+-----------
+Iteration 1 : SSE = 4457.689351749025
+Iteration 2 : SSE = 3528.9087114405324
+Iteration 3 : SSE = 3186.6839262880994
+Iteration 4 : SSE = 3020.5267783494646
+Iteration 5 : SSE = 2952.2337605262373
+Iteration 6 : SSE = 2913.9391284907997
+Iteration 7 : SSE = 2889.6367750374047
+Iteration 8 : SSE = 2873.3668047613914
+Iteration 9 : SSE = 2860.461201841573
+Iteration 10 : SSE = 2852.5032469009348
+Iteration 11 : SSE = 2848.2672325484355
+Iteration 12 : SSE = 2844.8718415083868
+Iteration 13 : SSE = 2842.1645899043287
+
+Run #: 27
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 27
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 27
+-----------
+Iteration 1 : SSE = 4424.964067438306
+Iteration 2 : SSE = 3336.0710061829677
+Iteration 3 : SSE = 3126.7657142182934
+Iteration 4 : SSE = 3018.999260548597
+Iteration 5 : SSE = 2964.4871477830043
+Iteration 6 : SSE = 2933.243194573325
+Iteration 7 : SSE = 2913.729162670211
+Iteration 8 : SSE = 2899.7839041970237
+Iteration 9 : SSE = 2885.8438746634083
+Iteration 10 : SSE = 2870.42277610936
+Iteration 11 : SSE = 2853.5185707912274
+Iteration 12 : SSE = 2842.160204730751
+Iteration 13 : SSE = 2835.8226252119916
+Iteration 14 : SSE = 2832.5184571478317
+Iteration 15 : SSE = 2830.213988053167
+
+Run #: 28
+-----------
+Iteration 1 : SSE = 4063.773450879592
+Iteration 2 : SSE = 3262.918765425229
+Iteration 3 : SSE = 3020.278311508388
+Iteration 4 : SSE = 2918.2844797241223
+Iteration 5 : SSE = 2861.5759591847263
+Iteration 6 : SSE = 2826.1054414599034
+Iteration 7 : SSE = 2804.2151652115867
+Iteration 8 : SSE = 2791.5665339504944
+Iteration 9 : SSE = 2783.7671893547245
+Iteration 10 : SSE = 2779.0002873570365
+Iteration 11 : SSE = 2775.7828644991355
+Iteration 12 : SSE = 2773.8980382247278
+
+Run #: 29
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 29
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 29
+-----------
+Iteration 1 : SSE = 4430.732164110925
+Iteration 2 : SSE = 3436.913976536051
+Iteration 3 : SSE = 3109.6205742354628
+Iteration 4 : SSE = 2969.9519105209442
+Iteration 5 : SSE = 2899.7084973555598
+Iteration 6 : SSE = 2861.112564804632
+Iteration 7 : SSE = 2831.198940814218
+Iteration 8 : SSE = 2805.661177303292
+Iteration 9 : SSE = 2792.54535970319
+Iteration 10 : SSE = 2784.5164552721126
+Iteration 11 : SSE = 2778.8933865276845
+Iteration 12 : SSE = 2774.86022507102
+Iteration 13 : SSE = 2771.463560573781
+Iteration 14 : SSE = 2768.5080225874253
+Iteration 15 : SSE = 2766.4674176045687
+
+Run #: 30
+-----------
+Iteration 1 : SSE = 4375.593467697642
+Iteration 2 : SSE = 3446.9328077015807
+Iteration 3 : SSE = 3172.011519098435
+Iteration 4 : SSE = 3058.1504805201016
+Iteration 5 : SSE = 2984.1752965023493
+Iteration 6 : SSE = 2925.666465232853
+Iteration 7 : SSE = 2882.7234876885072
+Iteration 8 : SSE = 2860.5189755075157
+Iteration 9 : SSE = 2844.836373222423
+Iteration 10 : SSE = 2824.3715339313712
+Iteration 11 : SSE = 2806.7034849308793
+Iteration 12 : SSE = 2799.2222707118303
+Iteration 13 : SSE = 2795.348852751597
+Iteration 14 : SSE = 2792.923683145188
+
+Run #: 31
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 31
+-----------
+Iteration 1 : SSE = 4397.363984348184
+Iteration 2 : SSE = 3412.672654993381
+Iteration 3 : SSE = 3186.749571887003
+Iteration 4 : SSE = 3084.2229672155277
+Iteration 5 : SSE = 3009.8401537390973
+Iteration 6 : SSE = 2934.4161687944393
+Iteration 7 : SSE = 2906.358117656347
+Iteration 8 : SSE = 2890.6287217092813
+Iteration 9 : SSE = 2876.4690761295215
+Iteration 10 : SSE = 2865.0578462504377
+Iteration 11 : SSE = 2859.5627626712885
+Iteration 12 : SSE = 2856.6249223957757
+Iteration 13 : SSE = 2854.799484116104
+
+Run #: 32
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 32
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 32
+-----------
+Iteration 1 : SSE = 4408.4661054132885
+Iteration 2 : SSE = 3410.7415382902914
+Iteration 3 : SSE = 3137.3834542377253
+Iteration 4 : SSE = 3024.711850305606
+Iteration 5 : SSE = 2944.3166844184066
+Iteration 6 : SSE = 2885.7393272734753
+Iteration 7 : SSE = 2845.618803656457
+Iteration 8 : SSE = 2823.91392662601
+Iteration 9 : SSE = 2811.2670247219544
+Iteration 10 : SSE = 2800.6953017735086
+Iteration 11 : SSE = 2790.689836570484
+Iteration 12 : SSE = 2783.521517641476
+Iteration 13 : SSE = 2778.5782237886947
+Iteration 14 : SSE = 2775.2349645493023
+Iteration 15 : SSE = 2772.180458190443
+Iteration 16 : SSE = 2769.403593474668
+Iteration 17 : SSE = 2766.6331531075484
+Iteration 18 : SSE = 2763.7948133394757
+Iteration 19 : SSE = 2760.7988304406654
+Iteration 20 : SSE = 2758.123949785535
+
+Run #: 33
+-----------
+Iteration 1 : SSE = 4337.0269978042215
+Iteration 2 : SSE = 3404.8045715910066
+Iteration 3 : SSE = 3130.988786289201
+Iteration 4 : SSE = 3013.3276839407076
+Iteration 5 : SSE = 2949.541983823249
+Iteration 6 : SSE = 2916.181168295931
+Iteration 7 : SSE = 2890.7493157964673
+Iteration 8 : SSE = 2868.690256218266
+Iteration 9 : SSE = 2845.672346602621
+Iteration 10 : SSE = 2829.976629437666
+Iteration 11 : SSE = 2822.4326774060655
+Iteration 12 : SSE = 2816.8796140698137
+Iteration 13 : SSE = 2813.155348716734
+Iteration 14 : SSE = 2810.672125130318
+
+Run #: 34
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 34
+-----------
+Iteration 1 : SSE = 4042.4946472475817
+Iteration 2 : SSE = 3297.121805463556
+Iteration 3 : SSE = 3119.392897430858
+Iteration 4 : SSE = 3021.278888217283
+Iteration 5 : SSE = 2960.810624179968
+Iteration 6 : SSE = 2920.621421651938
+Iteration 7 : SSE = 2899.1423523517456
+Iteration 8 : SSE = 2882.048164852636
+Iteration 9 : SSE = 2867.373181162249
+Iteration 10 : SSE = 2853.47296275265
+Iteration 11 : SSE = 2838.8928616947333
+Iteration 12 : SSE = 2821.2089009608617
+Iteration 13 : SSE = 2806.2829179655705
+Iteration 14 : SSE = 2792.0889549668077
+Iteration 15 : SSE = 2779.648476580866
+Iteration 16 : SSE = 2771.853701632725
+Iteration 17 : SSE = 2767.351355345668
+Iteration 18 : SSE = 2764.0196061692336
+Iteration 19 : SSE = 2761.1894000300804
+Iteration 20 : SSE = 2757.620980400916
+Iteration 21 : SSE = 2756.2763652740678
+
+Run #: 35
+-----------
+Iteration 1 : SSE = 4381.179817798942
+Iteration 2 : SSE = 3358.181219474502
+Iteration 3 : SSE = 3054.3882990602738
+Iteration 4 : SSE = 2923.0190084371116
+Iteration 5 : SSE = 2865.249323395119
+Iteration 6 : SSE = 2831.3766272805733
+Iteration 7 : SSE = 2806.4815456172114
+Iteration 8 : SSE = 2788.2885276984157
+Iteration 9 : SSE = 2777.270185458683
+Iteration 10 : SSE = 2771.0329054013323
+Iteration 11 : SSE = 2767.0809473325153
+Iteration 12 : SSE = 2764.723911562823
+
+Run #: 36
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 36
+-----------
+Iteration 1 : SSE = 4280.806610264813
+Iteration 2 : SSE = 3352.1366896701343
+Iteration 3 : SSE = 3098.3895001551477
+Iteration 4 : SSE = 2968.6739568328776
+Iteration 5 : SSE = 2890.1008540356565
+Iteration 6 : SSE = 2847.7658723691334
+Iteration 7 : SSE = 2829.0005602316955
+Iteration 8 : SSE = 2818.161790505149
+Iteration 9 : SSE = 2810.0223267572396
+Iteration 10 : SSE = 2803.431526557179
+Iteration 11 : SSE = 2799.281590638842
+Iteration 12 : SSE = 2796.573247468155
+
+Run #: 37
+-----------
+Iteration 1 : SSE = 3904.697920918583
+Iteration 2 : SSE = 3162.9406866155014
+Iteration 3 : SSE = 2965.572968167202
+Iteration 4 : SSE = 2897.6779093086247
+Iteration 5 : SSE = 2866.773470037831
+Iteration 6 : SSE = 2846.083624652273
+Iteration 7 : SSE = 2829.535046987876
+Iteration 8 : SSE = 2817.673800817504
+Iteration 9 : SSE = 2809.971204342213
+Iteration 10 : SSE = 2804.988331666942
+Iteration 11 : SSE = 2801.3278767735546
+Iteration 12 : SSE = 2798.6811729157716
+
+Run #: 38
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 38
+-----------
+Iteration 1 : SSE = 4379.199793096204
+Iteration 2 : SSE = 3320.6672560002958
+Iteration 3 : SSE = 3097.7467908706617
+Iteration 4 : SSE = 2973.989074049289
+Iteration 5 : SSE = 2880.1433403870788
+Iteration 6 : SSE = 2847.6621482054934
+Iteration 7 : SSE = 2827.500915533017
+Iteration 8 : SSE = 2813.1796739210913
+Iteration 9 : SSE = 2804.676723828658
+Iteration 10 : SSE = 2798.492387667984
+Iteration 11 : SSE = 2792.492312138703
+Iteration 12 : SSE = 2785.795993058492
+Iteration 13 : SSE = 2777.638094625242
+Iteration 14 : SSE = 2769.649170023252
+Iteration 15 : SSE = 2763.5437572964343
+Iteration 16 : SSE = 2759.141581398178
+Iteration 17 : SSE = 2756.1141330190835
+Iteration 18 : SSE = 2754.0274853420347
+
+Run #: 39
+-----------
+Iteration 1 : SSE = 4509.573051357567
+Iteration 2 : SSE = 3515.8185205012674
+Iteration 3 : SSE = 3181.1973284382025
+Iteration 4 : SSE = 3024.6195966598543
+Iteration 5 : SSE = 2943.36736465867
+Iteration 6 : SSE = 2900.660122664412
+Iteration 7 : SSE = 2862.639299723197
+Iteration 8 : SSE = 2824.826408115228
+Iteration 9 : SSE = 2800.892653731394
+Iteration 10 : SSE = 2789.378541722286
+Iteration 11 : SSE = 2782.5183804827193
+Iteration 12 : SSE = 2777.879579575621
+Iteration 13 : SSE = 2774.589736973929
+Iteration 14 : SSE = 2771.901018161084
+
+Run #: 40
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 40
+-----------
+Iteration 1 : SSE = 4258.138562644588
+Iteration 2 : SSE = 3373.2941044266377
+Iteration 3 : SSE = 3097.8511676052854
+Iteration 4 : SSE = 2983.347645464696
+Iteration 5 : SSE = 2916.645107769489
+Iteration 6 : SSE = 2879.0026509409436
+Iteration 7 : SSE = 2854.1816755666523
+Iteration 8 : SSE = 2834.7682588185667
+Iteration 9 : SSE = 2820.5698828110476
+Iteration 10 : SSE = 2810.680180960561
+Iteration 11 : SSE = 2804.4771829085867
+Iteration 12 : SSE = 2798.2403960748343
+Iteration 13 : SSE = 2789.2868832117033
+Iteration 14 : SSE = 2777.2262163795804
+Iteration 15 : SSE = 2771.3098738303734
+Iteration 16 : SSE = 2767.9078292514664
+Iteration 17 : SSE = 2765.1352343944286
+Iteration 18 : SSE = 2763.447297702741
+
+Run #: 41
+-----------
+Iteration 1 : SSE = 4351.24850606727
+Iteration 2 : SSE = 3430.3011013235036
+Iteration 3 : SSE = 3121.146180834002
+Iteration 4 : SSE = 2976.8424220840384
+Iteration 5 : SSE = 2913.777600476348
+Iteration 6 : SSE = 2877.694178846004
+Iteration 7 : SSE = 2852.9872906864643
+Iteration 8 : SSE = 2836.0519735183007
+Iteration 9 : SSE = 2822.170661767277
+Iteration 10 : SSE = 2811.905644932079
+Iteration 11 : SSE = 2806.2820440587484
+Iteration 12 : SSE = 2801.9507214522796
+Iteration 13 : SSE = 2798.5761826888865
+Iteration 14 : SSE = 2795.6546776984405
+Iteration 15 : SSE = 2792.688593097723
+Iteration 16 : SSE = 2790.55827657362
+
+Run #: 42
+-----------
+Iteration 1 : SSE = 4381.337571641126
+Iteration 2 : SSE = 3524.4668621403175
+Iteration 3 : SSE = 3236.109751204784
+Iteration 4 : SSE = 3087.2189953413704
+Iteration 5 : SSE = 3023.6170369343636
+Iteration 6 : SSE = 2986.1096959587003
+Iteration 7 : SSE = 2959.759733503095
+Iteration 8 : SSE = 2935.924097264483
+Iteration 9 : SSE = 2913.8185291706336
+Iteration 10 : SSE = 2891.319092284465
+Iteration 11 : SSE = 2868.845200692162
+Iteration 12 : SSE = 2850.3524015254925
+Iteration 13 : SSE = 2835.3681296757286
+Iteration 14 : SSE = 2821.724101904574
+Iteration 15 : SSE = 2813.4036438585417
+Iteration 16 : SSE = 2808.745120366902
+Iteration 17 : SSE = 2805.762018589421
+Iteration 18 : SSE = 2803.3733134824897
+
+Run #: 43
+-----------
+Iteration 1 : SSE = 4462.823538234789
+Iteration 2 : SSE = 3471.3362727367657
+Iteration 3 : SSE = 3186.2290660483823
+Iteration 4 : SSE = 3035.3816656499657
+Iteration 5 : SSE = 2953.235313315989
+Iteration 6 : SSE = 2896.355764052069
+Iteration 7 : SSE = 2863.352088749349
+Iteration 8 : SSE = 2842.998639989281
+Iteration 9 : SSE = 2824.7219224002333
+Iteration 10 : SSE = 2811.5471227195244
+Iteration 11 : SSE = 2803.15944280641
+Iteration 12 : SSE = 2798.4699688958467
+Iteration 13 : SSE = 2793.686135689041
+Iteration 14 : SSE = 2788.8054236673197
+Iteration 15 : SSE = 2784.1882660513097
+Iteration 16 : SSE = 2779.4927550514135
+Iteration 17 : SSE = 2775.251984743905
+Iteration 18 : SSE = 2771.8105195342014
+Iteration 19 : SSE = 2768.3979016114436
+Iteration 20 : SSE = 2765.513546938704
+Iteration 21 : SSE = 2763.3994896271165
+
+Run #: 44
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 44
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 44
+-----------
+Iteration 1 : SSE = 4306.044909692615
+Iteration 2 : SSE = 3494.392099170912
+Iteration 3 : SSE = 3136.759557635898
+Iteration 4 : SSE = 2983.4932967789396
+Iteration 5 : SSE = 2926.4663269268194
+Iteration 6 : SSE = 2899.3410088278138
+Iteration 7 : SSE = 2876.8667436551236
+Iteration 8 : SSE = 2861.58937602808
+Iteration 9 : SSE = 2850.861473423975
+Iteration 10 : SSE = 2844.124145931657
+Iteration 11 : SSE = 2837.0411299475454
+Iteration 12 : SSE = 2829.8524495793536
+Iteration 13 : SSE = 2825.072744947018
+Iteration 14 : SSE = 2817.722085962119
+Iteration 15 : SSE = 2805.4922771343163
+Iteration 16 : SSE = 2800.873824197318
+Iteration 17 : SSE = 2797.6941834982717
+Iteration 18 : SSE = 2794.311142819658
+Iteration 19 : SSE = 2791.2025185893717
+Iteration 20 : SSE = 2788.5507738356855
+
+Run #: 45
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 45
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 45
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 45
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 45
+-----------
+Iteration 1 : SSE = 4298.142468982946
+Iteration 2 : SSE = 3391.7427404197747
+Iteration 3 : SSE = 3108.2513765407616
+Iteration 4 : SSE = 3013.3835015033155
+Iteration 5 : SSE = 2959.8339464922933
+Iteration 6 : SSE = 2915.530384018942
+Iteration 7 : SSE = 2879.9235285689897
+Iteration 8 : SSE = 2853.7360404129677
+Iteration 9 : SSE = 2838.578337052008
+Iteration 10 : SSE = 2828.672357303184
+Iteration 11 : SSE = 2822.1711092393316
+Iteration 12 : SSE = 2817.1752321935633
+Iteration 13 : SSE = 2812.847216395113
+Iteration 14 : SSE = 2808.4739055288446
+Iteration 15 : SSE = 2805.153880842734
+Iteration 16 : SSE = 2802.6369502065895
+
+Run #: 46
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 46
+-----------
+Iteration 1 : SSE = 4161.259534647244
+Iteration 2 : SSE = 3288.25141099837
+Iteration 3 : SSE = 3057.0648375908654
+Iteration 4 : SSE = 2955.2474317879487
+Iteration 5 : SSE = 2903.647012087446
+Iteration 6 : SSE = 2867.6881188332763
+Iteration 7 : SSE = 2839.598688076965
+Iteration 8 : SSE = 2815.369770303536
+Iteration 9 : SSE = 2798.663510438733
+Iteration 10 : SSE = 2790.74659700212
+Iteration 11 : SSE = 2787.284281141284
+Iteration 12 : SSE = 2785.383781095493
+
+Run #: 47
+-----------
+Iteration 1 : SSE = 4313.3656060697085
+Iteration 2 : SSE = 3435.161686017038
+Iteration 3 : SSE = 3167.0980346499878
+Iteration 4 : SSE = 3047.4862147398503
+Iteration 5 : SSE = 2985.0344306269276
+Iteration 6 : SSE = 2943.76219850773
+Iteration 7 : SSE = 2913.249269011675
+Iteration 8 : SSE = 2887.4688861477384
+Iteration 9 : SSE = 2866.620556131662
+Iteration 10 : SSE = 2851.1538908555262
+Iteration 11 : SSE = 2840.881781375038
+Iteration 12 : SSE = 2831.4993028905833
+Iteration 13 : SSE = 2819.0320929939735
+Iteration 14 : SSE = 2805.67907185762
+Iteration 15 : SSE = 2794.561907454967
+Iteration 16 : SSE = 2786.6680520182235
+Iteration 17 : SSE = 2780.6054034384497
+Iteration 18 : SSE = 2775.5311375285287
+Iteration 19 : SSE = 2772.3545112408665
+Iteration 20 : SSE = 2770.531741846919
+
+Run #: 48
+-----------
+Iteration 1 : SSE = 4138.358541939419
+Iteration 2 : SSE = 3339.0988016758297
+Iteration 3 : SSE = 3110.0179235976752
+Iteration 4 : SSE = 2988.1898976656485
+Iteration 5 : SSE = 2922.1568578741117
+Iteration 6 : SSE = 2892.9609476641626
+Iteration 7 : SSE = 2875.588630153021
+Iteration 8 : SSE = 2860.5728653934702
+Iteration 9 : SSE = 2848.8539478907
+Iteration 10 : SSE = 2839.7508438255195
+Iteration 11 : SSE = 2831.571475213923
+Iteration 12 : SSE = 2825.239864375079
+Iteration 13 : SSE = 2821.3315718133804
+Iteration 14 : SSE = 2818.2264113213464
+Iteration 15 : SSE = 2815.9628262429146
+
+Run #: 49
+-----------
+Iteration 1 : SSE = 4204.279610900151
+Iteration 2 : SSE = 3338.1457183704742
+Iteration 3 : SSE = 3089.3806856343035
+Iteration 4 : SSE = 2978.708916191169
+Iteration 5 : SSE = 2892.0011946962672
+Iteration 6 : SSE = 2818.7131126242066
+Iteration 7 : SSE = 2788.6086047577173
+Iteration 8 : SSE = 2768.4902025039896
+Iteration 9 : SSE = 2754.940152196504
+Iteration 10 : SSE = 2746.955291456234
+Iteration 11 : SSE = 2742.475175277783
+Iteration 12 : SSE = 2739.6873343505063
+Iteration 13 : SSE = 2738.2424297888165
+
+Run #: 50
+-----------
+Iteration 1 : SSE = 4363.952204271562
+Iteration 2 : SSE = 3446.467283557228
+Iteration 3 : SSE = 3094.0604720296506
+Iteration 4 : SSE = 2959.7032064949
+Iteration 5 : SSE = 2898.731343551751
+Iteration 6 : SSE = 2869.3113995491885
+Iteration 7 : SSE = 2852.9013496306993
+Iteration 8 : SSE = 2840.992422953494
+Iteration 9 : SSE = 2830.7049437013347
+Iteration 10 : SSE = 2822.3319895272243
+Iteration 11 : SSE = 2813.9327002102164
+Iteration 12 : SSE = 2807.403612164925
+Iteration 13 : SSE = 2804.703752716609
+
+Run #: 51
+-----------
+Iteration 1 : SSE = 4156.739603825651
+Iteration 2 : SSE = 3456.5543743506582
+Iteration 3 : SSE = 3242.5181048407694
+Iteration 4 : SSE = 3077.613929182118
+Iteration 5 : SSE = 2956.189286397487
+Iteration 6 : SSE = 2871.087424566636
+Iteration 7 : SSE = 2832.4754591204164
+Iteration 8 : SSE = 2813.7785482624076
+Iteration 9 : SSE = 2802.841039729923
+Iteration 10 : SSE = 2794.573173046329
+Iteration 11 : SSE = 2789.193202057228
+Iteration 12 : SSE = 2784.9092143506614
+Iteration 13 : SSE = 2781.3872982515304
+Iteration 14 : SSE = 2778.395326918022
+Iteration 15 : SSE = 2775.417831059426
+Iteration 16 : SSE = 2772.104474804261
+Iteration 17 : SSE = 2769.5124968840373
+
+Run #: 52
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 52
+-----------
+Iteration 1 : SSE = 4412.8044272845955
+Iteration 2 : SSE = 3362.1523888013808
+Iteration 3 : SSE = 3075.6934468399145
+Iteration 4 : SSE = 2938.5401728184743
+Iteration 5 : SSE = 2878.570952294483
+Iteration 6 : SSE = 2842.3251160411783
+Iteration 7 : SSE = 2821.963405809119
+Iteration 8 : SSE = 2811.696107985691
+Iteration 9 : SSE = 2804.669751918757
+Iteration 10 : SSE = 2800.1139298504445
+Iteration 11 : SSE = 2797.646416744226
+
+Run #: 53
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 53
+-----------
+Iteration 1 : SSE = 4164.529924894119
+Iteration 2 : SSE = 3221.534729983055
+Iteration 3 : SSE = 3010.128500351077
+Iteration 4 : SSE = 2935.4997447936407
+Iteration 5 : SSE = 2883.7469226886224
+Iteration 6 : SSE = 2847.091603184509
+Iteration 7 : SSE = 2821.6545146527887
+Iteration 8 : SSE = 2806.2086488613563
+Iteration 9 : SSE = 2799.3779473315008
+Iteration 10 : SSE = 2794.596885376288
+Iteration 11 : SSE = 2790.8146642476063
+Iteration 12 : SSE = 2786.473840973368
+Iteration 13 : SSE = 2781.726479784703
+Iteration 14 : SSE = 2777.8139798804573
+Iteration 15 : SSE = 2775.5748145736047
+
+Run #: 54
+-----------
+Iteration 1 : SSE = 4294.041870850951
+Iteration 2 : SSE = 3472.550981676778
+Iteration 3 : SSE = 3157.027213834703
+Iteration 4 : SSE = 2997.035243012259
+Iteration 5 : SSE = 2919.7159623669045
+Iteration 6 : SSE = 2873.5685691993854
+Iteration 7 : SSE = 2850.39134221236
+Iteration 8 : SSE = 2838.360743816052
+Iteration 9 : SSE = 2830.9994727758153
+Iteration 10 : SSE = 2825.4390392561136
+Iteration 11 : SSE = 2820.6912942953636
+Iteration 12 : SSE = 2815.5064567054533
+Iteration 13 : SSE = 2809.2612421484673
+Iteration 14 : SSE = 2801.7945194430013
+Iteration 15 : SSE = 2793.9385315012933
+Iteration 16 : SSE = 2787.175552581978
+Iteration 17 : SSE = 2780.77516723128
+Iteration 18 : SSE = 2774.7123168829858
+Iteration 19 : SSE = 2769.752643513441
+Iteration 20 : SSE = 2766.2947975200063
+Iteration 21 : SSE = 2763.5567083390983
+
+Run #: 55
+-----------
+Iteration 1 : SSE = 4281.205483372506
+Iteration 2 : SSE = 3537.5100010138326
+Iteration 3 : SSE = 3247.7853491629817
+Iteration 4 : SSE = 3094.487275062081
+Iteration 5 : SSE = 3001.618283767164
+Iteration 6 : SSE = 2919.4649253427865
+Iteration 7 : SSE = 2874.6444764756075
+Iteration 8 : SSE = 2849.890050282256
+Iteration 9 : SSE = 2830.192927831531
+Iteration 10 : SSE = 2813.3396266239683
+Iteration 11 : SSE = 2802.631317711905
+Iteration 12 : SSE = 2795.349643503145
+Iteration 13 : SSE = 2790.0642721860654
+Iteration 14 : SSE = 2786.4269496321185
+Iteration 15 : SSE = 2783.0997060461996
+Iteration 16 : SSE = 2780.171766985682
+Iteration 17 : SSE = 2777.9188002913015
+
+Run #: 56
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 56
+-----------
+Iteration 1 : SSE = 4344.915235943145
+Iteration 2 : SSE = 3320.558364876841
+Iteration 3 : SSE = 3117.145818498653
+Iteration 4 : SSE = 2989.335314391662
+Iteration 5 : SSE = 2932.225931655461
+Iteration 6 : SSE = 2887.9707234220505
+Iteration 7 : SSE = 2857.8330702553553
+Iteration 8 : SSE = 2839.342075847899
+Iteration 9 : SSE = 2827.924257418262
+Iteration 10 : SSE = 2819.8326708071813
+Iteration 11 : SSE = 2814.457133826562
+Iteration 12 : SSE = 2809.5408860934745
+Iteration 13 : SSE = 2805.4202160876694
+Iteration 14 : SSE = 2802.2613861733
+Iteration 15 : SSE = 2798.4889398025284
+Iteration 16 : SSE = 2794.0326909051846
+Iteration 17 : SSE = 2790.8498439506798
+Iteration 18 : SSE = 2787.38743716978
+Iteration 19 : SSE = 2783.458888987983
+Iteration 20 : SSE = 2778.7110529947217
+Iteration 21 : SSE = 2771.317144852316
+Iteration 22 : SSE = 2765.666128613528
+Iteration 23 : SSE = 2763.8379214219335
+
+Run #: 57
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 57
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 57
+-----------
+Iteration 1 : SSE = 4263.4781376149895
+Iteration 2 : SSE = 3395.942545202793
+Iteration 3 : SSE = 3161.1188447030772
+Iteration 4 : SSE = 3030.427272193469
+Iteration 5 : SSE = 2938.1947633516174
+Iteration 6 : SSE = 2886.9072058054
+Iteration 7 : SSE = 2853.634116670871
+Iteration 8 : SSE = 2830.685936838074
+Iteration 9 : SSE = 2817.4446374884287
+Iteration 10 : SSE = 2808.2342095346007
+Iteration 11 : SSE = 2801.456142621067
+Iteration 12 : SSE = 2796.299616878783
+Iteration 13 : SSE = 2792.4890545809762
+Iteration 14 : SSE = 2789.311770557819
+Iteration 15 : SSE = 2786.106248851149
+Iteration 16 : SSE = 2782.819869215317
+Iteration 17 : SSE = 2779.32663521146
+Iteration 18 : SSE = 2776.0030698139108
+Iteration 19 : SSE = 2772.4776956203227
+Iteration 20 : SSE = 2768.7477133902967
+Iteration 21 : SSE = 2765.587556126366
+Iteration 22 : SSE = 2762.600548700998
+Iteration 23 : SSE = 2760.857387341159
+
+Run #: 58
+-----------
+Iteration 1 : SSE = 4443.8913257412505
+Iteration 2 : SSE = 3455.9609316338538
+Iteration 3 : SSE = 3125.8957934524196
+Iteration 4 : SSE = 2992.7524142443776
+Iteration 5 : SSE = 2925.2532329447095
+Iteration 6 : SSE = 2880.6461980970143
+Iteration 7 : SSE = 2853.177101947331
+Iteration 8 : SSE = 2834.2561552073594
+Iteration 9 : SSE = 2820.7249656369468
+Iteration 10 : SSE = 2811.111511266884
+Iteration 11 : SSE = 2804.6292474024854
+Iteration 12 : SSE = 2800.454222738093
+Iteration 13 : SSE = 2797.812285301484
+
+Run #: 59
+-----------
+Iteration 1 : SSE = 4379.4936662899345
+Iteration 2 : SSE = 3355.0120248196768
+Iteration 3 : SSE = 3104.673456110596
+Iteration 4 : SSE = 2993.8915605145457
+Iteration 5 : SSE = 2940.614017240532
+Iteration 6 : SSE = 2910.7595167655595
+Iteration 7 : SSE = 2891.3102759993094
+Iteration 8 : SSE = 2875.874338385974
+Iteration 9 : SSE = 2864.7143955936476
+Iteration 10 : SSE = 2848.4986569965486
+Iteration 11 : SSE = 2836.755569304205
+Iteration 12 : SSE = 2830.4905671289557
+Iteration 13 : SSE = 2825.305098004993
+Iteration 14 : SSE = 2819.319750460283
+Iteration 15 : SSE = 2811.949096172773
+Iteration 16 : SSE = 2804.8149884241607
+Iteration 17 : SSE = 2798.5672028182717
+Iteration 18 : SSE = 2793.9106382269847
+Iteration 19 : SSE = 2789.945957021288
+Iteration 20 : SSE = 2787.029091848141
+Iteration 21 : SSE = 2785.1505561148965
+
+Run #: 60
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 60
+-----------
+Iteration 1 : SSE = 4396.353470281576
+Iteration 2 : SSE = 3442.7729770886035
+Iteration 3 : SSE = 3169.0333432155844
+Iteration 4 : SSE = 2980.8574973278896
+Iteration 5 : SSE = 2925.4811821336516
+Iteration 6 : SSE = 2890.759065346121
+Iteration 7 : SSE = 2865.7322481466263
+Iteration 8 : SSE = 2852.036882360645
+Iteration 9 : SSE = 2842.5160329655328
+Iteration 10 : SSE = 2836.2573607966533
+Iteration 11 : SSE = 2831.0044043735697
+Iteration 12 : SSE = 2826.509794964018
+Iteration 13 : SSE = 2822.2133891211374
+Iteration 14 : SSE = 2818.3255256746784
+Iteration 15 : SSE = 2815.4915602388187
+Iteration 16 : SSE = 2812.8291078984007
+
+Run #: 61
+-----------
+Iteration 1 : SSE = 4041.828752698123
+Iteration 2 : SSE = 3274.1036432893266
+Iteration 3 : SSE = 3048.2410632859805
+Iteration 4 : SSE = 2961.4147628940664
+Iteration 5 : SSE = 2918.647805507466
+Iteration 6 : SSE = 2888.3067194076784
+Iteration 7 : SSE = 2868.58871922434
+Iteration 8 : SSE = 2857.3938629146087
+Iteration 9 : SSE = 2849.808976111028
+Iteration 10 : SSE = 2843.2011780390694
+Iteration 11 : SSE = 2837.1181492770183
+Iteration 12 : SSE = 2831.1021533192766
+Iteration 13 : SSE = 2823.159441979536
+Iteration 14 : SSE = 2819.105612572421
+Iteration 15 : SSE = 2815.7229044011465
+Iteration 16 : SSE = 2812.278152984122
+Iteration 17 : SSE = 2807.8437999364983
+Iteration 18 : SSE = 2803.59177080809
+Iteration 19 : SSE = 2799.7342765434228
+Iteration 20 : SSE = 2795.6284839306086
+Iteration 21 : SSE = 2792.748956268689
+Iteration 22 : SSE = 2790.112029779044
+
+Run #: 62
+-----------
+Iteration 1 : SSE = 4154.189831274202
+Iteration 2 : SSE = 3200.405748317465
+Iteration 3 : SSE = 2968.005913323883
+Iteration 4 : SSE = 2880.9797527915257
+Iteration 5 : SSE = 2842.9322432120134
+Iteration 6 : SSE = 2822.7048004112894
+Iteration 7 : SSE = 2812.963845747797
+Iteration 8 : SSE = 2806.8165362302993
+Iteration 9 : SSE = 2801.7621468024226
+Iteration 10 : SSE = 2796.8813440308495
+Iteration 11 : SSE = 2792.1816970761633
+Iteration 12 : SSE = 2785.9774221587386
+Iteration 13 : SSE = 2778.3341380948996
+Iteration 14 : SSE = 2769.9429369437116
+Iteration 15 : SSE = 2763.7431916817163
+Iteration 16 : SSE = 2760.268730927601
+Iteration 17 : SSE = 2757.943698002463
+
+Run #: 63
+-----------
+Iteration 1 : SSE = 4141.758311741584
+Iteration 2 : SSE = 3414.129608584356
+Iteration 3 : SSE = 3176.6227406407675
+Iteration 4 : SSE = 3063.187670750924
+Iteration 5 : SSE = 2973.550685955186
+Iteration 6 : SSE = 2919.503446226682
+Iteration 7 : SSE = 2887.0412189495496
+Iteration 8 : SSE = 2862.0504093971576
+Iteration 9 : SSE = 2843.313559771402
+Iteration 10 : SSE = 2829.2161638046477
+Iteration 11 : SSE = 2815.5313036137754
+Iteration 12 : SSE = 2801.9475115441583
+Iteration 13 : SSE = 2789.7096748513386
+Iteration 14 : SSE = 2782.6216227226046
+Iteration 15 : SSE = 2778.4665287953508
+Iteration 16 : SSE = 2775.4000375191536
+Iteration 17 : SSE = 2772.451079041352
+Iteration 18 : SSE = 2769.137576269055
+Iteration 19 : SSE = 2766.5846766121945
+
+Run #: 64
+-----------
+Iteration 1 : SSE = 4234.957962657765
+Iteration 2 : SSE = 3265.465635693965
+Iteration 3 : SSE = 3050.149390823001
+Iteration 4 : SSE = 2947.5890302353096
+Iteration 5 : SSE = 2901.586112663156
+Iteration 6 : SSE = 2867.2300216278345
+Iteration 7 : SSE = 2838.106916972385
+Iteration 8 : SSE = 2823.5090122548145
+Iteration 9 : SSE = 2813.709081130365
+Iteration 10 : SSE = 2804.213571957999
+Iteration 11 : SSE = 2792.7571524664186
+Iteration 12 : SSE = 2783.7224849708973
+Iteration 13 : SSE = 2778.9770790816883
+Iteration 14 : SSE = 2775.791433511038
+Iteration 15 : SSE = 2773.7711211187716
+
+Run #: 65
+-----------
+Iteration 1 : SSE = 4337.8227671436825
+Iteration 2 : SSE = 3347.7860588623525
+Iteration 3 : SSE = 3087.165848216534
+Iteration 4 : SSE = 2929.9446696369337
+Iteration 5 : SSE = 2870.9124692257956
+Iteration 6 : SSE = 2843.283965520589
+Iteration 7 : SSE = 2826.306038223078
+Iteration 8 : SSE = 2815.5392032512646
+Iteration 9 : SSE = 2808.6617037844394
+Iteration 10 : SSE = 2804.3148014326343
+Iteration 11 : SSE = 2801.6392280033
+
+Run #: 66
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 66
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 66
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 66
+-----------
+Iteration 1 : SSE = 4377.299852240402
+Iteration 2 : SSE = 3366.4671306378186
+Iteration 3 : SSE = 3086.2779529893714
+Iteration 4 : SSE = 2970.743384876139
+Iteration 5 : SSE = 2923.233048305919
+Iteration 6 : SSE = 2892.0764221627715
+Iteration 7 : SSE = 2867.869397040033
+Iteration 8 : SSE = 2846.7160971226103
+Iteration 9 : SSE = 2825.6820031980774
+Iteration 10 : SSE = 2808.132650533823
+Iteration 11 : SSE = 2799.8932568699583
+Iteration 12 : SSE = 2796.158319955346
+Iteration 13 : SSE = 2794.093657788319
+
+Run #: 67
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 67
+-----------
+Iteration 1 : SSE = 4195.403545991404
+Iteration 2 : SSE = 3405.4845963887756
+Iteration 3 : SSE = 3140.1312426236536
+Iteration 4 : SSE = 3039.844669443706
+Iteration 5 : SSE = 2977.3710445591773
+Iteration 6 : SSE = 2923.6291547963046
+Iteration 7 : SSE = 2863.9469647164883
+Iteration 8 : SSE = 2832.502955087802
+Iteration 9 : SSE = 2813.6548634477726
+Iteration 10 : SSE = 2801.7382265736233
+Iteration 11 : SSE = 2791.6188365526345
+Iteration 12 : SSE = 2785.5826463960734
+Iteration 13 : SSE = 2781.6104284616576
+Iteration 14 : SSE = 2778.7874961563025
+Iteration 15 : SSE = 2776.984147800157
+
+Run #: 68
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 68
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 68
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 68
+-----------
+Iteration 1 : SSE = 4449.904883847659
+Iteration 2 : SSE = 3418.6677575168083
+Iteration 3 : SSE = 3095.0282579095037
+Iteration 4 : SSE = 3001.965146780326
+Iteration 5 : SSE = 2958.063119075379
+Iteration 6 : SSE = 2929.1238613644946
+Iteration 7 : SSE = 2906.3740913980687
+Iteration 8 : SSE = 2883.8667415388445
+Iteration 9 : SSE = 2865.8703372693394
+Iteration 10 : SSE = 2852.010491564742
+Iteration 11 : SSE = 2845.3823873161823
+Iteration 12 : SSE = 2841.5077005106614
+Iteration 13 : SSE = 2839.09241124481
+
+Run #: 69
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 69
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 69
+-----------
+Iteration 1 : SSE = 4082.860936460022
+Iteration 2 : SSE = 3274.310609444652
+Iteration 3 : SSE = 3032.0725574282997
+Iteration 4 : SSE = 2948.923224005007
+Iteration 5 : SSE = 2904.7953441190516
+Iteration 6 : SSE = 2875.062719726721
+Iteration 7 : SSE = 2854.4960740380134
+Iteration 8 : SSE = 2840.3947132597414
+Iteration 9 : SSE = 2832.4020120278674
+Iteration 10 : SSE = 2827.588443635267
+Iteration 11 : SSE = 2824.625041620385
+Iteration 12 : SSE = 2821.6126946498703
+Iteration 13 : SSE = 2819.0263063683205
+
+Run #: 70
+-----------
+Iteration 1 : SSE = 4361.188542803892
+Iteration 2 : SSE = 3610.338666040195
+Iteration 3 : SSE = 3341.4732224648947
+Iteration 4 : SSE = 3182.166484130152
+Iteration 5 : SSE = 3057.352175655777
+Iteration 6 : SSE = 3001.5633907298034
+Iteration 7 : SSE = 2971.132091599875
+Iteration 8 : SSE = 2945.989569014233
+Iteration 9 : SSE = 2926.656833463264
+Iteration 10 : SSE = 2904.655044087971
+Iteration 11 : SSE = 2873.7412634335356
+Iteration 12 : SSE = 2847.0005113613583
+Iteration 13 : SSE = 2826.0275259455225
+Iteration 14 : SSE = 2808.0140834740014
+Iteration 15 : SSE = 2796.995011506412
+Iteration 16 : SSE = 2792.1378692274316
+Iteration 17 : SSE = 2790.0862692217624
+
+Run #: 71
+-----------
+Iteration 1 : SSE = 4100.449657656337
+Iteration 2 : SSE = 3250.5619575736487
+Iteration 3 : SSE = 3021.9754786088697
+Iteration 4 : SSE = 2922.6473566279433
+Iteration 5 : SSE = 2871.7390335540726
+Iteration 6 : SSE = 2843.442795512893
+Iteration 7 : SSE = 2828.7205320164144
+Iteration 8 : SSE = 2818.832210840863
+Iteration 9 : SSE = 2811.241892057132
+Iteration 10 : SSE = 2805.3738143664214
+Iteration 11 : SSE = 2799.936398555899
+Iteration 12 : SSE = 2791.0323346317937
+Iteration 13 : SSE = 2775.725996255806
+Iteration 14 : SSE = 2769.4349697962625
+Iteration 15 : SSE = 2766.0702559733363
+Iteration 16 : SSE = 2764.2268150223454
+
+Run #: 72
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 72
+-----------
+Iteration 1 : SSE = 4109.522622348465
+Iteration 2 : SSE = 3202.851544936977
+Iteration 3 : SSE = 2993.4120134226873
+Iteration 4 : SSE = 2910.280183243874
+Iteration 5 : SSE = 2858.32116860939
+Iteration 6 : SSE = 2837.1070762274007
+Iteration 7 : SSE = 2822.5425974897553
+Iteration 8 : SSE = 2811.4983045775643
+Iteration 9 : SSE = 2803.393098321632
+Iteration 10 : SSE = 2797.416492524479
+Iteration 11 : SSE = 2792.997351625082
+Iteration 12 : SSE = 2789.567262792388
+Iteration 13 : SSE = 2786.2927541220747
+Iteration 14 : SSE = 2783.3930261192363
+Iteration 15 : SSE = 2780.705645918362
+
+Run #: 73
+-----------
+Iteration 1 : SSE = 4305.569398059079
+Iteration 2 : SSE = 3363.1043176212665
+Iteration 3 : SSE = 3112.3865699882617
+Iteration 4 : SSE = 2993.655076372084
+Iteration 5 : SSE = 2919.2423098410018
+Iteration 6 : SSE = 2882.541590597251
+Iteration 7 : SSE = 2865.0364135814852
+Iteration 8 : SSE = 2854.467700856446
+Iteration 9 : SSE = 2847.5457201131926
+Iteration 10 : SSE = 2842.285828715872
+Iteration 11 : SSE = 2834.2487725292663
+Iteration 12 : SSE = 2819.7383915442474
+Iteration 13 : SSE = 2808.4323603900075
+Iteration 14 : SSE = 2801.9485099516205
+Iteration 15 : SSE = 2796.927903661044
+Iteration 16 : SSE = 2792.6861857897347
+Iteration 17 : SSE = 2788.698751660378
+Iteration 18 : SSE = 2784.926099073212
+Iteration 19 : SSE = 2780.5131983785773
+Iteration 20 : SSE = 2776.695219296218
+Iteration 21 : SSE = 2772.9823498200185
+Iteration 22 : SSE = 2770.2730575500436
+
+Run #: 74
+-----------
+Iteration 1 : SSE = 4433.534867012051
+Iteration 2 : SSE = 3384.213516127556
+Iteration 3 : SSE = 3111.9162767508305
+Iteration 4 : SSE = 2995.731182452031
+Iteration 5 : SSE = 2934.0852974758254
+Iteration 6 : SSE = 2888.7373220496975
+Iteration 7 : SSE = 2858.486081046672
+Iteration 8 : SSE = 2834.3413767292645
+Iteration 9 : SSE = 2817.598233425976
+Iteration 10 : SSE = 2807.0246684261883
+Iteration 11 : SSE = 2799.31508459897
+Iteration 12 : SSE = 2792.7139502829577
+Iteration 13 : SSE = 2785.974463560228
+Iteration 14 : SSE = 2779.0082789737535
+Iteration 15 : SSE = 2773.4763684637865
+Iteration 16 : SSE = 2770.8158520767065
+
+Run #: 75
+-----------
+Iteration 1 : SSE = 4365.476286276116
+Iteration 2 : SSE = 3411.627691941398
+Iteration 3 : SSE = 3171.9709787634897
+Iteration 4 : SSE = 3053.8207784548076
+Iteration 5 : SSE = 2987.308069340624
+Iteration 6 : SSE = 2930.5471470741027
+Iteration 7 : SSE = 2879.4205610735185
+Iteration 8 : SSE = 2842.187282921795
+Iteration 9 : SSE = 2818.916455601014
+Iteration 10 : SSE = 2804.2738768886898
+Iteration 11 : SSE = 2794.966561664068
+Iteration 12 : SSE = 2788.8786578816303
+Iteration 13 : SSE = 2783.6549178067016
+Iteration 14 : SSE = 2778.822611390407
+Iteration 15 : SSE = 2774.9762018656006
+Iteration 16 : SSE = 2772.360091643157
+
+Run #: 76
+-----------
+Iteration 1 : SSE = 4238.187662788557
+Iteration 2 : SSE = 3382.4680800758874
+Iteration 3 : SSE = 3101.0874510118874
+Iteration 4 : SSE = 2992.1593520758915
+Iteration 5 : SSE = 2939.155523708385
+Iteration 6 : SSE = 2910.848252070002
+Iteration 7 : SSE = 2893.317410902638
+Iteration 8 : SSE = 2880.8883525485735
+Iteration 9 : SSE = 2868.254188996586
+Iteration 10 : SSE = 2850.3489715238866
+Iteration 11 : SSE = 2836.481069871925
+Iteration 12 : SSE = 2828.471438986203
+Iteration 13 : SSE = 2822.7436799872685
+Iteration 14 : SSE = 2817.7245131364093
+Iteration 15 : SSE = 2814.0817085936465
+Iteration 16 : SSE = 2812.0581116007133
+
+Run #: 77
+-----------
+Iteration 1 : SSE = 4377.908429270037
+Iteration 2 : SSE = 3371.8699032182944
+Iteration 3 : SSE = 3115.5560520168588
+Iteration 4 : SSE = 3002.0688185210456
+Iteration 5 : SSE = 2954.5343887711574
+Iteration 6 : SSE = 2929.412213934854
+Iteration 7 : SSE = 2910.5506429818674
+Iteration 8 : SSE = 2895.4794960700565
+Iteration 9 : SSE = 2882.415374842233
+Iteration 10 : SSE = 2869.8394298648714
+Iteration 11 : SSE = 2858.658934916722
+Iteration 12 : SSE = 2850.548188112661
+Iteration 13 : SSE = 2842.5878265200167
+Iteration 14 : SSE = 2835.511511257753
+Iteration 15 : SSE = 2830.2186616066965
+Iteration 16 : SSE = 2826.2913155403257
+Iteration 17 : SSE = 2822.5345561575614
+Iteration 18 : SSE = 2819.3582421694587
+Iteration 19 : SSE = 2816.6970770900634
+
+Run #: 78
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 78
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 78
+-----------
+Iteration 1 : SSE = 4235.948495124126
+Iteration 2 : SSE = 3350.155827877998
+Iteration 3 : SSE = 3107.9556186598816
+Iteration 4 : SSE = 3007.6940226088955
+Iteration 5 : SSE = 2959.0477070629286
+Iteration 6 : SSE = 2924.219527036019
+Iteration 7 : SSE = 2900.1333230322707
+Iteration 8 : SSE = 2883.6535672141986
+Iteration 9 : SSE = 2869.566290558317
+Iteration 10 : SSE = 2856.3666586977197
+Iteration 11 : SSE = 2844.7176972066027
+Iteration 12 : SSE = 2834.9682551875603
+Iteration 13 : SSE = 2825.355302860595
+Iteration 14 : SSE = 2814.8864094426003
+Iteration 15 : SSE = 2803.4230352025706
+Iteration 16 : SSE = 2788.8091989258705
+Iteration 17 : SSE = 2777.2428269533866
+Iteration 18 : SSE = 2770.116569298098
+Iteration 19 : SSE = 2765.085807434186
+Iteration 20 : SSE = 2761.8980536485333
+Iteration 21 : SSE = 2759.316735921097
+
+Run #: 79
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 79
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 79
+-----------
+Iteration 1 : SSE = 4330.6075055362935
+Iteration 2 : SSE = 3424.8737262332884
+Iteration 3 : SSE = 3150.7963073946
+Iteration 4 : SSE = 3008.2772682327686
+Iteration 5 : SSE = 2923.861705718933
+Iteration 6 : SSE = 2886.572524334513
+Iteration 7 : SSE = 2864.1655627302634
+Iteration 8 : SSE = 2843.3510413720855
+Iteration 9 : SSE = 2825.8337116086905
+Iteration 10 : SSE = 2811.500836393188
+Iteration 11 : SSE = 2799.5993216116035
+Iteration 12 : SSE = 2791.425048452149
+Iteration 13 : SSE = 2784.952600985348
+Iteration 14 : SSE = 2780.3733867790515
+Iteration 15 : SSE = 2777.4753366690825
+Iteration 16 : SSE = 2775.602883252937
+
+Run #: 80
+-----------
+Iteration 1 : SSE = 4215.286227372452
+Iteration 2 : SSE = 3327.039077529012
+Iteration 3 : SSE = 3122.264823294227
+Iteration 4 : SSE = 3032.9466454599615
+Iteration 5 : SSE = 2961.9569685463225
+Iteration 6 : SSE = 2918.0450050732093
+Iteration 7 : SSE = 2886.327828848755
+Iteration 8 : SSE = 2867.1954787531013
+Iteration 9 : SSE = 2856.0550559315357
+Iteration 10 : SSE = 2846.952579667658
+Iteration 11 : SSE = 2840.8271265632125
+Iteration 12 : SSE = 2835.6924679312965
+Iteration 13 : SSE = 2831.7159456741865
+Iteration 14 : SSE = 2828.9255154422544
+
+Run #: 81
+-----------
+Iteration 1 : SSE = 4339.532395840496
+Iteration 2 : SSE = 3443.2295604137635
+Iteration 3 : SSE = 3190.149044160511
+Iteration 4 : SSE = 3082.838468688915
+Iteration 5 : SSE = 3029.8871123927374
+Iteration 6 : SSE = 2986.367062024502
+Iteration 7 : SSE = 2948.6890520675533
+Iteration 8 : SSE = 2904.224093135058
+Iteration 9 : SSE = 2866.8541193483125
+Iteration 10 : SSE = 2846.1294191558068
+Iteration 11 : SSE = 2833.58306640993
+Iteration 12 : SSE = 2825.2205113575737
+Iteration 13 : SSE = 2821.0402479525133
+Iteration 14 : SSE = 2818.6362020359666
+
+Run #: 82
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 82
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 82
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 82
+-----------
+Iteration 1 : SSE = 4104.159326694781
+Iteration 2 : SSE = 3425.0034848211194
+Iteration 3 : SSE = 3196.97859319278
+Iteration 4 : SSE = 3071.8855097891637
+Iteration 5 : SSE = 3005.900194904344
+Iteration 6 : SSE = 2969.4120104187105
+Iteration 7 : SSE = 2937.629900612164
+Iteration 8 : SSE = 2907.5627517353737
+Iteration 9 : SSE = 2881.4733687070557
+Iteration 10 : SSE = 2848.422210683227
+Iteration 11 : SSE = 2816.5064056196043
+Iteration 12 : SSE = 2791.9502238536634
+Iteration 13 : SSE = 2775.2568952343186
+Iteration 14 : SSE = 2764.9417579328983
+Iteration 15 : SSE = 2758.631777757154
+Iteration 16 : SSE = 2752.65115890162
+Iteration 17 : SSE = 2747.8131443102725
+Iteration 18 : SSE = 2743.7071227554657
+Iteration 19 : SSE = 2740.0059808012247
+Iteration 20 : SSE = 2737.8651881082014
+
+Run #: 83
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 83
+-----------
+Iteration 1 : SSE = 4205.8496925803165
+Iteration 2 : SSE = 3369.1638374890904
+Iteration 3 : SSE = 3143.272010012574
+Iteration 4 : SSE = 3033.299511424358
+Iteration 5 : SSE = 2959.217734013511
+Iteration 6 : SSE = 2919.2268641724677
+Iteration 7 : SSE = 2894.494359430386
+Iteration 8 : SSE = 2883.076945273398
+Iteration 9 : SSE = 2875.9554643782726
+Iteration 10 : SSE = 2868.279471235818
+Iteration 11 : SSE = 2861.203469351931
+Iteration 12 : SSE = 2855.781466836061
+Iteration 13 : SSE = 2850.394735896746
+Iteration 14 : SSE = 2839.91570613498
+Iteration 15 : SSE = 2830.6656275413525
+Iteration 16 : SSE = 2824.9237340107884
+Iteration 17 : SSE = 2820.386351576553
+Iteration 18 : SSE = 2816.738879222051
+Iteration 19 : SSE = 2813.21070123812
+Iteration 20 : SSE = 2809.405175537972
+Iteration 21 : SSE = 2805.6046965820847
+Iteration 22 : SSE = 2802.8585200992966
+
+Run #: 84
+-----------
+Iteration 1 : SSE = 4223.154655305603
+Iteration 2 : SSE = 3295.412076166146
+Iteration 3 : SSE = 3078.6932572032765
+Iteration 4 : SSE = 2985.3786422351836
+Iteration 5 : SSE = 2922.908927003682
+Iteration 6 : SSE = 2878.058943296881
+Iteration 7 : SSE = 2844.2349378107347
+Iteration 8 : SSE = 2827.449573391492
+Iteration 9 : SSE = 2813.4489564340565
+Iteration 10 : SSE = 2800.7985223383134
+Iteration 11 : SSE = 2791.4199129111066
+Iteration 12 : SSE = 2785.40835847149
+Iteration 13 : SSE = 2780.777600071951
+Iteration 14 : SSE = 2777.0865723283428
+Iteration 15 : SSE = 2774.292939579095
+Iteration 16 : SSE = 2772.406348491787
+
+Run #: 85
+-----------
+Iteration 1 : SSE = 4223.6792548503945
+Iteration 2 : SSE = 3259.499368831507
+Iteration 3 : SSE = 3067.49039572532
+Iteration 4 : SSE = 2962.854655420274
+Iteration 5 : SSE = 2889.142320313271
+Iteration 6 : SSE = 2844.2397260945545
+Iteration 7 : SSE = 2817.4176670063016
+Iteration 8 : SSE = 2802.5103440788625
+Iteration 9 : SSE = 2792.372721589372
+Iteration 10 : SSE = 2785.981108896157
+Iteration 11 : SSE = 2781.7789327099804
+Iteration 12 : SSE = 2779.284615795506
+
+Run #: 86
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 86
+-----------
+Iteration 1 : SSE = 4226.164597338986
+Iteration 2 : SSE = 3383.536370052786
+Iteration 3 : SSE = 3129.9913339318564
+Iteration 4 : SSE = 3012.887662168276
+Iteration 5 : SSE = 2954.5364896436154
+Iteration 6 : SSE = 2915.583016037537
+Iteration 7 : SSE = 2884.3675085110735
+Iteration 8 : SSE = 2867.783155428161
+Iteration 9 : SSE = 2858.1612421292352
+Iteration 10 : SSE = 2850.745584056223
+Iteration 11 : SSE = 2845.146691595528
+Iteration 12 : SSE = 2837.5015916589223
+Iteration 13 : SSE = 2823.2833821371837
+Iteration 14 : SSE = 2817.3909440315824
+Iteration 15 : SSE = 2813.3164547074994
+Iteration 16 : SSE = 2810.3337762281058
+Iteration 17 : SSE = 2808.5559393184726
+
+Run #: 87
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 87
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 87
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 87
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 87
+-----------
+Iteration 1 : SSE = 4108.433859108843
+Iteration 2 : SSE = 3180.6419782212906
+Iteration 3 : SSE = 2973.375296131438
+Iteration 4 : SSE = 2898.0108912793394
+Iteration 5 : SSE = 2857.004148621747
+Iteration 6 : SSE = 2835.634012637249
+Iteration 7 : SSE = 2821.512352484366
+Iteration 8 : SSE = 2810.952124722266
+Iteration 9 : SSE = 2801.459989189351
+Iteration 10 : SSE = 2791.5681911406855
+Iteration 11 : SSE = 2786.68859422631
+Iteration 12 : SSE = 2783.7402648355664
+Iteration 13 : SSE = 2781.3112976816183
+
+Run #: 88
+-----------
+Iteration 1 : SSE = 4193.199348261099
+Iteration 2 : SSE = 3389.1286213010776
+Iteration 3 : SSE = 3091.3607805592696
+Iteration 4 : SSE = 2958.531103772159
+Iteration 5 : SSE = 2898.579585287267
+Iteration 6 : SSE = 2868.8262426169035
+Iteration 7 : SSE = 2851.7573813987133
+Iteration 8 : SSE = 2840.5524916037216
+Iteration 9 : SSE = 2833.0447802920467
+Iteration 10 : SSE = 2826.4785877868067
+Iteration 11 : SSE = 2820.495236849146
+Iteration 12 : SSE = 2815.4399968145626
+Iteration 13 : SSE = 2812.3353557255173
+Iteration 14 : SSE = 2811.1845458843222
+
+Run #: 89
+-----------
+Iteration 1 : SSE = 4535.144633656896
+Iteration 2 : SSE = 3401.828265824363
+Iteration 3 : SSE = 3101.3618934205015
+Iteration 4 : SSE = 2972.887087009921
+Iteration 5 : SSE = 2885.6472254365963
+Iteration 6 : SSE = 2847.7289263762323
+Iteration 7 : SSE = 2831.5908315774313
+Iteration 8 : SSE = 2822.293559464719
+Iteration 9 : SSE = 2816.4517637319705
+Iteration 10 : SSE = 2812.770995384052
+Iteration 11 : SSE = 2809.7163782503
+Iteration 12 : SSE = 2806.8125310813516
+Iteration 13 : SSE = 2803.6750509770595
+Iteration 14 : SSE = 2800.671787070136
+Iteration 15 : SSE = 2797.5388982982518
+Iteration 16 : SSE = 2793.962694795275
+Iteration 17 : SSE = 2790.4228774575918
+Iteration 18 : SSE = 2786.3796328922845
+Iteration 19 : SSE = 2782.309217486848
+Iteration 20 : SSE = 2778.2608200444997
+Iteration 21 : SSE = 2774.524668605013
+Iteration 22 : SSE = 2770.7886219561383
+Iteration 23 : SSE = 2767.20063945979
+Iteration 24 : SSE = 2762.6988977842425
+Iteration 25 : SSE = 2757.9904595908974
+Iteration 26 : SSE = 2754.2506225746483
+Iteration 27 : SSE = 2751.7878280755713
+
+Run #: 90
+-----------
+Iteration 1 : SSE = 4215.425788283362
+Iteration 2 : SSE = 3378.5730973209643
+Iteration 3 : SSE = 3162.2286497909204
+Iteration 4 : SSE = 3054.1802793214333
+Iteration 5 : SSE = 2959.676526515382
+Iteration 6 : SSE = 2907.7252750421217
+Iteration 7 : SSE = 2870.279536924541
+Iteration 8 : SSE = 2841.9658515402643
+Iteration 9 : SSE = 2821.2041297772007
+Iteration 10 : SSE = 2811.252619529963
+Iteration 11 : SSE = 2805.5054366579147
+Iteration 12 : SSE = 2801.533846135903
+Iteration 13 : SSE = 2797.784049169052
+Iteration 14 : SSE = 2793.237577221968
+Iteration 15 : SSE = 2789.168530109787
+Iteration 16 : SSE = 2786.9231910560475
+
+Run #: 91
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 91
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 91
+-----------
+Iteration 1 : SSE = 4703.227800172303
+Iteration 2 : SSE = 3439.8615898236344
+Iteration 3 : SSE = 3147.6365769130844
+Iteration 4 : SSE = 3036.8459461018047
+Iteration 5 : SSE = 2966.126194718709
+Iteration 6 : SSE = 2910.5078619341684
+Iteration 7 : SSE = 2875.5951449539607
+Iteration 8 : SSE = 2855.269291937664
+Iteration 9 : SSE = 2843.8126621333545
+Iteration 10 : SSE = 2835.605208358474
+Iteration 11 : SSE = 2826.2341375491596
+Iteration 12 : SSE = 2813.6297545571733
+Iteration 13 : SSE = 2797.571016904062
+Iteration 14 : SSE = 2784.7723161794897
+Iteration 15 : SSE = 2778.8887690471315
+Iteration 16 : SSE = 2775.2370138730594
+Iteration 17 : SSE = 2773.0695221669457
+
+Run #: 92
+-----------
+Iteration 1 : SSE = 4008.7303523713076
+Iteration 2 : SSE = 3128.560022929668
+Iteration 3 : SSE = 2943.8890913001933
+Iteration 4 : SSE = 2876.696062561456
+Iteration 5 : SSE = 2836.5895952628425
+Iteration 6 : SSE = 2813.7170397804935
+Iteration 7 : SSE = 2802.468791219022
+Iteration 8 : SSE = 2794.508506212916
+Iteration 9 : SSE = 2788.9913095880975
+Iteration 10 : SSE = 2786.227384812908
+
+Run #: 93
+-----------
+Iteration 1 : SSE = 4330.636125677418
+Iteration 2 : SSE = 3280.451932274068
+Iteration 3 : SSE = 2992.7430863318536
+Iteration 4 : SSE = 2882.993982876766
+Iteration 5 : SSE = 2848.8136080225654
+Iteration 6 : SSE = 2831.0297803371427
+Iteration 7 : SSE = 2817.072780876096
+Iteration 8 : SSE = 2803.745680626997
+Iteration 9 : SSE = 2796.2406272063863
+Iteration 10 : SSE = 2791.0930788034793
+Iteration 11 : SSE = 2785.9293613417017
+Iteration 12 : SSE = 2781.188524250533
+Iteration 13 : SSE = 2777.849192868618
+Iteration 14 : SSE = 2775.9907861090514
+
+Run #: 94
+-----------
+Iteration 1 : SSE = 4267.026929111435
+Iteration 2 : SSE = 3256.91954684931
+Iteration 3 : SSE = 3034.79879182385
+Iteration 4 : SSE = 2933.5144769193357
+Iteration 5 : SSE = 2884.0477574434813
+Iteration 6 : SSE = 2862.8869764848027
+Iteration 7 : SSE = 2850.521583311039
+Iteration 8 : SSE = 2841.795994904525
+Iteration 9 : SSE = 2834.63155530009
+Iteration 10 : SSE = 2829.2416707530288
+Iteration 11 : SSE = 2823.504958994511
+Iteration 12 : SSE = 2815.8779720717966
+Iteration 13 : SSE = 2803.8177535981677
+Iteration 14 : SSE = 2796.4400897041282
+Iteration 15 : SSE = 2793.7616343731697
+
+Run #: 95
+-----------
+Iteration 1 : SSE = 4432.407304392025
+Iteration 2 : SSE = 3433.594383176739
+Iteration 3 : SSE = 3141.3194981094325
+Iteration 4 : SSE = 3001.0947760483755
+Iteration 5 : SSE = 2942.674095357615
+Iteration 6 : SSE = 2908.7800802043816
+Iteration 7 : SSE = 2887.861284161589
+Iteration 8 : SSE = 2871.5537991031692
+Iteration 9 : SSE = 2857.7614030011514
+Iteration 10 : SSE = 2847.4423746394395
+Iteration 11 : SSE = 2840.129119262478
+Iteration 12 : SSE = 2834.0250917822245
+Iteration 13 : SSE = 2828.443038150018
+Iteration 14 : SSE = 2823.4128267729975
+Iteration 15 : SSE = 2817.7326113396052
+Iteration 16 : SSE = 2812.6223372886757
+Iteration 17 : SSE = 2808.928168633374
+Iteration 18 : SSE = 2805.868744257497
+Iteration 19 : SSE = 2802.0369834804483
+Iteration 20 : SSE = 2793.9608173712486
+Iteration 21 : SSE = 2787.983332376596
+Iteration 22 : SSE = 2785.1630594052644
+Iteration 23 : SSE = 2783.0241555906678
+
+Run #: 96
+-----------
+Iteration 1 : SSE = 4339.59901065394
+Iteration 2 : SSE = 3456.5437049887487
+Iteration 3 : SSE = 3142.783526590139
+Iteration 4 : SSE = 2993.3466455845487
+Iteration 5 : SSE = 2921.68893097684
+Iteration 6 : SSE = 2882.6911599483415
+Iteration 7 : SSE = 2857.210936784903
+Iteration 8 : SSE = 2843.2212420516894
+Iteration 9 : SSE = 2833.2390563223175
+Iteration 10 : SSE = 2825.627414937337
+Iteration 11 : SSE = 2820.2945608089854
+Iteration 12 : SSE = 2816.342691130464
+Iteration 13 : SSE = 2813.4323430027052
+Iteration 14 : SSE = 2811.507640892079
+
+Run #: 97
+-----------
+Iteration 1 : SSE = 4416.658121877255
+Iteration 2 : SSE = 3442.5926696893293
+Iteration 3 : SSE = 3174.4808375243456
+Iteration 4 : SSE = 3075.802104528766
+Iteration 5 : SSE = 3019.8176868339865
+Iteration 6 : SSE = 2980.744887894556
+Iteration 7 : SSE = 2954.9866184679536
+Iteration 8 : SSE = 2935.283184626142
+Iteration 9 : SSE = 2914.7667312500475
+Iteration 10 : SSE = 2895.4246979196123
+Iteration 11 : SSE = 2879.9234205815274
+Iteration 12 : SSE = 2871.113149654371
+Iteration 13 : SSE = 2866.2886354954726
+Iteration 14 : SSE = 2863.5211647630435
+
+Run #: 98
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 98
+-----------
+Iteration 1 : SSE = 4009.044884809884
+Iteration 2 : SSE = 3378.0719234304447
+Iteration 3 : SSE = 3152.9317494561888
+Iteration 4 : SSE = 3008.460863718261
+Iteration 5 : SSE = 2923.434697108578
+Iteration 6 : SSE = 2871.317613538252
+Iteration 7 : SSE = 2847.981994903838
+Iteration 8 : SSE = 2832.978608453236
+Iteration 9 : SSE = 2823.369082368556
+Iteration 10 : SSE = 2815.7984056094006
+Iteration 11 : SSE = 2809.723683424416
+Iteration 12 : SSE = 2804.6820103972073
+Iteration 13 : SSE = 2800.6604207620057
+Iteration 14 : SSE = 2797.8845720312192
+
+Run #: 99
+-----------
+Empty Cluster found! --> restarting run with new initialization.
+
+Run #: 99
+-----------
+Iteration 1 : SSE = 4440.786576403187
+Iteration 2 : SSE = 3317.1703566046785
+Iteration 3 : SSE = 3052.1651454400226
+Iteration 4 : SSE = 2914.9743827792604
+Iteration 5 : SSE = 2870.981458297419
+Iteration 6 : SSE = 2846.8907728916174
+Iteration 7 : SSE = 2831.653070718517
+Iteration 8 : SSE = 2813.7344117258176
+Iteration 9 : SSE = 2797.6589896385676
+Iteration 10 : SSE = 2788.194075880254
+Iteration 11 : SSE = 2781.268377322109
+Iteration 12 : SSE = 2776.154394722147
+Iteration 13 : SSE = 2769.98638898051
+Iteration 14 : SSE = 2759.0717813800516
+Iteration 15 : SSE = 2754.0871133390146
+Iteration 16 : SSE = 2750.4790326874318
+Iteration 17 : SSE = 2748.1395765882135
+
+Run #: 100
+-----------
+Iteration 1 : SSE = 4345.657403128312
+Iteration 2 : SSE = 3433.923092071025
+Iteration 3 : SSE = 3165.1430151789104
+Iteration 4 : SSE = 3059.0998097746783
+Iteration 5 : SSE = 2986.308438536572
+Iteration 6 : SSE = 2891.5349364669305
+Iteration 7 : SSE = 2851.6943256514387
+Iteration 8 : SSE = 2837.479148972449
+Iteration 9 : SSE = 2827.378791210259
+Iteration 10 : SSE = 2811.393053930533
+Iteration 11 : SSE = 2794.4426349225887
+Iteration 12 : SSE = 2785.161842695873
+Iteration 13 : SSE = 2779.102060712204
+Iteration 14 : SSE = 2774.5926734786694
+Iteration 15 : SSE = 2770.2600730584227
+Iteration 16 : SSE = 2765.4030402350463
+Iteration 17 : SSE = 2761.3466964410063
+Iteration 18 : SSE = 2758.6039621872487
+
+Best Run: 82: SSE = 2737.8651881082014
+ 
+##################################################
+Method: Centroids by Random Partition
+##################################################
+Initial SSE: 7090.487505861715 on Run #: 91
+Final SSE: 2737.8651881082014 on Run #: 82
+Number of Iterations: 10 on Run #: 92
+
+##################################################

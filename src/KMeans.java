@@ -6,10 +6,7 @@
 
 //Coding practices resource I have decided to keep primarily using: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.PrintStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -45,20 +42,62 @@ public class KMeans {
             //Track my best run and may implement a function for tracking the avg total
             //of all runs and comparing it to the best run
             RunResults bestRun = null;
-            RunResults allRuns = null;
+            //RunResults allRuns = null;
 
             //append existing file and now that we are doing a comparison
-            try (PrintStream outFile = new PrintStream(new FileOutputStream(outputFilename, true))) {
+            try (PrintStream outFile = new PrintStream(new FileOutputStream(outputFilename))) {
 
                 Random random = new Random();
 
                 int runIndex = 1;
+                double bestInitialSSE = Double.POSITIVE_INFINITY;
+                int bestInitialIndex = -100;
+                double bestFinalSSE = Double.POSITIVE_INFINITY;
+                int bestFinalRunIndex = -100;
+                int bestIterations = Integer.MAX_VALUE;
+                int bestIterationsIndex = -100;
 
                 //Each run uses different real random centers just like my original phase 1
                 for (runIndex = 1; runIndex <= parameters.numOfRuns; runIndex++) {
 
                     //Run my whole K Means function
                     RunResults results = runKMeans(dataset, parameters, random, outFile, runIndex, centroid_start_method);
+
+                    //if runKmeans returned with a 0 that means we had an empty cluster re-initialize for this run by
+                    //just stepping back 1 index and letting it run again
+                    if (results.iterations== 0){
+                        runIndex--;
+                        continue;
+                    }
+
+                    if(results.initialSSE < bestInitialSSE){
+                        bestInitialSSE = results.initialSSE;
+                        bestInitialIndex = results.runNumber;
+                    }
+
+                    if(results.finalSSE < bestFinalSSE){
+                        bestFinalSSE = results.finalSSE;
+                        bestFinalRunIndex = results.runNumber;
+
+                    }
+
+                    if(results.iterations < bestIterations){
+                        bestIterations = results.iterations;
+                        bestIterationsIndex = results.runNumber;
+                    }
+
+                    String methodName = " ";
+                    if(centroid_start_method == 0){
+                        methodName = "RandomSelection";
+                    } else{
+                        methodName = "RandomPartition";
+
+                    }
+
+                    String csvName = "comparison.csv";
+                    String openFile = parameters.filename;
+
+                    appendComparisonsCSV(csvName, openFile, methodName, results.runNumber, results.initialSSE, results.finalSSE, results.iterations);
 
                     //If first run or smaller SSE update
                     if (bestRun == null || results.finalSSE < bestRun.finalSSE) {
@@ -87,16 +126,16 @@ public class KMeans {
                 outFile.println("##################################################");
 
                 System.out.println();
-                System.out.println("Initial SSE: " + bestRun.initialSSE);
-                System.out.println("Final SSE: " + bestRun.finalSSE);
-                System.out.println("Number of Iterations: " + bestRun.iterations);
+                System.out.println("Initial SSE: " + bestInitialSSE + " on Run #: " +  bestInitialIndex);
+                System.out.println("Final SSE: " + bestFinalSSE +  " on Run #: " +  bestFinalRunIndex);
+                System.out.println("Number of Iterations: " + bestIterations + " on Run #: " +  bestIterationsIndex);
                 System.out.println();
                 System.out.println("##################################################");
 
 
-                outFile.println("Initial SSE: " + bestRun.initialSSE);
-                outFile.println("Final SSE: " + bestRun.finalSSE);
-                outFile.println("Number of Iterations: " + bestRun.iterations);
+                outFile.println("Initial SSE: " + bestInitialSSE + " on Run #: " +  bestInitialIndex);
+                outFile.println("Final SSE: " + bestFinalSSE +  " on Run #: " +  bestFinalRunIndex);
+                outFile.println("Number of Iterations: " + bestIterations + " on Run #: " +  bestIterationsIndex);
                 outFile.println();
                 outFile.println("##################################################");
 
@@ -300,14 +339,18 @@ public class KMeans {
 
         }
         else{
+            //Just a safety check
             System.err.println("Error: centroid_start_method has to be either 0 or 1");
         }
 
+        //Save my start sse
+        int[] initialAssignments = assignPointsToClosestCentroid(dataset, centroids);
+        double initialSSE = computeSSE(dataset, centroids, initialAssignments);
 
         double lastSSE = Double.POSITIVE_INFINITY;
         double curSSE = Double.POSITIVE_INFINITY;
-        double initialSSE = Double.NEGATIVE_INFINITY;
         int iterationsDone = 0;
+        boolean emptyCheck= false;
 
         //Step 2
         int indexNumClus = 0;
@@ -318,16 +361,24 @@ public class KMeans {
             //step 3
             int[] assignPoints = assignPointsToClosestCentroid(dataset, centroids);
 
+            //Check for empty clusters in both methods to be safe
+            emptyCheck = emptyClusterCheck(assignPoints, params.numOfClusters);
+            if (emptyCheck) {
+                System.out.println("Empty Cluster found! --> restarting run with new initialization.");
+                System.out.println();
+
+                if (fileOut != null) {
+                    fileOut.println("Empty Cluster found! --> restarting run with new initialization.");
+                    fileOut.println();
+                }
+                return new RunResults(runNum, 0, curSSE, centroids, initialSSE);
+            }
+
             //step 4
             double[][] newCentroids = recomputeCentroids(dataset, assignPoints, params.numOfClusters, centroids);
 
             //SSE
             curSSE = computeSSE(dataset, newCentroids, assignPoints);
-
-            //Save start sse
-            if(indexNumClus == 1){
-                initialSSE = curSSE;
-            }
 
             //if (iterationsDone==0 && centroid_start_method == 1) {
             //    initialSSE[1] = curSSE;
@@ -365,6 +416,21 @@ public class KMeans {
     //Note for reference during implementation: min max norm formula: x_scaled = x-xmin / (xmax- xmin) and must be between 0 and 1
 
     // START FOR PART 1 of PHASE 3
+
+    private  static boolean emptyClusterCheck(int[] assignedPoints, int numOfClusters) {
+        int[] numClusters = new int[numOfClusters];
+
+        for (int i = 0; i < assignedPoints.length; i++) {
+            numClusters[assignedPoints[i]]++;
+        }
+
+        for (int i = 0; i < numOfClusters; i++) {
+            if (numClusters[i] == 0) {
+                return true;
+            }
+        }
+        return false;
+    }
     private static Dataset minMaxNorm(Dataset dataset){
 
         int numD = dataset.numOfDimensions;
@@ -406,7 +472,17 @@ public class KMeans {
                     x_scaled[pointNum][dim] = 0.0;
                 }
                 else {
-                    x_scaled[pointNum][dim] = (dataset.data[pointNum][dim] - minsInEach[dim]) / denominator;
+                    if(denominator > 0) {
+                        x_scaled[pointNum][dim] = (dataset.data[pointNum][dim] - minsInEach[dim]) / denominator;
+
+                    }
+                    else {
+                        //Shouldnt happen but just as a debug check
+                        System.err.println("ERROR! DENOMINATOR IS ZERO, IN minMaxNorm !");
+                        System.exit(1);
+
+                    }
+
                 }
             }
         }
@@ -438,7 +514,6 @@ public class KMeans {
 
         }catch (Exception e) {
             System.err.println("Error writing normalized dataset");
-            System.exit(1);
         }
     }
 
@@ -470,7 +545,15 @@ public class KMeans {
         double[][] partitionCentroids = new double[numOfClusters][dataset.numOfDimensions];
         for (int cluster = 0; cluster < numOfClusters; cluster++) {
             for(int dim = 0; dim < dataset.numOfDimensions; dim++) {
-                partitionCentroids[cluster][dim] = totalSum[cluster][dim]/totalClusters[cluster];
+
+                //Shouldnt happen but just to be extra safe
+                if (totalClusters[cluster] == 0) {
+
+                    //System.err.println("ERROR! division by 0 in randomPartitionCentroids!");
+                    //System.exit(1);
+                }else {
+                    partitionCentroids[cluster][dim] = totalSum[cluster][dim] / totalClusters[cluster];
+                }
 
             }
 
@@ -488,11 +571,32 @@ public class KMeans {
             assignedCentroids[i] = rand.nextInt(numOfClusters);
         }
 
+
         return assignedCentroids;
 
     }
 
 
+    private static void appendComparisonsCSV(String csvName, String fileName, String method, int runNum, double initialSSE, double finalSSE, int iterations) {
+
+        File file = new File(csvName);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
+
+            if(file.length() == 0) {
+                writer.write("method,file,runNum,initialSSE,finalSSE,iterations");
+                writer.write("\n");
+            }
+
+
+            writer.write(method + "," + fileName + "," + runNum + "," + initialSSE + "," + finalSSE + "," + iterations);
+            writer.write("\n");
+
+        } catch (IOException e) {
+            System.err.println("Error writing CSV file");
+            System.exit(1);
+        }
+
+    }
     //END PART 2 OF PHASE 3
 
 

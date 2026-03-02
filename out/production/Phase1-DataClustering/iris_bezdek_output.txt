@@ -1,0 +1,277 @@
+Run #: 1
+-----------
+Iteration 1 : SSE = 10.642884867918099
+Iteration 2 : SSE = 7.473994609002587
+Iteration 3 : SSE = 7.093433115275513
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Run #: 2
+-----------
+Iteration 1 : SSE = 7.552700856466872
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Run #: 3
+-----------
+Iteration 1 : SSE = 11.739722761104138
+Iteration 2 : SSE = 11.018215227908573
+Iteration 3 : SSE = 10.901824528868373
+Iteration 4 : SSE = 10.892252904461209
+
+Run #: 4
+-----------
+Iteration 1 : SSE = 14.007036383922353
+Iteration 2 : SSE = 7.992276312949075
+Iteration 3 : SSE = 7.090265926758968
+Iteration 4 : SSE = 7.053671908432794
+Iteration 5 : SSE = 7.003835360437281
+Iteration 6 : SSE = 6.990176884225563
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Run #: 5
+-----------
+Iteration 1 : SSE = 11.8021209111637
+Iteration 2 : SSE = 10.997627706609276
+Iteration 3 : SSE = 10.901824528868373
+Iteration 4 : SSE = 10.892252904461209
+
+Best Run: 1: SSE = 6.982216473785234
+Run #: 1
+-----------
+Iteration 1 : SSE = 7.1851149355649255
+Iteration 2 : SSE = 7.154838723642341
+Iteration 3 : SSE = 7.097053933251467
+Iteration 4 : SSE = 7.0764115298722015
+Iteration 5 : SSE = 7.035479910591724
+Iteration 6 : SSE = 6.990176884225563
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Run #: 2
+-----------
+Iteration 1 : SSE = 11.191180393727999
+Iteration 2 : SSE = 10.998166354565456
+Iteration 3 : SSE = 10.933853003369432
+Iteration 4 : SSE = 10.918419737103669
+Iteration 5 : SSE = 10.901824528868373
+Iteration 6 : SSE = 10.892252904461209
+
+Run #: 3
+-----------
+Iteration 1 : SSE = 12.043316586008732
+Iteration 2 : SSE = 11.264371963971374
+Iteration 3 : SSE = 11.206776230883618
+Iteration 4 : SSE = 11.146040046836028
+Iteration 5 : SSE = 11.127195569941478
+Iteration 6 : SSE = 11.098361551777899
+Iteration 7 : SSE = 10.979067833581674
+Iteration 8 : SSE = 10.933853003369432
+Iteration 9 : SSE = 10.918419737103669
+Iteration 10 : SSE = 10.901824528868373
+Iteration 11 : SSE = 10.892252904461209
+
+Run #: 4
+-----------
+Iteration 1 : SSE = 11.24380063651755
+Iteration 2 : SSE = 10.933853003369432
+Iteration 3 : SSE = 10.918419737103669
+Iteration 4 : SSE = 10.901824528868373
+Iteration 5 : SSE = 10.892252904461209
+
+Run #: 5
+-----------
+Iteration 1 : SSE = 22.519934585921586
+Iteration 2 : SSE = 7.542975596784432
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Best Run: 1: SSE = 6.982216473785234
+Method: Initial Centroids by Random Selection
+Initial SSE: 7.1851149355649255
+Final SSE: 6.982216473785234
+Number of Iterations: 8
+
+Run #: 1
+-----------
+Iteration 1 : SSE = 12.741547111570016
+Iteration 2 : SSE = 7.682753233281015
+Iteration 3 : SSE = 7.322123586523113
+Iteration 4 : SSE = 7.212235815081694
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Run #: 2
+-----------
+Iteration 1 : SSE = 10.351974698253256
+Iteration 2 : SSE = 8.754695958156054
+Iteration 3 : SSE = 7.662711324944357
+Iteration 4 : SSE = 7.322123586523113
+Iteration 5 : SSE = 7.212235815081694
+Iteration 6 : SSE = 7.181848906316954
+Iteration 7 : SSE = 7.174690532040338
+
+Run #: 3
+-----------
+Iteration 1 : SSE = 14.524952414746199
+Iteration 2 : SSE = 11.536321582563765
+Iteration 3 : SSE = 11.135477568597176
+Iteration 4 : SSE = 11.093825102482015
+Iteration 5 : SSE = 10.979067833581674
+Iteration 6 : SSE = 10.933853003369432
+Iteration 7 : SSE = 10.918419737103669
+Iteration 8 : SSE = 10.901824528868373
+Iteration 9 : SSE = 10.892252904461209
+
+Run #: 4
+-----------
+Iteration 1 : SSE = 10.01747372984032
+Iteration 2 : SSE = 7.481720333117973
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Run #: 5
+-----------
+Iteration 1 : SSE = 12.745828467253268
+Iteration 2 : SSE = 11.285785292036458
+Iteration 3 : SSE = 11.040144689309594
+Iteration 4 : SSE = 10.9611784466269
+Iteration 5 : SSE = 10.933853003369432
+Iteration 6 : SSE = 10.918419737103669
+Iteration 7 : SSE = 10.901824528868373
+Iteration 8 : SSE = 10.892252904461209
+
+Best Run: 4: SSE = 7.12275017294385
+Method: Centroids by Random Partition
+Initial SSE: 10.01747372984032
+Final SSE: 7.12275017294385
+Number of Iterations: 9
+
+Run #: 1
+-----------
+Iteration 1 : SSE = 8.89436547076658
+Iteration 2 : SSE = 7.220900836859784
+Iteration 3 : SSE = 7.043959403633014
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Run #: 2
+-----------
+Iteration 1 : SSE = 7.086613082944214
+Iteration 2 : SSE = 6.982216473785234
+Iteration 3 : SSE = 6.982216473785234
+
+Run #: 3
+-----------
+Iteration 1 : SSE = 15.247948286745615
+Iteration 2 : SSE = 7.712819846284704
+Iteration 3 : SSE = 6.990176884225563
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Run #: 4
+-----------
+Iteration 1 : SSE = 7.70409177730531
+Iteration 2 : SSE = 7.093433115275513
+Iteration 3 : SSE = 6.998907685940774
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Run #: 5
+-----------
+Iteration 1 : SSE = 11.205479197665449
+Iteration 2 : SSE = 7.5164039898085715
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Best Run: 1: SSE = 6.982216473785234
+ 
+##################################################
+Method: Initial Centroids by Random Selection
+Initial SSE: 8.89436547076658
+Final SSE: 6.982216473785234
+Number of Iterations: 6
+
+Run #: 1
+-----------
+Iteration 1 : SSE = 11.3486550832828
+Iteration 2 : SSE = 7.482829946780085
+Iteration 3 : SSE = 7.099354375910589
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Run #: 2
+-----------
+Iteration 1 : SSE = 14.111112847938914
+Iteration 2 : SSE = 7.653010454766429
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Run #: 3
+-----------
+Iteration 1 : SSE = 13.49905635632591
+Iteration 2 : SSE = 7.671334976195193
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Run #: 4
+-----------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 7.940796274249733
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Run #: 5
+-----------
+Iteration 1 : SSE = 9.849085423073396
+Iteration 2 : SSE = 8.135924089175791
+Iteration 3 : SSE = 7.430517474747103
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Best Run: 1: SSE = 6.982216473785234
+ 
+##################################################
+Method: Centroids by Random Partition
+Initial SSE: 11.3486550832828
+Final SSE: 6.982216473785234
+Number of Iterations: 5
+
