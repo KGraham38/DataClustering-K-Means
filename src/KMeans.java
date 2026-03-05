@@ -45,7 +45,7 @@ public class KMeans {
             //RunResults allRuns = null;
 
             //append existing file and now that we are doing a comparison
-            try (PrintStream outFile = new PrintStream(new FileOutputStream(outputFilename))) {
+            try (PrintStream outFile = new PrintStream(new FileOutputStream(outputFilename, true))) {
 
                 Random random = new Random();
 
@@ -317,12 +317,24 @@ public class KMeans {
     private static RunResults runKMeans(Dataset dataset, Parameters params, Random rand, PrintStream fileOut, int runNum, int centroid_start_method) {
 
         //Print header in both console and my file
-        System.out.println("Run #: " + runNum);
-        System.out.println("-----------");
+        if (centroid_start_method == 0) {
+
+            System.out.println("Random Selection - Run #: " + runNum);
+        }
+        if (centroid_start_method == 1) {
+            System.out.println("Random Partition - Run #: " + runNum);
+        }
+        System.out.println("--------------------------------------");
 
         if (fileOut != null) {
-            fileOut.println("Run #: " + runNum);
-            fileOut.println("-----------");
+            if (centroid_start_method == 0) {
+
+                fileOut.println("Random Selection - Run #: " + runNum);
+            }
+            if (centroid_start_method == 1) {
+                fileOut.println("Random Partition - Run #: " + runNum);
+            }
+            fileOut.println("--------------------------------------");
         }
 
         //Now call each of my steps
@@ -470,7 +482,7 @@ public class KMeans {
             for(int dim = 0; dim < numD; dim++) {
                 double denominator = maxsInEach[dim] - minsInEach[dim];
 
-                //Check for 0 value, testing a few options
+                //Check for 0 value, testing a few options for handling it
                 if(denominator == 0) {
                     //continue
                     //Max precision for double practically 0 but not?
