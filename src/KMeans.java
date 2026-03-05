@@ -27,7 +27,7 @@ public class KMeans {
             //Read our data set file
             Dataset dataset = readFromDataset(parameters.filename);
 
-            //Normalize my whole data set before k means runs
+            //Normalize my data set by column before k means runs using the min max formula
             dataset = minMaxNorm(dataset);
 
             //Print the updated normalized data set for correctness checks
@@ -64,7 +64,7 @@ public class KMeans {
                     RunResults results = runKMeans(dataset, parameters, random, outFile, runIndex, centroid_start_method);
 
                     //if runKmeans returned with a 0 that means we had an empty cluster re-initialize for this run by
-                    //just stepping back 1 index and letting it run again
+                    //decrementing my runIndex which in turn repeats the run from the beginning using a new initialization
                     if (results.iterations== 0){
                         runIndex--;
                         continue;
@@ -417,6 +417,8 @@ public class KMeans {
 
     // START FOR PART 1 of PHASE 3
 
+    //Fairly straightforward just an empty cluster check that steps through my clusters to make sure they all have more
+    //than 0 points in them. If they do have an empty, return true and then I handle it be stepping back a run to recompute the points assigned clusters
     private  static boolean emptyClusterCheck(int[] assignedPoints, int numOfClusters) {
         int[] numClusters = new int[numOfClusters];
 
@@ -431,6 +433,8 @@ public class KMeans {
         }
         return false;
     }
+
+    //My function to normalize our datasets based on the formula: x_scaled = x-xmin / (xmax- xmin)
     private static Dataset minMaxNorm(Dataset dataset){
 
         int numD = dataset.numOfDimensions;
@@ -439,7 +443,7 @@ public class KMeans {
         double[] minsInEach = new double[numD];
         double[] maxsInEach = new double[numD];
 
-        //Assign high positive to min and low negative to max in every position so they are guarenteed to be overwritten durring my loop to collect them
+        //Assign a high positive to min and low negative to max in every position so they are guaranteed to be overwritten during my loop to collect them
         for (int dim = 0; dim < numD; dim++) {
             minsInEach[dim] = Double.POSITIVE_INFINITY;
             maxsInEach[dim] = Double.NEGATIVE_INFINITY;
@@ -465,10 +469,13 @@ public class KMeans {
         for(int pointNum = 0; pointNum < numP; pointNum++) {
             for(int dim = 0; dim < numD; dim++) {
                 double denominator = maxsInEach[dim] - minsInEach[dim];
-                //Check for 0 value testing several options
+
+                //Check for 0 value, testing a few options
                 if(denominator == 0) {
                     //continue
+                    //Max precision for double practically 0 but not?
                     //denominator = .000000000001;
+
                     x_scaled[pointNum][dim] = 0.0;
                 }
                 else {
@@ -478,7 +485,7 @@ public class KMeans {
                     }
                     else {
                         //Shouldnt happen but just as a debug check
-                        System.err.println("ERROR! DENOMINATOR IS ZERO, IN minMaxNorm !");
+                        System.err.println("ERROR! DENOMINATOR IS LESS THAN 0, PROBLEM WITH NORMALIZATION!");
                         System.exit(1);
 
                     }
@@ -525,35 +532,29 @@ public class KMeans {
 
     private static double[][] randomPartitionCentroids(Dataset dataset, int numOfClusters, Random rand) {
 
-        //Random assign my points to my given num of clusters
+        //Assign my points randomly to a cluster in num of clusters
         int[] assignedCentroids = assignPointsRandomly(dataset.numberOfPoints, numOfClusters, rand);
 
         double[][] totalSum = new double[numOfClusters][dataset.numOfDimensions];
         int[] totalClusters = new int[numOfClusters];
 
-        //Add all the points together for each cluster
+        //Add all the points together for each cluster and the number of points in each cluster
         for (int point = 0; point < dataset.numberOfPoints; point++) {
             int clusterNum = assignedCentroids[point];
             totalClusters[clusterNum]++;
 
+            //and then loop over the number of dimensions to add up all the values per dimension in each of my cluster
             for (int dim = 0; dim < dataset.numOfDimensions; dim++) {
                 totalSum[clusterNum][dim] += dataset.data[point][dim];
             }
         }
 
-        //now each clusters mean for my new centroid points
+        //now compute each clusters mean based on assigned points for my new centroid points
         double[][] partitionCentroids = new double[numOfClusters][dataset.numOfDimensions];
         for (int cluster = 0; cluster < numOfClusters; cluster++) {
             for(int dim = 0; dim < dataset.numOfDimensions; dim++) {
 
-                //Shouldnt happen but just to be extra safe
-                if (totalClusters[cluster] == 0) {
-
-                    //System.err.println("ERROR! division by 0 in randomPartitionCentroids!");
-                    //System.exit(1);
-                }else {
-                    partitionCentroids[cluster][dim] = totalSum[cluster][dim] / totalClusters[cluster];
-                }
+                partitionCentroids[cluster][dim] = totalSum[cluster][dim] / totalClusters[cluster];
 
             }
 
@@ -577,6 +578,7 @@ public class KMeans {
     }
 
 
+    //Just creates my csv file so i can easily import my data into excel where I can use a pivot table to compare my initialization methods
     private static void appendComparisonsCSV(String csvName, String fileName, String method, int runNum, double initialSSE, double finalSSE, int iterations) {
 
         File file = new File(csvName);
@@ -870,4 +872,11 @@ No longer used but keeping just in case:
                 System.exit(1);
             }
         }
+
+        //Shouldnt happen but just to be extra safe
+                if (totalClusters[cluster] == 0) {
+
+                    //System.err.println("ERROR! division by 0 in randomPartitionCentroids!");
+                    //System.exit(1);
+                }else {
 */
