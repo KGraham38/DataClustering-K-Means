@@ -1,0 +1,2001 @@
+Random Selection - Run #: 1
+--------------------------------------
+Iteration 1 : SSE = 12.969603369463117
+Iteration 2 : SSE = 9.100118542664209
+Iteration 3 : SSE = 7.371492602019556
+Iteration 4 : SSE = 7.093433115275513
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 2
+--------------------------------------
+Iteration 1 : SSE = 7.352798156565802
+Iteration 2 : SSE = 7.200592737174313
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Random Selection - Run #: 3
+--------------------------------------
+Iteration 1 : SSE = 13.057632162146893
+Iteration 2 : SSE = 11.690948451344136
+Iteration 3 : SSE = 11.041018245436891
+Iteration 4 : SSE = 10.926433494570006
+Iteration 5 : SSE = 10.910252962389126
+Iteration 6 : SSE = 10.892252904461209
+Iteration 7 : SSE = 10.892252904461209
+
+Random Selection - Run #: 4
+--------------------------------------
+Iteration 1 : SSE = 8.493072102349595
+Iteration 2 : SSE = 7.024917274002181
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 5
+--------------------------------------
+Iteration 1 : SSE = 12.526877951003668
+Iteration 2 : SSE = 8.43048895001461
+Iteration 3 : SSE = 7.247353331782546
+Iteration 4 : SSE = 7.071579702373204
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 6
+--------------------------------------
+Iteration 1 : SSE = 8.395952976972449
+Iteration 2 : SSE = 7.023878825173448
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 7
+--------------------------------------
+Iteration 1 : SSE = 8.638099766048041
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Selection - Run #: 8
+--------------------------------------
+Iteration 1 : SSE = 7.690772898651033
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Selection - Run #: 9
+--------------------------------------
+Iteration 1 : SSE = 17.095591641154595
+Iteration 2 : SSE = 8.823624175698226
+Iteration 3 : SSE = 7.169953513644954
+Iteration 4 : SSE = 7.043959403633014
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 10
+--------------------------------------
+Iteration 1 : SSE = 8.678594285815244
+Iteration 2 : SSE = 7.19241481256523
+Iteration 3 : SSE = 7.139801011445314
+Iteration 4 : SSE = 7.12275017294385
+Iteration 5 : SSE = 7.12275017294385
+
+Random Selection - Run #: 11
+--------------------------------------
+Iteration 1 : SSE = 7.1941642385222515
+Iteration 2 : SSE = 7.174690532040338
+Iteration 3 : SSE = 7.156832553063426
+Iteration 4 : SSE = 7.149094569756065
+Iteration 5 : SSE = 7.12275017294385
+Iteration 6 : SSE = 7.12275017294385
+
+Random Selection - Run #: 12
+--------------------------------------
+Iteration 1 : SSE = 8.303780216364355
+Iteration 2 : SSE = 7.049381396199234
+Iteration 3 : SSE = 6.998907685940774
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 13
+--------------------------------------
+Iteration 1 : SSE = 7.141919078830039
+Iteration 2 : SSE = 7.019311992779083
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 14
+--------------------------------------
+Iteration 1 : SSE = 23.981956078093184
+Iteration 2 : SSE = 16.58642805853424
+Iteration 3 : SSE = 10.287592825516958
+Iteration 4 : SSE = 7.584853375867752
+Iteration 5 : SSE = 7.093433115275513
+Iteration 6 : SSE = 6.998907685940774
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Selection - Run #: 15
+--------------------------------------
+Iteration 1 : SSE = 12.31152188179285
+Iteration 2 : SSE = 10.892252904461209
+Iteration 3 : SSE = 10.892252904461209
+
+Random Selection - Run #: 16
+--------------------------------------
+Iteration 1 : SSE = 20.065171294279626
+Iteration 2 : SSE = 11.783563500825165
+Iteration 3 : SSE = 7.620572627070342
+Iteration 4 : SSE = 7.019311992779083
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Selection - Run #: 17
+--------------------------------------
+Iteration 1 : SSE = 8.841231024553435
+Iteration 2 : SSE = 7.2952157613055
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Selection - Run #: 18
+--------------------------------------
+Iteration 1 : SSE = 11.233102737383286
+Iteration 2 : SSE = 11.194856790051437
+Iteration 3 : SSE = 11.084112529206731
+Iteration 4 : SSE = 10.979067833581674
+Iteration 5 : SSE = 10.933853003369432
+Iteration 6 : SSE = 10.918419737103669
+Iteration 7 : SSE = 10.901824528868373
+Iteration 8 : SSE = 10.892252904461209
+
+Random Selection - Run #: 19
+--------------------------------------
+Iteration 1 : SSE = 9.024321634551129
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Selection - Run #: 20
+--------------------------------------
+Iteration 1 : SSE = 21.717398565670603
+Iteration 2 : SSE = 11.05088983851759
+Iteration 3 : SSE = 7.762240222864372
+Iteration 4 : SSE = 7.093433115275513
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 21
+--------------------------------------
+Iteration 1 : SSE = 11.199643259703823
+Iteration 2 : SSE = 11.13865940328486
+Iteration 3 : SSE = 10.998166354565456
+Iteration 4 : SSE = 10.933853003369432
+Iteration 5 : SSE = 10.918419737103669
+Iteration 6 : SSE = 10.901824528868373
+Iteration 7 : SSE = 10.892252904461209
+
+Random Selection - Run #: 22
+--------------------------------------
+Iteration 1 : SSE = 16.120863241802173
+Iteration 2 : SSE = 7.8091965646455845
+Iteration 3 : SSE = 7.139801011445314
+Iteration 4 : SSE = 7.12275017294385
+Iteration 5 : SSE = 7.12275017294385
+
+Random Selection - Run #: 23
+--------------------------------------
+Iteration 1 : SSE = 19.248568083743304
+Iteration 2 : SSE = 14.515155418261253
+Iteration 3 : SSE = 10.323687953420485
+Iteration 4 : SSE = 7.180049959106433
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Selection - Run #: 24
+--------------------------------------
+Iteration 1 : SSE = 12.24328708511544
+Iteration 2 : SSE = 10.904317097446674
+Iteration 3 : SSE = 10.892252904461209
+Iteration 4 : SSE = 10.892252904461209
+
+Random Selection - Run #: 25
+--------------------------------------
+Iteration 1 : SSE = 14.757284536667894
+Iteration 2 : SSE = 7.139801011445314
+Iteration 3 : SSE = 7.12275017294385
+Iteration 4 : SSE = 7.12275017294385
+
+Random Selection - Run #: 26
+--------------------------------------
+Iteration 1 : SSE = 21.244738261910243
+Iteration 2 : SSE = 11.304782445452435
+Iteration 3 : SSE = 7.4113516566774855
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Selection - Run #: 27
+--------------------------------------
+Iteration 1 : SSE = 8.781339047073578
+Iteration 2 : SSE = 7.134954636395356
+Iteration 3 : SSE = 7.019311992779083
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 28
+--------------------------------------
+Iteration 1 : SSE = 19.063376173778295
+Iteration 2 : SSE = 13.465523606938932
+Iteration 3 : SSE = 9.389051377685574
+Iteration 4 : SSE = 7.437463041981091
+Iteration 5 : SSE = 7.132643398246553
+Iteration 6 : SSE = 6.998907685940774
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Selection - Run #: 29
+--------------------------------------
+Iteration 1 : SSE = 16.941724123298354
+Iteration 2 : SSE = 8.462124792906923
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Selection - Run #: 30
+--------------------------------------
+Iteration 1 : SSE = 8.144016346309128
+Iteration 2 : SSE = 7.1773390155655115
+Iteration 3 : SSE = 7.097053933251467
+Iteration 4 : SSE = 7.0764115298722015
+Iteration 5 : SSE = 7.035479910591724
+Iteration 6 : SSE = 6.990176884225563
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Selection - Run #: 31
+--------------------------------------
+Iteration 1 : SSE = 11.99090272173409
+Iteration 2 : SSE = 11.438732499021672
+Iteration 3 : SSE = 11.11123629040615
+Iteration 4 : SSE = 11.014408908464496
+Iteration 5 : SSE = 10.933853003369432
+Iteration 6 : SSE = 10.918419737103669
+Iteration 7 : SSE = 10.901824528868373
+Iteration 8 : SSE = 10.892252904461209
+
+Random Selection - Run #: 32
+--------------------------------------
+Iteration 1 : SSE = 8.119989911472162
+Iteration 2 : SSE = 7.019311992779083
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 33
+--------------------------------------
+Iteration 1 : SSE = 10.17926025573487
+Iteration 2 : SSE = 7.7544272163913766
+Iteration 3 : SSE = 7.132643398246553
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Selection - Run #: 34
+--------------------------------------
+Iteration 1 : SSE = 19.508574940325715
+Iteration 2 : SSE = 9.57610740501397
+Iteration 3 : SSE = 7.093433115275513
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Selection - Run #: 35
+--------------------------------------
+Iteration 1 : SSE = 15.857005001059088
+Iteration 2 : SSE = 9.208293714404682
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 36
+--------------------------------------
+Iteration 1 : SSE = 11.165480459027362
+Iteration 2 : SSE = 10.943221556123808
+Iteration 3 : SSE = 10.91366305745158
+Iteration 4 : SSE = 10.893222690792301
+Iteration 5 : SSE = 10.893222690792301
+
+Random Selection - Run #: 37
+--------------------------------------
+Iteration 1 : SSE = 11.206368259436175
+Iteration 2 : SSE = 10.893222690792301
+Iteration 3 : SSE = 10.893222690792301
+
+Random Selection - Run #: 38
+--------------------------------------
+Iteration 1 : SSE = 17.78637064032525
+Iteration 2 : SSE = 9.837688445420673
+Iteration 3 : SSE = 7.086613082944214
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 39
+--------------------------------------
+Iteration 1 : SSE = 14.990253173387163
+Iteration 2 : SSE = 10.624134604062704
+Iteration 3 : SSE = 8.639751286915152
+Iteration 4 : SSE = 7.305233510646177
+Iteration 5 : SSE = 7.093433115275513
+Iteration 6 : SSE = 6.998907685940774
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Selection - Run #: 40
+--------------------------------------
+Iteration 1 : SSE = 21.496363697783924
+Iteration 2 : SSE = 9.167020090716072
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 41
+--------------------------------------
+Iteration 1 : SSE = 20.554312508710396
+Iteration 2 : SSE = 12.736149147047863
+Iteration 3 : SSE = 8.012106966820202
+Iteration 4 : SSE = 7.093433115275513
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 42
+--------------------------------------
+Iteration 1 : SSE = 11.95439691973091
+Iteration 2 : SSE = 10.64807816254685
+Iteration 3 : SSE = 9.340943631991484
+Iteration 4 : SSE = 7.964518140732817
+Iteration 5 : SSE = 7.430517474747103
+Iteration 6 : SSE = 7.256494071414175
+Iteration 7 : SSE = 7.1941642385222515
+Iteration 8 : SSE = 7.174690532040338
+Iteration 9 : SSE = 7.156832553063426
+Iteration 10 : SSE = 7.149094569756065
+Iteration 11 : SSE = 7.12275017294385
+Iteration 12 : SSE = 7.12275017294385
+
+Random Selection - Run #: 43
+--------------------------------------
+Iteration 1 : SSE = 11.830847674018848
+Iteration 2 : SSE = 11.420411433302101
+Iteration 3 : SSE = 11.250237748557252
+Iteration 4 : SSE = 11.188498558381013
+Iteration 5 : SSE = 11.146040046836028
+Iteration 6 : SSE = 11.127195569941478
+Iteration 7 : SSE = 11.098361551777899
+Iteration 8 : SSE = 10.979067833581674
+Iteration 9 : SSE = 10.933853003369432
+Iteration 10 : SSE = 10.918419737103669
+Iteration 11 : SSE = 10.901824528868373
+Iteration 12 : SSE = 10.892252904461209
+
+Random Selection - Run #: 44
+--------------------------------------
+Iteration 1 : SSE = 8.163282098367029
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Selection - Run #: 45
+--------------------------------------
+Iteration 1 : SSE = 7.498336551143344
+Iteration 2 : SSE = 7.1941642385222515
+Iteration 3 : SSE = 7.174690532040338
+Iteration 4 : SSE = 7.156832553063426
+Iteration 5 : SSE = 7.149094569756065
+Iteration 6 : SSE = 7.12275017294385
+Iteration 7 : SSE = 7.12275017294385
+
+Random Selection - Run #: 46
+--------------------------------------
+Iteration 1 : SSE = 10.405213542923379
+Iteration 2 : SSE = 8.281873471095075
+Iteration 3 : SSE = 7.247353331782546
+Iteration 4 : SSE = 7.071579702373204
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 47
+--------------------------------------
+Iteration 1 : SSE = 11.403629360760046
+Iteration 2 : SSE = 7.711039342542049
+Iteration 3 : SSE = 7.136537117500293
+Iteration 4 : SSE = 7.111073746103841
+Iteration 5 : SSE = 7.0764115298722015
+Iteration 6 : SSE = 7.035479910591724
+Iteration 7 : SSE = 6.990176884225563
+Iteration 8 : SSE = 6.982216473785234
+Iteration 9 : SSE = 6.982216473785234
+
+Random Selection - Run #: 48
+--------------------------------------
+Iteration 1 : SSE = 10.989487900613831
+Iteration 2 : SSE = 10.892252904461209
+Iteration 3 : SSE = 10.892252904461209
+
+Random Selection - Run #: 49
+--------------------------------------
+Iteration 1 : SSE = 11.941868942068037
+Iteration 2 : SSE = 11.230342687047827
+Iteration 3 : SSE = 10.212402661129024
+Iteration 4 : SSE = 8.644106258583674
+Iteration 5 : SSE = 7.662711324944357
+Iteration 6 : SSE = 7.322123586523113
+Iteration 7 : SSE = 7.212235815081694
+Iteration 8 : SSE = 7.181848906316954
+Iteration 9 : SSE = 7.174690532040338
+
+Random Selection - Run #: 50
+--------------------------------------
+Iteration 1 : SSE = 19.10641159930993
+Iteration 2 : SSE = 7.003835360437281
+Iteration 3 : SSE = 6.990176884225563
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 51
+--------------------------------------
+Iteration 1 : SSE = 7.9828284741152995
+Iteration 2 : SSE = 7.0930657985198104
+Iteration 3 : SSE = 7.02007645792582
+Iteration 4 : SSE = 6.990176884225563
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Selection - Run #: 52
+--------------------------------------
+Iteration 1 : SSE = 7.747596485455663
+Iteration 2 : SSE = 6.990176884225563
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 53
+--------------------------------------
+Iteration 1 : SSE = 11.527027178570028
+Iteration 2 : SSE = 10.892252904461209
+Iteration 3 : SSE = 10.892252904461209
+
+Random Selection - Run #: 54
+--------------------------------------
+Iteration 1 : SSE = 16.930538757558153
+Iteration 2 : SSE = 7.78451878545169
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Selection - Run #: 55
+--------------------------------------
+Iteration 1 : SSE = 12.558030323950671
+Iteration 2 : SSE = 7.378157233149541
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 56
+--------------------------------------
+Iteration 1 : SSE = 11.199643259703823
+Iteration 2 : SSE = 11.13865940328486
+Iteration 3 : SSE = 10.998166354565456
+Iteration 4 : SSE = 10.933853003369432
+Iteration 5 : SSE = 10.918419737103669
+Iteration 6 : SSE = 10.901824528868373
+Iteration 7 : SSE = 10.892252904461209
+
+Random Selection - Run #: 57
+--------------------------------------
+Iteration 1 : SSE = 7.70409177730531
+Iteration 2 : SSE = 7.093433115275513
+Iteration 3 : SSE = 6.998907685940774
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 58
+--------------------------------------
+Iteration 1 : SSE = 11.504941038731085
+Iteration 2 : SSE = 7.646527781103604
+Iteration 3 : SSE = 7.019311992779083
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 59
+--------------------------------------
+Iteration 1 : SSE = 12.55398296669949
+Iteration 2 : SSE = 8.599744307330237
+Iteration 3 : SSE = 7.019311992779083
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 60
+--------------------------------------
+Iteration 1 : SSE = 10.970508392162225
+Iteration 2 : SSE = 7.629521232243021
+Iteration 3 : SSE = 7.093433115275513
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Selection - Run #: 61
+--------------------------------------
+Iteration 1 : SSE = 19.46667719535
+Iteration 2 : SSE = 13.562873210083366
+Iteration 3 : SSE = 9.665739033167982
+Iteration 4 : SSE = 7.516221983860143
+Iteration 5 : SSE = 7.132643398246553
+Iteration 6 : SSE = 6.998907685940774
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Selection - Run #: 62
+--------------------------------------
+Iteration 1 : SSE = 14.145943846548523
+Iteration 2 : SSE = 7.600990131989866
+Iteration 3 : SSE = 6.998907685940774
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 63
+--------------------------------------
+Iteration 1 : SSE = 11.510388781604545
+Iteration 2 : SSE = 10.998776312208243
+Iteration 3 : SSE = 10.892252904461209
+Iteration 4 : SSE = 10.892252904461209
+
+Random Selection - Run #: 64
+--------------------------------------
+Iteration 1 : SSE = 11.207845036369271
+Iteration 2 : SSE = 10.926433494570006
+Iteration 3 : SSE = 10.910252962389126
+Iteration 4 : SSE = 10.892252904461209
+Iteration 5 : SSE = 10.892252904461209
+
+Random Selection - Run #: 65
+--------------------------------------
+Iteration 1 : SSE = 20.813789234881153
+Iteration 2 : SSE = 7.12275017294385
+Iteration 3 : SSE = 7.12275017294385
+
+Random Selection - Run #: 66
+--------------------------------------
+Iteration 1 : SSE = 14.559682952019422
+Iteration 2 : SSE = 11.25074015124758
+Iteration 3 : SSE = 10.86110971349693
+Iteration 4 : SSE = 10.35407605711251
+Iteration 5 : SSE = 8.881991623941174
+Iteration 6 : SSE = 7.662711324944357
+Iteration 7 : SSE = 7.322123586523113
+Iteration 8 : SSE = 7.212235815081694
+Iteration 9 : SSE = 7.181848906316954
+Iteration 10 : SSE = 7.174690532040338
+
+Random Selection - Run #: 67
+--------------------------------------
+Iteration 1 : SSE = 16.544789501628934
+Iteration 2 : SSE = 10.304312813352773
+Iteration 3 : SSE = 7.695361146405283
+Iteration 4 : SSE = 7.093433115275513
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 68
+--------------------------------------
+Iteration 1 : SSE = 14.824210839025126
+Iteration 2 : SSE = 8.595710232866535
+Iteration 3 : SSE = 7.093433115275513
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Selection - Run #: 69
+--------------------------------------
+Iteration 1 : SSE = 11.199075994322563
+Iteration 2 : SSE = 11.152403314115153
+Iteration 3 : SSE = 11.014408908464496
+Iteration 4 : SSE = 10.933853003369432
+Iteration 5 : SSE = 10.918419737103669
+Iteration 6 : SSE = 10.901824528868373
+Iteration 7 : SSE = 10.892252904461209
+
+Random Selection - Run #: 70
+--------------------------------------
+Iteration 1 : SSE = 7.328313705228314
+Iteration 2 : SSE = 7.069985748007054
+Iteration 3 : SSE = 6.998907685940774
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 71
+--------------------------------------
+Iteration 1 : SSE = 18.209032525814965
+Iteration 2 : SSE = 7.433241748290035
+Iteration 3 : SSE = 7.156832553063426
+Iteration 4 : SSE = 7.149094569756065
+Iteration 5 : SSE = 7.12275017294385
+Iteration 6 : SSE = 7.12275017294385
+
+Random Selection - Run #: 72
+--------------------------------------
+Iteration 1 : SSE = 10.57936108588831
+Iteration 2 : SSE = 7.604607622905221
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Selection - Run #: 73
+--------------------------------------
+Iteration 1 : SSE = 7.134954636395356
+Iteration 2 : SSE = 7.019311992779083
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 74
+--------------------------------------
+Iteration 1 : SSE = 17.63423799083954
+Iteration 2 : SSE = 10.98401645496108
+Iteration 3 : SSE = 10.933853003369432
+Iteration 4 : SSE = 10.918419737103669
+Iteration 5 : SSE = 10.901824528868373
+Iteration 6 : SSE = 10.892252904461209
+
+Random Selection - Run #: 75
+--------------------------------------
+Iteration 1 : SSE = 15.519754969997162
+Iteration 2 : SSE = 7.395877023804796
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Selection - Run #: 76
+--------------------------------------
+Iteration 1 : SSE = 7.73551652957855
+Iteration 2 : SSE = 7.019311992779083
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Selection - Run #: 77
+--------------------------------------
+Iteration 1 : SSE = 9.27087654317419
+Iteration 2 : SSE = 7.225793164252959
+Iteration 3 : SSE = 7.097053933251467
+Iteration 4 : SSE = 7.0764115298722015
+Iteration 5 : SSE = 7.035479910591724
+Iteration 6 : SSE = 6.990176884225563
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Selection - Run #: 78
+--------------------------------------
+Iteration 1 : SSE = 11.700932123061497
+Iteration 2 : SSE = 11.117563803118728
+Iteration 3 : SSE = 10.893222690792301
+Iteration 4 : SSE = 10.893222690792301
+
+Random Selection - Run #: 79
+--------------------------------------
+Iteration 1 : SSE = 12.389920574792718
+Iteration 2 : SSE = 11.030946013669904
+Iteration 3 : SSE = 9.638444546605083
+Iteration 4 : SSE = 8.203552442449713
+Iteration 5 : SSE = 7.430517474747103
+Iteration 6 : SSE = 7.256494071414175
+Iteration 7 : SSE = 7.1941642385222515
+Iteration 8 : SSE = 7.174690532040338
+Iteration 9 : SSE = 7.156832553063426
+Iteration 10 : SSE = 7.149094569756065
+Iteration 11 : SSE = 7.12275017294385
+Iteration 12 : SSE = 7.12275017294385
+
+Random Selection - Run #: 80
+--------------------------------------
+Iteration 1 : SSE = 9.939310614890097
+Iteration 2 : SSE = 8.05993930460268
+Iteration 3 : SSE = 7.430517474747103
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Random Selection - Run #: 81
+--------------------------------------
+Iteration 1 : SSE = 6.982216473785234
+Iteration 2 : SSE = 6.982216473785234
+
+Random Selection - Run #: 82
+--------------------------------------
+Iteration 1 : SSE = 10.626878740005028
+Iteration 2 : SSE = 9.340943631991484
+Iteration 3 : SSE = 7.964518140732817
+Iteration 4 : SSE = 7.430517474747103
+Iteration 5 : SSE = 7.256494071414175
+Iteration 6 : SSE = 7.1941642385222515
+Iteration 7 : SSE = 7.174690532040338
+Iteration 8 : SSE = 7.156832553063426
+Iteration 9 : SSE = 7.149094569756065
+Iteration 10 : SSE = 7.12275017294385
+Iteration 11 : SSE = 7.12275017294385
+
+Random Selection - Run #: 83
+--------------------------------------
+Iteration 1 : SSE = 8.639018395320162
+Iteration 2 : SSE = 7.248845283475224
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Random Selection - Run #: 84
+--------------------------------------
+Iteration 1 : SSE = 10.979613541073252
+Iteration 2 : SSE = 10.892252904461209
+Iteration 3 : SSE = 10.892252904461209
+
+Random Selection - Run #: 85
+--------------------------------------
+Iteration 1 : SSE = 11.816443210597997
+Iteration 2 : SSE = 11.241171503814172
+Iteration 3 : SSE = 11.20673926154255
+Iteration 4 : SSE = 11.11503738460937
+Iteration 5 : SSE = 11.071111413303264
+Iteration 6 : SSE = 10.9611784466269
+Iteration 7 : SSE = 10.933853003369432
+Iteration 8 : SSE = 10.918419737103669
+Iteration 9 : SSE = 10.901824528868373
+Iteration 10 : SSE = 10.892252904461209
+
+Random Selection - Run #: 86
+--------------------------------------
+Iteration 1 : SSE = 11.078137385318996
+Iteration 2 : SSE = 10.9611784466269
+Iteration 3 : SSE = 10.933853003369432
+Iteration 4 : SSE = 10.918419737103669
+Iteration 5 : SSE = 10.901824528868373
+Iteration 6 : SSE = 10.892252904461209
+
+Random Selection - Run #: 87
+--------------------------------------
+Iteration 1 : SSE = 33.15741970623933
+Iteration 2 : SSE = 11.491360842834652
+Iteration 3 : SSE = 11.120940482271616
+Iteration 4 : SSE = 11.018336609584464
+Iteration 5 : SSE = 10.946270692850506
+Iteration 6 : SSE = 10.926433494570006
+Iteration 7 : SSE = 10.910252962389126
+Iteration 8 : SSE = 10.892252904461209
+Iteration 9 : SSE = 10.892252904461209
+
+Random Selection - Run #: 88
+--------------------------------------
+Iteration 1 : SSE = 11.689012890464126
+Iteration 2 : SSE = 11.419805911313265
+Iteration 3 : SSE = 11.265365112745464
+Iteration 4 : SSE = 11.20932809954015
+Iteration 5 : SSE = 11.18271355987223
+Iteration 6 : SSE = 11.127195569941478
+Iteration 7 : SSE = 11.098361551777899
+Iteration 8 : SSE = 10.979067833581674
+Iteration 9 : SSE = 10.933853003369432
+Iteration 10 : SSE = 10.918419737103669
+Iteration 11 : SSE = 10.901824528868373
+Iteration 12 : SSE = 10.892252904461209
+
+Random Selection - Run #: 89
+--------------------------------------
+Iteration 1 : SSE = 7.071929340309026
+Iteration 2 : SSE = 6.982216473785234
+Iteration 3 : SSE = 6.982216473785234
+
+Random Selection - Run #: 90
+--------------------------------------
+Iteration 1 : SSE = 11.226060165365073
+Iteration 2 : SSE = 11.003998277637073
+Iteration 3 : SSE = 10.926433494570006
+Iteration 4 : SSE = 10.910252962389126
+Iteration 5 : SSE = 10.892252904461209
+Iteration 6 : SSE = 10.892252904461209
+
+Random Selection - Run #: 91
+--------------------------------------
+Iteration 1 : SSE = 11.6010693911258
+Iteration 2 : SSE = 7.546964830792572
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Selection - Run #: 92
+--------------------------------------
+Iteration 1 : SSE = 12.106040226796132
+Iteration 2 : SSE = 11.373748795089387
+Iteration 3 : SSE = 9.138664396979827
+Iteration 4 : SSE = 7.815964348634909
+Iteration 5 : SSE = 7.358006297260011
+Iteration 6 : SSE = 7.232374384986909
+Iteration 7 : SSE = 7.181848906316954
+Iteration 8 : SSE = 7.174690532040338
+
+Random Selection - Run #: 93
+--------------------------------------
+Iteration 1 : SSE = 11.191180393727999
+Iteration 2 : SSE = 10.998166354565456
+Iteration 3 : SSE = 10.933853003369432
+Iteration 4 : SSE = 10.918419737103669
+Iteration 5 : SSE = 10.901824528868373
+Iteration 6 : SSE = 10.892252904461209
+
+Random Selection - Run #: 94
+--------------------------------------
+Iteration 1 : SSE = 7.87257026513309
+Iteration 2 : SSE = 7.1851149355649255
+Iteration 3 : SSE = 7.154838723642341
+Iteration 4 : SSE = 7.097053933251467
+Iteration 5 : SSE = 7.0764115298722015
+Iteration 6 : SSE = 7.035479910591724
+Iteration 7 : SSE = 6.990176884225563
+Iteration 8 : SSE = 6.982216473785234
+Iteration 9 : SSE = 6.982216473785234
+
+Random Selection - Run #: 95
+--------------------------------------
+Iteration 1 : SSE = 7.430517474747103
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Selection - Run #: 96
+--------------------------------------
+Iteration 1 : SSE = 17.916307788584675
+Iteration 2 : SSE = 9.339659322157665
+Iteration 3 : SSE = 7.169953513644954
+Iteration 4 : SSE = 7.043959403633014
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Selection - Run #: 97
+--------------------------------------
+Iteration 1 : SSE = 7.2854503309967535
+Iteration 2 : SSE = 7.154838723642341
+Iteration 3 : SSE = 7.097053933251467
+Iteration 4 : SSE = 7.0764115298722015
+Iteration 5 : SSE = 7.035479910591724
+Iteration 6 : SSE = 6.990176884225563
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Selection - Run #: 98
+--------------------------------------
+Iteration 1 : SSE = 9.084917950964936
+Iteration 2 : SSE = 7.049381396199234
+Iteration 3 : SSE = 6.998907685940774
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Selection - Run #: 99
+--------------------------------------
+Iteration 1 : SSE = 11.239641306026673
+Iteration 2 : SSE = 11.1211130715613
+Iteration 3 : SSE = 11.02633151336148
+Iteration 4 : SSE = 10.946270692850506
+Iteration 5 : SSE = 10.926433494570006
+Iteration 6 : SSE = 10.910252962389126
+Iteration 7 : SSE = 10.892252904461209
+Iteration 8 : SSE = 10.892252904461209
+
+Random Selection - Run #: 100
+--------------------------------------
+Iteration 1 : SSE = 8.793297342961178
+Iteration 2 : SSE = 7.437463041981091
+Iteration 3 : SSE = 7.132643398246553
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Best Run: 1: SSE = 6.982216473785234
+ 
+##################################################
+Method: Initial Centroids by Random Selection
+##################################################
+Initial SSE: 7.936192250435342 on Run #: 95
+Final SSE: 6.982216473785234 on Run #: 1
+Number of Iterations: 2 on Run #: 81
+
+##################################################
+Random Partition - Run #: 1
+--------------------------------------
+Iteration 1 : SSE = 10.265106256841817
+Iteration 2 : SSE = 7.165776393665701
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Partition - Run #: 2
+--------------------------------------
+Iteration 1 : SSE = 9.545764058628139
+Iteration 2 : SSE = 7.815964348634909
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Random Partition - Run #: 3
+--------------------------------------
+Iteration 1 : SSE = 12.436775796267488
+Iteration 2 : SSE = 7.760566369495231
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 4
+--------------------------------------
+Iteration 1 : SSE = 9.430277797011007
+Iteration 2 : SSE = 7.815964348634909
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Random Partition - Run #: 5
+--------------------------------------
+Iteration 1 : SSE = 12.507792619150166
+Iteration 2 : SSE = 8.354342856911677
+Iteration 3 : SSE = 7.169953513644954
+Iteration 4 : SSE = 7.043959403633014
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Partition - Run #: 6
+--------------------------------------
+Iteration 1 : SSE = 13.750475351448076
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 7
+--------------------------------------
+Iteration 1 : SSE = 9.76765539573102
+Iteration 2 : SSE = 7.322123586523113
+Iteration 3 : SSE = 7.212235815081694
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 8
+--------------------------------------
+Iteration 1 : SSE = 12.779046095502071
+Iteration 2 : SSE = 7.652030867561179
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 9
+--------------------------------------
+Iteration 1 : SSE = 20.183722023748725
+Iteration 2 : SSE = 9.091121949623032
+Iteration 3 : SSE = 7.067547660492105
+Iteration 4 : SSE = 7.003835360437281
+Iteration 5 : SSE = 6.990176884225563
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Partition - Run #: 10
+--------------------------------------
+Iteration 1 : SSE = 9.413952604569486
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 11
+--------------------------------------
+Iteration 1 : SSE = 10.029059782105161
+Iteration 2 : SSE = 7.185048393465571
+Iteration 3 : SSE = 7.1650824506961746
+Iteration 4 : SSE = 7.124076743991191
+Iteration 5 : SSE = 7.097053933251467
+Iteration 6 : SSE = 7.0764115298722015
+Iteration 7 : SSE = 7.035479910591724
+Iteration 8 : SSE = 6.990176884225563
+Iteration 9 : SSE = 6.982216473785234
+Iteration 10 : SSE = 6.982216473785234
+
+Random Partition - Run #: 12
+--------------------------------------
+Iteration 1 : SSE = 11.405781398216723
+Iteration 2 : SSE = 11.29054066313469
+Iteration 3 : SSE = 11.254986189796366
+Iteration 4 : SSE = 11.146975791721422
+Iteration 5 : SSE = 9.865109564934283
+Iteration 6 : SSE = 7.239737297950481
+Iteration 7 : SSE = 7.003835360437281
+Iteration 8 : SSE = 6.990176884225563
+Iteration 9 : SSE = 6.982216473785234
+Iteration 10 : SSE = 6.982216473785234
+
+Random Partition - Run #: 13
+--------------------------------------
+Iteration 1 : SSE = 10.977997260384425
+Iteration 2 : SSE = 10.81532492296579
+Iteration 3 : SSE = 10.212402661129024
+Iteration 4 : SSE = 8.644106258583674
+Iteration 5 : SSE = 7.662711324944357
+Iteration 6 : SSE = 7.322123586523113
+Iteration 7 : SSE = 7.212235815081694
+Iteration 8 : SSE = 7.181848906316954
+Iteration 9 : SSE = 7.174690532040338
+
+Random Partition - Run #: 14
+--------------------------------------
+Iteration 1 : SSE = 10.04957523636601
+Iteration 2 : SSE = 7.897970365047445
+Iteration 3 : SSE = 7.430517474747103
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Random Partition - Run #: 15
+--------------------------------------
+Iteration 1 : SSE = 9.983738814059723
+Iteration 2 : SSE = 7.807664995671259
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Random Partition - Run #: 16
+--------------------------------------
+Iteration 1 : SSE = 8.038112523762148
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 17
+--------------------------------------
+Iteration 1 : SSE = 11.53255938793747
+Iteration 2 : SSE = 9.165387619777094
+Iteration 3 : SSE = 7.886457388079136
+Iteration 4 : SSE = 7.430517474747103
+Iteration 5 : SSE = 7.256494071414175
+Iteration 6 : SSE = 7.1941642385222515
+Iteration 7 : SSE = 7.174690532040338
+Iteration 8 : SSE = 7.156832553063426
+Iteration 9 : SSE = 7.149094569756065
+Iteration 10 : SSE = 7.12275017294385
+Iteration 11 : SSE = 7.12275017294385
+
+Random Partition - Run #: 18
+--------------------------------------
+Iteration 1 : SSE = 8.372783304401707
+Iteration 2 : SSE = 7.366326782487278
+Iteration 3 : SSE = 7.212235815081694
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 19
+--------------------------------------
+Iteration 1 : SSE = 13.119778572423208
+Iteration 2 : SSE = 7.569283517811089
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 20
+--------------------------------------
+Iteration 1 : SSE = 9.651207297098235
+Iteration 2 : SSE = 7.358006297260011
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 21
+--------------------------------------
+Iteration 1 : SSE = 8.804220974534351
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 22
+--------------------------------------
+Iteration 1 : SSE = 26.037503764365365
+Iteration 2 : SSE = 10.564552211129309
+Iteration 3 : SSE = 7.214171413682808
+Iteration 4 : SSE = 7.166274098580947
+Iteration 5 : SSE = 7.149094569756065
+Iteration 6 : SSE = 7.12275017294385
+Iteration 7 : SSE = 7.12275017294385
+
+Random Partition - Run #: 23
+--------------------------------------
+Iteration 1 : SSE = 14.066840784420984
+Iteration 2 : SSE = 11.403758193137595
+Iteration 3 : SSE = 11.135477568597176
+Iteration 4 : SSE = 11.093825102482015
+Iteration 5 : SSE = 10.979067833581674
+Iteration 6 : SSE = 10.933853003369432
+Iteration 7 : SSE = 10.918419737103669
+Iteration 8 : SSE = 10.901824528868373
+Iteration 9 : SSE = 10.892252904461209
+
+Random Partition - Run #: 24
+--------------------------------------
+Iteration 1 : SSE = 10.061656431787327
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 25
+--------------------------------------
+Iteration 1 : SSE = 10.813945073722444
+Iteration 2 : SSE = 7.358006297260011
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 26
+--------------------------------------
+Iteration 1 : SSE = 11.97122022891033
+Iteration 2 : SSE = 7.802529640782389
+Iteration 3 : SSE = 7.322123586523113
+Iteration 4 : SSE = 7.212235815081694
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Random Partition - Run #: 27
+--------------------------------------
+Iteration 1 : SSE = 12.246163556322635
+Iteration 2 : SSE = 7.491567094772673
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 28
+--------------------------------------
+Iteration 1 : SSE = 14.958377910515635
+Iteration 2 : SSE = 11.710251516163845
+Iteration 3 : SSE = 11.166761450284497
+Iteration 4 : SSE = 11.120940482271616
+Iteration 5 : SSE = 11.018336609584464
+Iteration 6 : SSE = 10.946270692850506
+Iteration 7 : SSE = 10.926433494570006
+Iteration 8 : SSE = 10.910252962389126
+Iteration 9 : SSE = 10.892252904461209
+Iteration 10 : SSE = 10.892252904461209
+
+Random Partition - Run #: 29
+--------------------------------------
+Iteration 1 : SSE = 9.911285376919144
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 30
+--------------------------------------
+Iteration 1 : SSE = 11.10992173544829
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 31
+--------------------------------------
+Iteration 1 : SSE = 7.718362485192987
+Iteration 2 : SSE = 7.2952157613055
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 32
+--------------------------------------
+Iteration 1 : SSE = 13.509906078809582
+Iteration 2 : SSE = 11.741293358801643
+Iteration 3 : SSE = 8.722987247032034
+Iteration 4 : SSE = 7.371492602019556
+Iteration 5 : SSE = 7.093433115275513
+Iteration 6 : SSE = 6.998907685940774
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Random Partition - Run #: 33
+--------------------------------------
+Iteration 1 : SSE = 12.652447945224425
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 34
+--------------------------------------
+Iteration 1 : SSE = 16.00998418023647
+Iteration 2 : SSE = 11.934384013528158
+Iteration 3 : SSE = 11.02379717767671
+Iteration 4 : SSE = 10.947775200017016
+Iteration 5 : SSE = 10.924906900596623
+Iteration 6 : SSE = 10.916497845409946
+
+Random Partition - Run #: 35
+--------------------------------------
+Iteration 1 : SSE = 14.197993739335136
+Iteration 2 : SSE = 11.460189843679647
+Iteration 3 : SSE = 11.077275054945135
+Iteration 4 : SSE = 10.979067833581674
+Iteration 5 : SSE = 10.933853003369432
+Iteration 6 : SSE = 10.918419737103669
+Iteration 7 : SSE = 10.901824528868373
+Iteration 8 : SSE = 10.892252904461209
+
+Random Partition - Run #: 36
+--------------------------------------
+Iteration 1 : SSE = 13.225255036357831
+Iteration 2 : SSE = 7.234664931405257
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Random Partition - Run #: 37
+--------------------------------------
+Iteration 1 : SSE = 12.694827270361257
+Iteration 2 : SSE = 11.560741039748684
+Iteration 3 : SSE = 7.6989531849798585
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 38
+--------------------------------------
+Iteration 1 : SSE = 8.425898089427045
+Iteration 2 : SSE = 7.139801011445314
+Iteration 3 : SSE = 7.12275017294385
+Iteration 4 : SSE = 7.12275017294385
+
+Random Partition - Run #: 39
+--------------------------------------
+Iteration 1 : SSE = 9.05445706952622
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 40
+--------------------------------------
+Iteration 1 : SSE = 11.396264511744844
+Iteration 2 : SSE = 9.165387619777094
+Iteration 3 : SSE = 7.886457388079136
+Iteration 4 : SSE = 7.430517474747103
+Iteration 5 : SSE = 7.256494071414175
+Iteration 6 : SSE = 7.1941642385222515
+Iteration 7 : SSE = 7.174690532040338
+Iteration 8 : SSE = 7.156832553063426
+Iteration 9 : SSE = 7.149094569756065
+Iteration 10 : SSE = 7.12275017294385
+Iteration 11 : SSE = 7.12275017294385
+
+Random Partition - Run #: 41
+--------------------------------------
+Iteration 1 : SSE = 13.1680238673672
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 42
+--------------------------------------
+Iteration 1 : SSE = 14.399437276331325
+Iteration 2 : SSE = 11.491360842834652
+Iteration 3 : SSE = 11.120940482271616
+Iteration 4 : SSE = 11.018336609584464
+Iteration 5 : SSE = 10.946270692850506
+Iteration 6 : SSE = 10.926433494570006
+Iteration 7 : SSE = 10.910252962389126
+Iteration 8 : SSE = 10.892252904461209
+Iteration 9 : SSE = 10.892252904461209
+
+Random Partition - Run #: 43
+--------------------------------------
+Iteration 1 : SSE = 8.186195010805825
+Iteration 2 : SSE = 7.232374384986909
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Random Partition - Run #: 44
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Random Partition - Run #: 44
+--------------------------------------
+Iteration 1 : SSE = 11.302276744801471
+Iteration 2 : SSE = 7.359239358834929
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Partition - Run #: 45
+--------------------------------------
+Iteration 1 : SSE = 10.359815721589566
+Iteration 2 : SSE = 7.838440314443233
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Random Partition - Run #: 46
+--------------------------------------
+Iteration 1 : SSE = 12.454112335451445
+Iteration 2 : SSE = 11.540259083910728
+Iteration 3 : SSE = 9.138763587353111
+Iteration 4 : SSE = 7.101820345454453
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Partition - Run #: 47
+--------------------------------------
+Iteration 1 : SSE = 11.719845252284848
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 48
+--------------------------------------
+Iteration 1 : SSE = 7.608643349665753
+Iteration 2 : SSE = 7.19241481256523
+Iteration 3 : SSE = 7.139801011445314
+Iteration 4 : SSE = 7.12275017294385
+Iteration 5 : SSE = 7.12275017294385
+
+Random Partition - Run #: 49
+--------------------------------------
+Iteration 1 : SSE = 13.878639501108875
+Iteration 2 : SSE = 7.397248945564798
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 50
+--------------------------------------
+Iteration 1 : SSE = 15.037030804634337
+Iteration 2 : SSE = 7.71527021871756
+Iteration 3 : SSE = 7.1650824506961746
+Iteration 4 : SSE = 7.124076743991191
+Iteration 5 : SSE = 7.097053933251467
+Iteration 6 : SSE = 7.0764115298722015
+Iteration 7 : SSE = 7.035479910591724
+Iteration 8 : SSE = 6.990176884225563
+Iteration 9 : SSE = 6.982216473785234
+Iteration 10 : SSE = 6.982216473785234
+
+Random Partition - Run #: 51
+--------------------------------------
+Iteration 1 : SSE = 8.32941221806129
+Iteration 2 : SSE = 7.481720333117973
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 52
+--------------------------------------
+Iteration 1 : SSE = 8.231948948042515
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 53
+--------------------------------------
+Iteration 1 : SSE = 19.92358530480392
+Iteration 2 : SSE = 10.706386910042207
+Iteration 3 : SSE = 7.222656538580228
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Partition - Run #: 54
+--------------------------------------
+Iteration 1 : SSE = 11.86401023137967
+Iteration 2 : SSE = 8.28747713391777
+Iteration 3 : SSE = 7.481720333117973
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Random Partition - Run #: 55
+--------------------------------------
+Iteration 1 : SSE = 10.091679827110513
+Iteration 2 : SSE = 7.165776393665701
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Partition - Run #: 56
+--------------------------------------
+Iteration 1 : SSE = 9.227685140760926
+Iteration 2 : SSE = 7.232374384986909
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Random Partition - Run #: 57
+--------------------------------------
+Iteration 1 : SSE = 9.232564242262535
+Iteration 2 : SSE = 7.139801011445314
+Iteration 3 : SSE = 7.12275017294385
+Iteration 4 : SSE = 7.12275017294385
+
+Random Partition - Run #: 58
+--------------------------------------
+Iteration 1 : SSE = 11.114804290303377
+Iteration 2 : SSE = 10.941033093996902
+Iteration 3 : SSE = 10.916497845409946
+Iteration 4 : SSE = 10.906917555493317
+
+Random Partition - Run #: 59
+--------------------------------------
+Iteration 1 : SSE = 7.9695255619719285
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 60
+--------------------------------------
+Iteration 1 : SSE = 11.906156483796535
+Iteration 2 : SSE = 7.732484168841517
+Iteration 3 : SSE = 7.003835360437281
+Iteration 4 : SSE = 6.990176884225563
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Random Partition - Run #: 61
+--------------------------------------
+Iteration 1 : SSE = 10.00870656658692
+Iteration 2 : SSE = 7.003835360437281
+Iteration 3 : SSE = 6.990176884225563
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Partition - Run #: 62
+--------------------------------------
+Iteration 1 : SSE = 12.410629022723041
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 63
+--------------------------------------
+Iteration 1 : SSE = 9.00403192441069
+Iteration 2 : SSE = 7.1650824506961746
+Iteration 3 : SSE = 7.124076743991191
+Iteration 4 : SSE = 7.097053933251467
+Iteration 5 : SSE = 7.0764115298722015
+Iteration 6 : SSE = 7.035479910591724
+Iteration 7 : SSE = 6.990176884225563
+Iteration 8 : SSE = 6.982216473785234
+Iteration 9 : SSE = 6.982216473785234
+
+Random Partition - Run #: 64
+--------------------------------------
+Iteration 1 : SSE = 12.979161199831873
+Iteration 2 : SSE = 7.694697235283385
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 65
+--------------------------------------
+Iteration 1 : SSE = 9.051695499986351
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 66
+--------------------------------------
+Iteration 1 : SSE = 11.006104342224479
+Iteration 2 : SSE = 7.132000307253328
+Iteration 3 : SSE = 7.041169482022179
+Iteration 4 : SSE = 7.003835360437281
+Iteration 5 : SSE = 6.990176884225563
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Partition - Run #: 67
+--------------------------------------
+Iteration 1 : SSE = 12.083149427850273
+Iteration 2 : SSE = 7.769649037282767
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 68
+--------------------------------------
+Iteration 1 : SSE = 14.558457715404403
+Iteration 2 : SSE = 8.22696316768177
+Iteration 3 : SSE = 7.430517474747103
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Random Partition - Run #: 69
+--------------------------------------
+Iteration 1 : SSE = 13.153047961930188
+Iteration 2 : SSE = 11.164295494300731
+Iteration 3 : SSE = 10.943221556123808
+Iteration 4 : SSE = 10.91366305745158
+Iteration 5 : SSE = 10.893222690792301
+Iteration 6 : SSE = 10.893222690792301
+
+Random Partition - Run #: 70
+--------------------------------------
+Iteration 1 : SSE = 8.865619876453188
+Iteration 2 : SSE = 7.137005037554236
+Iteration 3 : SSE = 7.041169482022179
+Iteration 4 : SSE = 7.003835360437281
+Iteration 5 : SSE = 6.990176884225563
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Partition - Run #: 71
+--------------------------------------
+Iteration 1 : SSE = 12.042998518712057
+Iteration 2 : SSE = 8.47299912007522
+Iteration 3 : SSE = 7.247353331782546
+Iteration 4 : SSE = 7.071579702373204
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Random Partition - Run #: 72
+--------------------------------------
+Iteration 1 : SSE = 11.573537686092921
+Iteration 2 : SSE = 11.031221487929983
+Iteration 3 : SSE = 10.910252962389126
+Iteration 4 : SSE = 10.892252904461209
+Iteration 5 : SSE = 10.892252904461209
+
+Random Partition - Run #: 73
+--------------------------------------
+Iteration 1 : SSE = 8.664519252856628
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 74
+--------------------------------------
+Iteration 1 : SSE = 14.442153624899278
+Iteration 2 : SSE = 7.869549186595748
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 75
+--------------------------------------
+Iteration 1 : SSE = 10.83533569300297
+Iteration 2 : SSE = 7.815964348634909
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Random Partition - Run #: 76
+--------------------------------------
+Iteration 1 : SSE = 12.067755711485045
+Iteration 2 : SSE = 11.78149040604172
+Iteration 3 : SSE = 11.576288830452095
+Iteration 4 : SSE = 10.475459306927636
+Iteration 5 : SSE = 7.252089962310404
+Iteration 6 : SSE = 7.041169482022179
+Iteration 7 : SSE = 7.003835360437281
+Iteration 8 : SSE = 6.990176884225563
+Iteration 9 : SSE = 6.982216473785234
+Iteration 10 : SSE = 6.982216473785234
+
+Random Partition - Run #: 77
+--------------------------------------
+Iteration 1 : SSE = 7.858553525760951
+Iteration 2 : SSE = 7.19241481256523
+Iteration 3 : SSE = 7.139801011445314
+Iteration 4 : SSE = 7.12275017294385
+Iteration 5 : SSE = 7.12275017294385
+
+Random Partition - Run #: 78
+--------------------------------------
+Iteration 1 : SSE = 12.234883098610963
+Iteration 2 : SSE = 7.760566369495231
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 79
+--------------------------------------
+Iteration 1 : SSE = 10.030659681380618
+Iteration 2 : SSE = 7.165776393665701
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Random Partition - Run #: 80
+--------------------------------------
+Iteration 1 : SSE = 8.704173378192454
+Iteration 2 : SSE = 7.534566228291155
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 81
+--------------------------------------
+Iteration 1 : SSE = 12.242803662528347
+Iteration 2 : SSE = 7.694697235283385
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 82
+--------------------------------------
+Iteration 1 : SSE = 12.448056058762392
+Iteration 2 : SSE = 8.129606549916286
+Iteration 3 : SSE = 7.181830872935421
+Iteration 4 : SSE = 7.156832553063426
+Iteration 5 : SSE = 7.149094569756065
+Iteration 6 : SSE = 7.12275017294385
+Iteration 7 : SSE = 7.12275017294385
+
+Random Partition - Run #: 83
+--------------------------------------
+Iteration 1 : SSE = 11.18871994584395
+Iteration 2 : SSE = 7.003835360437281
+Iteration 3 : SSE = 6.990176884225563
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Partition - Run #: 84
+--------------------------------------
+Iteration 1 : SSE = 8.38683263770136
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 85
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Random Partition - Run #: 85
+--------------------------------------
+Iteration 1 : SSE = 8.777557238549237
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 86
+--------------------------------------
+Iteration 1 : SSE = 8.742072515211646
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 87
+--------------------------------------
+Iteration 1 : SSE = 7.887476801365381
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 88
+--------------------------------------
+Iteration 1 : SSE = 8.206538414490856
+Iteration 2 : SSE = 7.254985683295055
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Random Partition - Run #: 89
+--------------------------------------
+Iteration 1 : SSE = 8.011169708478953
+Iteration 2 : SSE = 7.322123586523113
+Iteration 3 : SSE = 7.212235815081694
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 90
+--------------------------------------
+Iteration 1 : SSE = 11.471846283682888
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 91
+--------------------------------------
+Iteration 1 : SSE = 11.218970547701963
+Iteration 2 : SSE = 10.890259525286222
+Iteration 3 : SSE = 10.650371485836745
+Iteration 4 : SSE = 9.340943631991484
+Iteration 5 : SSE = 7.964518140732817
+Iteration 6 : SSE = 7.430517474747103
+Iteration 7 : SSE = 7.256494071414175
+Iteration 8 : SSE = 7.1941642385222515
+Iteration 9 : SSE = 7.174690532040338
+Iteration 10 : SSE = 7.156832553063426
+Iteration 11 : SSE = 7.149094569756065
+Iteration 12 : SSE = 7.12275017294385
+Iteration 13 : SSE = 7.12275017294385
+
+Random Partition - Run #: 92
+--------------------------------------
+Iteration 1 : SSE = 15.546462267853755
+Iteration 2 : SSE = 11.832530196647335
+Iteration 3 : SSE = 11.031221487929983
+Iteration 4 : SSE = 10.910252962389126
+Iteration 5 : SSE = 10.892252904461209
+Iteration 6 : SSE = 10.892252904461209
+
+Random Partition - Run #: 93
+--------------------------------------
+Iteration 1 : SSE = 13.413665840847447
+Iteration 2 : SSE = 7.488313482120141
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 94
+--------------------------------------
+Iteration 1 : SSE = 12.830379457775654
+Iteration 2 : SSE = 7.807840491297083
+Iteration 3 : SSE = 7.086613082944214
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Random Partition - Run #: 95
+--------------------------------------
+Iteration 1 : SSE = 14.276884861896823
+Iteration 2 : SSE = 7.317648236559617
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Random Partition - Run #: 96
+--------------------------------------
+Iteration 1 : SSE = 10.867825724619813
+Iteration 2 : SSE = 7.534566228291155
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Random Partition - Run #: 97
+--------------------------------------
+Iteration 1 : SSE = 12.422854455769821
+Iteration 2 : SSE = 11.11308427584805
+Iteration 3 : SSE = 10.946270692850506
+Iteration 4 : SSE = 10.926433494570006
+Iteration 5 : SSE = 10.910252962389126
+Iteration 6 : SSE = 10.892252904461209
+Iteration 7 : SSE = 10.892252904461209
+
+Random Partition - Run #: 98
+--------------------------------------
+Iteration 1 : SSE = 9.430277797011007
+Iteration 2 : SSE = 7.815964348634909
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Random Partition - Run #: 99
+--------------------------------------
+Iteration 1 : SSE = 7.751415016291197
+Iteration 2 : SSE = 7.358006297260011
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Random Partition - Run #: 100
+--------------------------------------
+Iteration 1 : SSE = 12.723497418499578
+Iteration 2 : SSE = 11.101452088201071
+Iteration 3 : SSE = 10.929149187952081
+Iteration 4 : SSE = 10.892252904461209
+Iteration 5 : SSE = 10.892252904461209
+
+Best Run: 1: SSE = 6.982216473785234
+ 
+##################################################
+Method: Centroids by Random Partition
+##################################################
+Initial SSE: 26.468388703144154 on Run #: 87
+Final SSE: 6.982216473785234 on Run #: 1
+Number of Iterations: 4 on Run #: 1
+
+##################################################
