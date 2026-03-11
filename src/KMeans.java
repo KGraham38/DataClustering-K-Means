@@ -7,16 +7,14 @@
 //Coding practices resource I have decided to keep primarily using: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
 /*
-Bonus 1 & 2: May try later, but no attempt for this submission.
-
 Bonus 3: How does the random partition method compare against the random selection method in theory?
 
 In theory the two initialization methods are both effective at placing points in initial clusters however for random selection,
 it is just that, the initial clusters are determined by choosing k random points uniformly from our set of points and then
 using those points as the centroid points for our clusters.  While random partition assigns all points to random clusters and
 then takes the mean coordinates for all of the points assigned to a given cluster to determine the staring location of the centroid. So
-one of the biggest difference that I see is that in theory the random selection centroids are tied to specific a specific data point at initialization
-while random partition centroids do not start at any actual data point location it tarts at the mean data location of all the points that
+one of the biggest difference that I see is that in theory the random selection centroids are tied to a specific data point at initialization
+while random partition centroids do not start at any actual data point location it starts at the mean data location of all the points that
 were randomly assigned to it.
 */
 
@@ -441,7 +439,7 @@ public class KMeans {
     //will be here
     //Note for reference during implementation: min max norm formula: x_scaled = x-xmin / (xmax- xmin) and must be between 0 and 1
 
-    // START FOR PART 1 of PHASE 3
+    //START FOR PART 1 of PHASE 3 - just for easier reference of the code added in this phase
 
     //Fairly straightforward just an empty cluster check that steps through my clusters to make sure they all have more
     //than 0 points in them. If they do have an empty, return true and then I handle it be stepping back a run to recompute the points assigned clusters
@@ -550,8 +548,8 @@ public class KMeans {
         }
     }
 
-    //END PART 1 of PHASE 3
-    //START PART 2 of PHASE 3
+    //END PART 1 FOR MY PHASE 3
+    //START PART 2 FOR MY PHASE 3
     //Random Partition Method
     //Note for self: while implementing think of this method as just random assigning points to clusters and then using
     //the centroids of those randomly assigned points to form new starting centroids
@@ -625,7 +623,7 @@ public class KMeans {
         }
 
     }
-    //END PART 2 OF PHASE 3
+    //END PART 2 FOR MY PHASE 3
 
 
     //End: K Means Algorithm Section
@@ -827,83 +825,3 @@ public class KMeans {
     }
 
 }
-
-
-
-
-
-
-
-
-/*
-No longer used but keeping just in case:
-
-    //Write the centers we selected to an output file
-    private static void saveCenterOutputsToOutputFiles(double[][] data, int[] randomIndexes, String outputFilename) {
-
-        try (PrintStream fileOut = new PrintStream(new FileOutputStream(outputFilename, true))) {
-            int index =0;
-
-            //Loop for each center selected in my randomIndexes
-            for (index =0; index< randomIndexes.length; index++) {
-                int count = randomIndexes[index];
-                int j = 0;
-
-                //Loop for each dimension in selected data point
-                for(j=0; j < data[count].length; j++) {
-                    //Just add a space between the values printed
-                    if (j>0){
-                        fileOut.print(" ");
-                    }
-                    fileOut.print(data[count][j]);
-
-                }
-                fileOut.println();
-            }
-            fileOut.println();
-
-        } catch (IOException e) {
-            System.err.println("Error writing to the output file: " + outputFilename);
-            System.exit(1);
-        }
-    }
-
-    //Just the method to print the centers we selected to the console
-    private static void printTheCenters(double[][] data, int[] randomIndexes) {
-        int index =0;
-        for (index =0; index< randomIndexes.length; index++) {
-            int count = randomIndexes[index];
-            int j = 0;
-            for(j=0; j < data[count].length; j++) {
-                if (j>0){
-                    System.out.print(" ");
-                }
-                System.out.print(data[count][j]);
-
-            }
-            System.out.println();
-        }
-    }
-
-
-        //Initial idea for making sure we dont divide by 0, just exit
-        //Leaving this check in case copying the array ends up being a wrong way to handle empty clusters.
-        Check for 0 points in a cluster now that i think its possible to have an empty cluster because dividing by 0
-        points per cluster would cause an error. I know our phase 0 talked about a couple ways of handling empty clusters
-        but since you said we can ignore them for now im just using this check to exit cleanly and inform the user of what happened
-        int j = 0;
-        for(j = 0; j < pointsPerCluster.length; j++) {
-            if (pointsPerCluster[j] ==0)
-            {
-                System.err.println("Empty Cluster Detected: Can not divide by 0! Please try re-running the algorithm, this condition is rare!");
-                System.exit(1);
-            }
-        }
-
-        //Shouldnt happen but just to be extra safe
-                if (totalClusters[cluster] == 0) {
-
-                    //System.err.println("ERROR! division by 0 in randomPartitionCentroids!");
-                    //System.exit(1);
-                }else {
-*/
