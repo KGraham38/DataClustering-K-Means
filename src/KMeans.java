@@ -7,18 +7,15 @@
 //Coding practices resource I have decided to keep primarily using: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
 /*
-Bonus 1 & 2: I am fairly certain my min max normalization is right just because the formula was so simple. As well i think
-my random partition method is right but since I was expecting better results from random partition than random selection but my results
-show the opposite, I dont want to take the chance of also implementing something like trying to add the more complex Z-Score Normalization
-or the maximin implementation methods since I am not 100% certain that my current code is fully correct. After submission I might give them
-both a try.
+Bonus 1 & 2: May try later, but no attempt for this submission.
 
 Bonus 3: How does the random partition method compare against the random selection method in theory?
+
 In theory the two initialization methods are both effective at placing points in initial clusters however for random selection,
 it is just that, the initial clusters are determined by choosing k random points uniformly from our set of points and then
-using those point as the centroid points for our clusters.  While random partition assigns all points to random clusters and
+using those points as the centroid points for our clusters.  While random partition assigns all points to random clusters and
 then takes the mean coordinates for all of the points assigned to a given cluster to determine the staring location of the centroid. So
-one of the biggest difference is that in theory the random selection centroids are tied to specific a specific data point at initialization
+one of the biggest difference that I see is that in theory the random selection centroids are tied to specific a specific data point at initialization
 while random partition centroids do not start at any actual data point location it tarts at the mean data location of all the points that
 were randomly assigned to it.
 */
@@ -830,6 +827,7 @@ public class KMeans {
     }
 
 }
+
 
 
 
