@@ -6,15 +6,6 @@
 
 //Coding practices resource I have decided to keep primarily using: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
-//Link for better reference of formula: https://en.wikipedia.org/wiki/Calinski%E2%80%93Harabasz_index
-//Quick reference while I am implementing:
-//CH = (BCSS/(k-1))/(WCSS/(n-k))
-//BCSS = i=1, Sum of ni||ci-c||^2
-//WCSS = i=1, Sum of (sum of x exists Ci ||x-ci||^2)
-//Sums for both above are up to k
-
-//Clearer formula explanation found here: https://www.graphpad.com/guides/prism/latest/statistics/stat_clustering_calinski_harabasz.htm
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -437,20 +428,72 @@ public class KMeans {
     //Anymore helpers for k means will go here
 
     //Phase 4 start (for easy search to get back to my phase 4 logic)
+    /*
+    Link for reference of formula: https://en.wikipedia.org/wiki/Calinski%E2%80%93Harabasz_index
+    Quick reference while I am implementing:
+    CH = (BCSS/(k-1))/(WCSS/(n-k))
+    BCSS = i=1, Sum of ni||ci-c||^2
+    WCSS = i=1, Sum of (sum of x exists Ci ||x-ci||^2)
+    Sums for both above are up to k
+
+    Map of my variables to the formula variables so i can implement it easier
+    k = numOfClusters
+    n= dataset.numberOfPoints
+    WCSS = bestrun.finalSSE
+    BCSS = ni is clusterCounts[i]
+           ci = bestRun.finalCents[i]
+           c bar is the overallMean
+           so ||ci-cbar||^2 is the squaredEuclideanDistance(bestRun.finalCents[i], overallMean)
+    */
+
+    //Clearer formula explanation here: https://www.graphpad.com/guides/prism/latest/statistics/stat_clustering_calinski_harabasz.htm
 
     //Actually compute the CH index, probably going to be the most complex part of my CH implementation
-    private double computeCHIndex(Dataset dataset, RunResults bestRun, int numOfClusters) {
-        return 0.0;
+    private static double computeCHindex(Dataset dataset, RunResults bestRun, int numOfClusters) {
+        //Steps:
+        //get n and WCSS
+        int numPoints = dataset.numberOfPoints;
+        double wcss = bestRun.finalSSE;
+
+        //get the total mean
+        double bcss = getBcss(dataset, bestRun, numOfClusters);
+
+        //Compute the numerator and denom based on the equation
+        double numerator = bcss / (numOfClusters - 1);
+        double denom = wcss / (numPoints - numOfClusters);
+
+        //then return
+        return numerator /denom;
     }
+
+    //IntelliJ actually recommended to separate this logic into its own method from computeCHindex, I like it so I will
+    //do a similar breakdown with SW the actual compute function will just call helpers to keep a better separation of tasks
+    private static double getBcss(Dataset dataset, RunResults bestRun, int numOfClusters) {
+        double[] overallMean = computeOverallMean(dataset);
+
+        //count clusters
+        int[] clusterPointCounts = countPointsInEachCluster(bestRun.finalAssignedClusterPerPoint, numOfClusters);
+
+        //calculate BCSS
+        double bcss = 0.0;
+
+        //i = cluster on
+        for (int i = 0; i < numOfClusters; i++) {
+            double squaredDistOverallMean = squaredEuclideanDistance(bestRun.finalCents[i], overallMean);
+            bcss = bcss + clusterPointCounts[i]*squaredDistOverallMean;
+        }
+        return bcss;
+    }
+
     //Just simply gives me the ni needed for my CH formula
-    private int[] countPointsInEachCluster(int[] assignedPoints, int numOfClusters) {
+    private static int[] countPointsInEachCluster(int[] assignedPoints, int numOfClusters) {
         int[] countclusters = new int[numOfClusters];
         for (int i = 0; i < assignedPoints.length; i++) {
             countclusters[assignedPoints[i]]++;
         }
         return countclusters;
     }
-    private double [] computeOverallMean(Dataset dataset, Parameters params) {
+    private static double [] computeOverallMean(Dataset dataset) {
         double[] overallMean = new double[dataset.numOfDimensions];
 
         //Sum the points per dimension
