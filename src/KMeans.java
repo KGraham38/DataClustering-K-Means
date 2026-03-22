@@ -13,6 +13,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+import static java.lang.Math.sqrt;
+
 public class KMeans {
     public static void main(String[] args) {
 
@@ -30,6 +32,11 @@ public class KMeans {
             //Normalize my data set by column before k means runs using the min max formula
             dataset = minMaxNorm(dataset);
 
+            //K min normally 2 per our instructions
+            int kMin=2;
+            //K max closest int for sqrt (n/2)
+            int kMax= (int) Math.round(sqrt(dataset.numberOfPoints/2.0));
+
             //Print the updated normalized data set for correctness checks
             String base = new File(parameters.filename).getName();
             String outFileName = "normalized_output_" + base;
@@ -41,7 +48,7 @@ public class KMeans {
 
             //Track my best run and may implement a function for tracking the avg total
             //of all runs and comparing it to the best run
-            RunResults bestRun = null;
+            //RunResults bestRun = null;
             //RunResults allRuns = null;
 
             //append existing file and now that we are doing a comparison
@@ -50,63 +57,106 @@ public class KMeans {
                 Random random = new Random();
 
                 int runIndex = 1;
-                double bestInitialSSE = Double.POSITIVE_INFINITY;
-                int bestInitialIndex = -100;
-                double bestFinalSSE = Double.POSITIVE_INFINITY;
-                int bestFinalRunIndex = -100;
-                int bestIterations = Integer.MAX_VALUE;
-                int bestIterationsIndex = -100;
+                double trackBestCHVal = -100;
+                int bestCHKIndex = -100;
 
-                //Each run uses different real random centers just like my original phase 1
-                for (runIndex = 1; runIndex <= parameters.numOfRuns; runIndex++) {
+                //Adding outer loop to loop over our new k range
+                for(int k = kMin; k <= kMax; k++) {
 
-                    //Run my whole K Means function
-                    RunResults results = runKMeans(dataset, parameters, random, outFile, runIndex, centroid_start_method);
+                    //Had to move inside the k's loop for obvious reasons
+                    RunResults bestRun = null;
+                    double bestInitialSSE = Double.POSITIVE_INFINITY;
+                    int bestInitialIndex = -100;
+                    double bestFinalSSE = Double.POSITIVE_INFINITY;
+                    int bestFinalRunIndex = -100;
+                    int bestIterations = Integer.MAX_VALUE;
+                    int bestIterationsIndex = -100;
 
-                    //if runKmeans returned with a 0 that means we had an empty cluster re-initialize for this run by
-                    //decrementing my runIndex which in turn repeats the run from the beginning using a new initialization
-                    if (results.iterations== 0){
-                        runIndex--;
-                        continue;
+                    Parameters paramsPerNumKs = new Parameters(parameters.filename, k, parameters.maxNumOfIterations, parameters.convergenceThreshold,parameters.numOfRuns);
+
+
+                    //Each run uses different real random centers just like my original phase 1
+                    for (runIndex = 1; runIndex <= parameters.numOfRuns; runIndex++) {
+
+                        System.out.println("Test for " + k + " clusters");
+                        outFile.println("Test for " + k + " clusters");
+
+
+                        //Run my whole K Means function
+                        RunResults results = runKMeans(dataset, paramsPerNumKs, random, outFile, runIndex, centroid_start_method);
+
+                        //if runKmeans returned with a 0 that means we had an empty cluster re-initialize for this run by
+                        //decrementing my runIndex which in turn repeats the run from the beginning using a new initialization
+                        if (results.iterations == 0) {
+                            runIndex--;
+                            continue;
+                        }
+
+                        if (results.initialSSE < bestInitialSSE) {
+                            bestInitialSSE = results.initialSSE;
+                            bestInitialIndex = results.runNumber;
+                        }
+
+                        if (results.finalSSE < bestFinalSSE) {
+                            bestFinalSSE = results.finalSSE;
+                            bestFinalRunIndex = results.runNumber;
+
+                        }
+
+                        if (results.iterations < bestIterations) {
+                            bestIterations = results.iterations;
+                            bestIterationsIndex = results.runNumber;
+                        }
+
+                        String methodName = " ";
+                        if (centroid_start_method == 0) {
+                            methodName = "RandomSelection";
+                        } else {
+                            methodName = "RandomPartition";
+
+                        }
+
+                        String csvName = "comparison.csv";
+                        String openFile = parameters.filename;
+
+                        appendComparisonsCSV(csvName, openFile, methodName, results.runNumber, results.initialSSE, results.finalSSE, results.iterations);
+
+                        //If first run or smaller SSE update
+                        if (bestRun == null || results.finalSSE < bestRun.finalSSE) {
+                            bestRun = results;
+                        }
+
                     }
 
-                    if(results.initialSSE < bestInitialSSE){
-                        bestInitialSSE = results.initialSSE;
-                        bestInitialIndex = results.runNumber;
+
+                    System.out.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
+                    outFile.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
+
+                    //Had to update to use k from paramsPerK
+                    double chIndexVal= computeCHindex(dataset,bestRun, k);
+                    System.out.println("CHindex(" + k + "): " + chIndexVal);
+                    outFile.println("CHindex(" + k + "): " + chIndexVal);
+
+                    if (chIndexVal > trackBestCHVal) {
+                        bestCHKIndex = k;
+                        trackBestCHVal = chIndexVal;
                     }
 
-                    if(results.finalSSE < bestFinalSSE){
-                        bestFinalSSE = results.finalSSE;
-                        bestFinalRunIndex = results.runNumber;
-
-                    }
-
-                    if(results.iterations < bestIterations){
-                        bestIterations = results.iterations;
-                        bestIterationsIndex = results.runNumber;
-                    }
-
-                    String methodName = " ";
-                    if(centroid_start_method == 0){
-                        methodName = "RandomSelection";
-                    } else{
-                        methodName = "RandomPartition";
-
-                    }
-
-                    String csvName = "comparison.csv";
-                    String openFile = parameters.filename;
-
-                    appendComparisonsCSV(csvName, openFile, methodName, results.runNumber, results.initialSSE, results.finalSSE, results.iterations);
-
-                    //If first run or smaller SSE update
-                    if (bestRun == null || results.finalSSE < bestRun.finalSSE) {
-                        bestRun = results;
-                    }
+                    System.out.println(" ");
+                    outFile.println(" ");
                 }
 
-                System.out.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
-                outFile.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
+                //Run Data for best k using CH
+                System.out.println("##################################################");
+                System.out.println("Est Optimal K - CH: " + bestCHKIndex);
+                System.out.println("Best CH Val: " + trackBestCHVal);
+                System.out.println("##################################################");
+
+                outFile.println("##################################################");
+                outFile.println("Est Optimal K - CH: " + bestCHKIndex);
+                outFile.println("Best CH Val: " + trackBestCHVal);
+                outFile.println("##################################################");
+
 
                 //Run data for each method of initial centroids
                 System.out.println(" ");
@@ -125,6 +175,8 @@ public class KMeans {
 
                 outFile.println("##################################################");
 
+                //Phase 3, not really needed for phase 4
+                /*
                 System.out.println();
                 System.out.println("Initial SSE: " + bestInitialSSE + " on Run #: " +  bestInitialIndex);
                 System.out.println("Final SSE: " + bestFinalSSE +  " on Run #: " +  bestFinalRunIndex);
@@ -138,7 +190,7 @@ public class KMeans {
                 outFile.println("Number of Iterations: " + bestIterations + " on Run #: " +  bestIterationsIndex);
                 outFile.println();
                 outFile.println("##################################################");
-
+                */
 
 
 
