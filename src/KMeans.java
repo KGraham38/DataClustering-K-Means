@@ -6,17 +6,14 @@
 
 //Coding practices resource I have decided to keep primarily using: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
 
-/*
-Bonus 3: How does the random partition method compare against the random selection method in theory?
+//Link for better reference of formula: https://en.wikipedia.org/wiki/Calinski%E2%80%93Harabasz_index
+//Quick reference while I am implementing:
+//CH = (BCSS/(k-1))/(WCSS/(n-k))
+//BCSS = i=1, Sum of ni||ci-c||^2
+//WCSS = i=1, Sum of (sum of x exists Ci ||x-ci||^2)
+//Sums for both above are up to k
 
-In theory the two initialization methods are both effective at placing points in initial clusters however for random selection,
-it is just that, the initial clusters are determined by choosing k random points uniformly from our set of points and then
-using those points as the centroid points for our clusters.  While random partition assigns all points to random clusters and
-then takes the mean coordinates for all of the points assigned to a given cluster to determine the staring location of the centroid. So
-one of the biggest difference that I see is that in theory the random selection centroids are tied to a specific data point at initialization
-while random partition centroids do not start at any actual data point location it starts at the mean data location of all the points that
-were randomly assigned to it.
-*/
+//Clearer formula explanation found here: https://www.graphpad.com/guides/prism/latest/statistics/stat_clustering_calinski_harabasz.htm
 
 import java.io.*;
 import java.util.ArrayList;
@@ -25,11 +22,11 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-
 public class KMeans {
     public static void main(String[] args) {
 
-        int centroid_start_method = 0;
+        //Removed random selection initialization by starting at 1 instead of 0
+        int centroid_start_method = 1;
 
         while (centroid_start_method != 2) {
 
@@ -315,13 +312,15 @@ public class KMeans {
         double finalSSE;
         double[][] finalCents;
         double initialSSE;
+        int[] finalAssignedClusterPerPoint;
 
-        private RunResults(int runNumber, int iterations, double finalSSE, double[][] finalCents, double initialSSE) {
+        private RunResults(int runNumber, int iterations, double finalSSE, double[][] finalCents, double initialSSE, int[] finalAssignedClusterPerPoint) {
             this.runNumber = runNumber;
             this.iterations = iterations;
             this.finalSSE = finalSSE;
             this.initialSSE = initialSSE;
             this.finalCents = finalCents;
+            this.finalAssignedClusterPerPoint = finalAssignedClusterPerPoint;
         }
     }
 
@@ -395,7 +394,7 @@ public class KMeans {
                     fileOut.println("Empty Cluster found! --> restarting run with new initialization.");
                     fileOut.println();
                 }
-                return new RunResults(runNum, 0, curSSE, centroids, initialSSE);
+                return new RunResults(runNum, 0, curSSE, centroids, initialSSE, null);
             }
 
             //step 4
@@ -430,10 +429,43 @@ public class KMeans {
             fileOut.println();
         }
 
-        return new RunResults(runNum, iterationsDone, curSSE, centroids, initialSSE);
+        //Save the final assignments for each point since my CH implementation will require the final converged centroids
+        int [] finalAssignedClusters = assignPointsToClosestCentroid(dataset,centroids);
+        return new RunResults(runNum, iterationsDone, curSSE, centroids, initialSSE, finalAssignedClusters);
     }
 
     //Anymore helpers for k means will go here
+
+    //Phase 4 start (for easy search to get back to my phase 4 logic)
+
+    //Actually compute the CH index, probably going to be the most complex part of my CH implementation
+    private double computeCHIndex(Dataset dataset, RunResults bestRun, int numOfClusters) {
+        return 0.0;
+    }
+    //Just simply gives me the ni needed for my CH formula
+    private int[] countPointsInEachCluster(int[] assignedPoints, int numOfClusters) {
+        int[] countclusters = new int[numOfClusters];
+        for (int i = 0; i < assignedPoints.length; i++) {
+            countclusters[assignedPoints[i]]++;
+        }
+        return countclusters;
+    }
+    private double [] computeOverallMean(Dataset dataset, Parameters params) {
+        double[] overallMean = new double[dataset.numOfDimensions];
+
+        //Sum the points per dimension
+        for (int i = 0; i < dataset.numberOfPoints; i++) {
+            for (int j = 0; j < dataset.numOfDimensions; j++) {
+                overallMean[j] += dataset.data[i][j];
+            }
+        }
+        //And then divide each clusters summed points by the num of points in the cluster to get the mean points for each
+        for (int i = 0; i < dataset.numOfDimensions; i++) {
+            overallMean[i] /= dataset.numberOfPoints;
+        }
+
+        return overallMean;
+    }
 
     //I am going to consider all of my phase 3 requirements as "helpers" for my base K mean algorithm so all of phase 3
     //will be here
