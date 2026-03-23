@@ -1,6 +1,6 @@
 //Kody Graham
-//02/25/2026
-//Phase 3
+//03/19/2026
+//Phase 4
 //For: Dr. Emre Celebi's Data Clustering Online Class - 4372
 
 
@@ -146,6 +146,9 @@ public class KMeans {
                     double swIndexVal= computeTheSWindex(dataset,bestRun, k);
                     System.out.println("SW index(" + k + "): " + swIndexVal);
                     outFile.println("SW index(" + k + "): " + swIndexVal);
+                    String csvName = "phase_4_results.csv";
+                    appendMyPhase4CSV(csvName, parameters.filename, k, chIndexVal, swIndexVal);
+
 
                     if (chIndexVal > trackBestCHVal) {
                         bestCHKIndex = k;
@@ -174,8 +177,8 @@ public class KMeans {
 
                 //Run Data for best k using SW
                 System.out.println("##################################################");
-                System.out.println("Est Optimal K - SW: " + bestCHKIndex);
-                System.out.println("Best CH Val: " + trackBestCHVal);
+                System.out.println("Est Optimal K - SW: " + bestSWKindex);
+                System.out.println("Best SW Val: " + trackBestSWVal);
                 System.out.println("##################################################");
 
                 outFile.println("##################################################");
@@ -658,12 +661,18 @@ public class KMeans {
         double bestClusterAvg = 100.0;
 
         for (int i = 0; i < numOfClusters; i++) {
+
+            //Skip if we are at the point we are comparing distance from
+            if (i == assignedCluster) {
+                continue;
+            }
+
             double sum = 0.0;
             int count = 0;
 
             for (int j = 0; j < dataset.numberOfPoints; j++) {
                 if (assignedPoints[j] == i) {
-                    sum += euclideanDistance(dataset.data[j], dataset.data[i]);
+                    sum += euclideanDistance(dataset.data[pointIndex], dataset.data[j]);
                     count++;
                 }
             }
@@ -675,6 +684,7 @@ public class KMeans {
                 }
             }
         }
+
         return bestClusterAvg;
     }
 
@@ -709,6 +719,25 @@ public class KMeans {
         return finalTotalSW;
     }
 
+    private static void appendMyPhase4CSV(String csvName, String fileName, int k, double chIndex, double swIndex) {
+
+        File file = new File(csvName);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
+
+            if(file.length() == 0) {
+                writer.write("file,k,chIndex,swIndex");
+                writer.write("\n");
+            }
+
+            writer.write(fileName + "," + k + "," + chIndex + "," + swIndex);
+            writer.write("\n");
+
+        } catch (IOException e) {
+            System.err.println("Error writing phase 4 CSV file");
+            System.exit(1);
+        }
+
+    }
     //End SW implementation
 
 
@@ -1007,10 +1036,10 @@ public class KMeans {
     //Method to parse and validate the cmd line arguments
     private static Parameters parseUserArguments(String[] args) {
 
-        //Must take 5 parameters
-        if(args.length != 5)
+        //Must take 4 parameters, removing k user input for phase 4
+        if(args.length != 4)
         {
-            System.err.println("Incorrect Number of Arguments: Must have exactly 5 arguments");
+            System.err.println("Incorrect Number of Arguments: Must have exactly 4 arguments");
             System.exit(1);
         }
 
@@ -1021,38 +1050,28 @@ public class KMeans {
         String filename= args[0];
 
         try{
-            numClusters= Integer.parseInt(args[1]);
-        } catch (NumberFormatException e) {
-            System.err.println("The format for number of clusters must be an integer.");
-            System.exit(1);
-        }
-
-        try{
-            maxIteration= Integer.parseInt(args[2]);
+            maxIteration= Integer.parseInt(args[1]);
         } catch (NumberFormatException e) {
             System.err.println("The format for the maximum number of iterations must be an integer.");
             System.exit(1);
         }
 
         try{
-            convergenceThreshold = Double.parseDouble(args[3]);
+            convergenceThreshold = Double.parseDouble(args[2]);
         }catch (NumberFormatException e) {
             System.err.println("The format for the conversion threshold must be in double format.");
             System.exit(1);
         }
 
         try{
-            numRuns= Integer.parseInt(args[4]);
+            numRuns= Integer.parseInt(args[3]);
         } catch (NumberFormatException e) {
             System.err.println("The format for number of runs must be an integer.");
             System.exit(1);
         }
 
         //Final parameter check to meet criteria
-        if(numClusters <= 1){
-            System.err.println("The number of clusters must be a positive integer greater than 1.");
-            System.exit(1);
-        }
+
         if(maxIteration<1){
             System.err.println("The maximum number of iterations must be a positive integer.");
             System.exit(1);
@@ -1067,7 +1086,7 @@ public class KMeans {
         }
 
         //Only if we pass all the checks, return our parameters
-        return new Parameters(filename,numClusters,maxIteration,convergenceThreshold,numRuns);
+        return new Parameters(filename,0,maxIteration,convergenceThreshold,numRuns);
     }
 
     //Class to handle and protect my different arguments
