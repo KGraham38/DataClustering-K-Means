@@ -580,18 +580,103 @@ public class KMeans {
     if s(i) val is about 0, sample equal dist from 2 clusters
     if close to -1, bad classification
 
+    IMPORTANT Notes: SW does not use squared dist
+                     b(i) is min avg dist to another cluster
+
     Page 18 explains the formula great: https://cran.r-project.org/web/packages/clusterCrit/vignettes/clusterCrit.pdf
     */
 
+    //Regular Euclidean Distance
+    private static double euclideanDistance(double[] point1, double[] point2) {
+        double distance = 0.0;
+
+        for (int i = 0; i < point1.length; i++) {
+            double diff = point1[i] - point2[i];
+            distance += diff * diff;
+        }
+
+        return Math.sqrt(distance);
+    }
+
     //First need a(i)
+    private static double computeAForI(Dataset dataset, int[] assignedPoints, int pointIndex) {
+        int assignedCluster = assignedPoints[pointIndex];
+        int inThisCluster = 0;
+        double sumDistances = 0.0;
+
+        for (int i = 0; i < dataset.numberOfPoints; i++) {
+            if (assignedPoints[i] == assignedCluster) {
+                sumDistances += euclideanDistance(dataset.data[pointIndex], dataset.data[i]);
+                inThisCluster++;
+            }
+        }
+
+        if (inThisCluster == 0) {
+            return 0.0;
+        }
+
+        return sumDistances / inThisCluster;
+
+    }
 
     //then b(i)
+    private static double computeBForI(Dataset dataset, int[] assignedPoints, int pointIndex, int numOfClusters) {
+        int assignedCluster = assignedPoints[pointIndex];
+
+        //Should be safe since value should be between -1 and 1
+        double bestClusterAvg = 100.0;
+
+        for (int i = 0; i < numOfClusters; i++) {
+            double sum = 0.0;
+            int count = 0;
+
+            for (int j = 0; j < dataset.numberOfPoints; j++) {
+                if (assignedPoints[j] == i) {
+                    sum += euclideanDistance(dataset.data[j], dataset.data[i]);
+                    count++;
+                }
+            }
+
+            if (count > 0){
+                double avg = sum / count;
+                if (avg < bestClusterAvg) {
+                    bestClusterAvg = avg;
+                }
+            }
+        }
+        return bestClusterAvg;
+    }
 
     //next going to need the max between a(i) b(i)
+    private static double computeSValForPoint(Dataset dataset, int[] assignedPoints, int pointIndex, int numOfClusters) {
+        double aValue = computeAForI(dataset, assignedPoints, pointIndex);
+        double bValue = computeBForI(dataset, assignedPoints, pointIndex, numOfClusters);
 
-    //Now build the numerator and denom
+        double max = Math.max(aValue, bValue);
 
-    //Finally return my Si
+        if(max == 0)
+        {
+            return 0;
+        }
+
+        //silhouette value for the point
+        //Was going to have a separate method for computing numerator and denom but all vars are here so makes sense to do it now
+        double SV = (bValue - aValue) / max;
+
+        return SV;
+    }
+
+    //Finally return my avg Si for all points
+    private static double computeTheSWindex(Dataset dataset, RunResults bestRun, int numOfClusters) {
+        double totalSW = 0.0;
+        for (int i = 0; i < dataset.numberOfPoints; i++) {
+            totalSW += computeSValForPoint(dataset,bestRun.finalAssignedClusterPerPoint,i,numOfClusters);
+        }
+
+        double finalTotalSW = totalSW / dataset.numberOfPoints;
+
+        return finalTotalSW;
+    }
 
     //End SW implementation
 
