@@ -480,8 +480,10 @@ public class KMeans {
     //Anymore helpers for k means will go here
 
     //Phase 4 start (for easy search to get back to my phase 4 logic)
+
+    //Start CH implementation
     /*
-    Link for reference of formula: https://en.wikipedia.org/wiki/Calinski%E2%80%93Harabasz_index
+    Link for my easy reference of formula: https://en.wikipedia.org/wiki/Calinski%E2%80%93Harabasz_index
     Quick reference while I am implementing:
     CH = (BCSS/(k-1))/(WCSS/(n-k))
     BCSS = i=1, Sum of ni||ci-c||^2
@@ -496,9 +498,9 @@ public class KMeans {
            ci = bestRun.finalCents[i]
            c bar is the overallMean
            so ||ci-cbar||^2 is the squaredEuclideanDistance(bestRun.finalCents[i], overallMean)
-    */
 
     //Clearer formula explanation here: https://www.graphpad.com/guides/prism/latest/statistics/stat_clustering_calinski_harabasz.htm
+    */
 
     //Actually compute the CH index, probably going to be the most complex part of my CH implementation
     private static double computeCHindex(Dataset dataset, RunResults bestRun, int numOfClusters) {
@@ -561,6 +563,39 @@ public class KMeans {
 
         return overallMean;
     }
+
+    //End CH implementation
+
+
+    //Start SW implementation
+
+    /*
+    Formula notes I found online:
+    S(i) = (b(i) - a(i) / (max{(a(i), b(i))
+    a(i) is average dist between ith object and all other objects in the same cluster
+    b(i) average dist of ith object with all objects in the nearest cluster
+
+    Value range [-1,1]
+    if s(i) close to 1, assigned to good cluster
+    if s(i) val is about 0, sample equal dist from 2 clusters
+    if close to -1, bad classification
+
+    Page 18 explains the formula great: https://cran.r-project.org/web/packages/clusterCrit/vignettes/clusterCrit.pdf
+    */
+
+    //First need a(i)
+
+    //then b(i)
+
+    //next going to need the max between a(i) b(i)
+
+    //Now build the numerator and denom
+
+    //Finally return my Si
+
+    //End SW implementation
+
+
 
     //I am going to consider all of my phase 3 requirements as "helpers" for my base K mean algorithm so all of phase 3
     //will be here
