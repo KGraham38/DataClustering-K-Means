@@ -632,6 +632,10 @@ public class KMeans {
         double sumDistances = 0.0;
 
         for (int i = 0; i < dataset.numberOfPoints; i++) {
+
+            if (i== pointIndex) {
+                continue;
+            }
             if (assignedPoints[i] == assignedCluster) {
                 sumDistances += euclideanDistance(dataset.data[pointIndex], dataset.data[i]);
                 inThisCluster++;
