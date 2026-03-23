@@ -57,8 +57,14 @@ public class KMeans {
                 Random random = new Random();
 
                 int runIndex = 1;
+
+                //Track CH
                 double trackBestCHVal = -100;
                 int bestCHKIndex = -100;
+
+                //Track SW
+                double trackBestSWVal = -100;
+                int bestSWKindex = -100;
 
                 //Adding outer loop to loop over our new k range
                 for(int k = kMin; k <= kMax; k++) {
@@ -134,12 +140,21 @@ public class KMeans {
 
                     //Had to update to use k from paramsPerK
                     double chIndexVal= computeCHindex(dataset,bestRun, k);
-                    System.out.println("CHindex(" + k + "): " + chIndexVal);
-                    outFile.println("CHindex(" + k + "): " + chIndexVal);
+                    System.out.println("CH index(" + k + "): " + chIndexVal);
+                    outFile.println("CH index(" + k + "): " + chIndexVal);
+
+                    double swIndexVal= computeTheSWindex(dataset,bestRun, k);
+                    System.out.println("SW index(" + k + "): " + swIndexVal);
+                    outFile.println("SW index(" + k + "): " + swIndexVal);
 
                     if (chIndexVal > trackBestCHVal) {
                         bestCHKIndex = k;
                         trackBestCHVal = chIndexVal;
+                    }
+
+                    if (swIndexVal > trackBestSWVal) {
+                        bestSWKindex = k;
+                        trackBestSWVal = swIndexVal;
                     }
 
                     System.out.println(" ");
@@ -156,6 +171,18 @@ public class KMeans {
                 outFile.println("Est Optimal K - CH: " + bestCHKIndex);
                 outFile.println("Best CH Val: " + trackBestCHVal);
                 outFile.println("##################################################");
+
+                //Run Data for best k using SW
+                System.out.println("##################################################");
+                System.out.println("Est Optimal K - SW: " + bestCHKIndex);
+                System.out.println("Best CH Val: " + trackBestCHVal);
+                System.out.println("##################################################");
+
+                outFile.println("##################################################");
+                outFile.println("Est Optimal K - SW: " + bestSWKindex);
+                outFile.println("Best SW Val: " + trackBestSWVal);
+                outFile.println("##################################################");
+
 
 
                 //Run data for each method of initial centroids
