@@ -37,6 +37,8 @@ public class KMeans {
             //K max closest int for sqrt (n/2)
             int kMax= (int) Math.round(sqrt(dataset.numberOfPoints/2.0));
 
+            int maxNumOfEmptyClusters = (int) Math.round(sqrt(dataset.numberOfPoints/2.0));
+
             //Print the updated normalized data set for correctness checks
             String base = new File(parameters.filename).getName();
             String outFileName = "normalized_output_" + base;
@@ -80,6 +82,10 @@ public class KMeans {
 
                     Parameters paramsPerNumKs = new Parameters(parameters.filename, k, parameters.maxNumOfIterations, parameters.convergenceThreshold,parameters.numOfRuns);
 
+                    int maxRestartCounter= 0;
+                    int updatedKMax = 0;
+
+
 
                     //Each run uses different real random centers just like my original phase 1
                     for (runIndex = 1; runIndex <= parameters.numOfRuns; runIndex++) {
@@ -95,8 +101,17 @@ public class KMeans {
                         //decrementing my runIndex which in turn repeats the run from the beginning using a new initialization
                         if (results.iterations == 0) {
                             runIndex--;
+                            maxRestartCounter++;
+
+                            if (maxRestartCounter == maxNumOfEmptyClusters)
+                            {
+                                kMax = k;
+                            }
+
                             continue;
                         }
+
+
 
                         if (results.initialSSE < bestInitialSSE) {
                             bestInitialSSE = results.initialSSE;
@@ -134,6 +149,10 @@ public class KMeans {
 
                     }
 
+                    //Had to add a check because best run can be null it never finishes a run properly
+                    if(bestRun == null){
+                        break;
+                    }
 
                     System.out.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
                     outFile.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
