@@ -1,0 +1,2134 @@
+Test for 2 clusters
+Random Partition - Run #: 1
+--------------------------------------
+Iteration 1 : SSE = 14.575544119193841
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 2
+--------------------------------------
+Iteration 1 : SSE = 25.97260941820559
+Iteration 2 : SSE = 14.575544119193841
+Iteration 3 : SSE = 12.566159267440128
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 3
+--------------------------------------
+Iteration 1 : SSE = 37.51495698515652
+Iteration 2 : SSE = 22.849427867086117
+Iteration 3 : SSE = 14.701648365722775
+Iteration 4 : SSE = 12.566159267440128
+Iteration 5 : SSE = 12.217183401089095
+Iteration 6 : SSE = 12.186848944729569
+Iteration 7 : SSE = 12.127790750538193
+Iteration 8 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 4
+--------------------------------------
+Iteration 1 : SSE = 15.131724818508014
+Iteration 2 : SSE = 12.74812983160259
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 5
+--------------------------------------
+Iteration 1 : SSE = 13.267585278982631
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 6
+--------------------------------------
+Iteration 1 : SSE = 12.186848944729569
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 7
+--------------------------------------
+Iteration 1 : SSE = 15.166704701664983
+Iteration 2 : SSE = 12.74812983160259
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 8
+--------------------------------------
+Iteration 1 : SSE = 13.267585278982631
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 9
+--------------------------------------
+Iteration 1 : SSE = 13.117435055740936
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 10
+--------------------------------------
+Iteration 1 : SSE = 12.738216007195707
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 11
+--------------------------------------
+Iteration 1 : SSE = 21.266516329416195
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 12
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 13
+--------------------------------------
+Iteration 1 : SSE = 12.319568423690125
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 14
+--------------------------------------
+Iteration 1 : SSE = 14.751386302338268
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 15
+--------------------------------------
+Iteration 1 : SSE = 18.394910740074955
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 16
+--------------------------------------
+Iteration 1 : SSE = 12.357220648297295
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 17
+--------------------------------------
+Iteration 1 : SSE = 16.5400759383981
+Iteration 2 : SSE = 13.451227463240508
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 18
+--------------------------------------
+Iteration 1 : SSE = 38.17105858759425
+Iteration 2 : SSE = 38.125264446543675
+Iteration 3 : SSE = 37.695342325226164
+Iteration 4 : SSE = 25.786533248085604
+Iteration 5 : SSE = 15.117083525871307
+Iteration 6 : SSE = 12.74812983160259
+Iteration 7 : SSE = 12.217183401089095
+Iteration 8 : SSE = 12.186848944729569
+Iteration 9 : SSE = 12.127790750538193
+Iteration 10 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 19
+--------------------------------------
+Iteration 1 : SSE = 12.604095632698867
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 20
+--------------------------------------
+Iteration 1 : SSE = 13.668248246552618
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 21
+--------------------------------------
+Iteration 1 : SSE = 12.566159267440128
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 22
+--------------------------------------
+Iteration 1 : SSE = 15.49678742644003
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 23
+--------------------------------------
+Iteration 1 : SSE = 12.511171341305316
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 24
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 25
+--------------------------------------
+Iteration 1 : SSE = 17.679935089560388
+Iteration 2 : SSE = 13.668248246552618
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 26
+--------------------------------------
+Iteration 1 : SSE = 12.433426988863486
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 27
+--------------------------------------
+Iteration 1 : SSE = 14.086514629699098
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 28
+--------------------------------------
+Iteration 1 : SSE = 22.624268001886115
+Iteration 2 : SSE = 14.197260031918345
+Iteration 3 : SSE = 12.566159267440128
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 29
+--------------------------------------
+Iteration 1 : SSE = 15.119920469549427
+Iteration 2 : SSE = 12.74812983160259
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 30
+--------------------------------------
+Iteration 1 : SSE = 14.408637052172315
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 31
+--------------------------------------
+Iteration 1 : SSE = 14.7741869804337
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 32
+--------------------------------------
+Iteration 1 : SSE = 12.217183401089095
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 33
+--------------------------------------
+Iteration 1 : SSE = 13.117435055740936
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 34
+--------------------------------------
+Iteration 1 : SSE = 12.566159267440128
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 35
+--------------------------------------
+Iteration 1 : SSE = 18.18442799821424
+Iteration 2 : SSE = 13.849568440589927
+Iteration 3 : SSE = 12.433426988863486
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 36
+--------------------------------------
+Iteration 1 : SSE = 17.02958157597634
+Iteration 2 : SSE = 13.451227463240508
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 37
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 38
+--------------------------------------
+Iteration 1 : SSE = 17.374453637569964
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 39
+--------------------------------------
+Iteration 1 : SSE = 14.310613123564485
+Iteration 2 : SSE = 12.433426988863486
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 40
+--------------------------------------
+Iteration 1 : SSE = 15.166704701664983
+Iteration 2 : SSE = 12.74812983160259
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 41
+--------------------------------------
+Iteration 1 : SSE = 15.6726999533702
+Iteration 2 : SSE = 13.101226442819453
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 42
+--------------------------------------
+Iteration 1 : SSE = 14.859640819201474
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 43
+--------------------------------------
+Iteration 1 : SSE = 12.578305625303742
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 44
+--------------------------------------
+Iteration 1 : SSE = 20.653036355153123
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 45
+--------------------------------------
+Iteration 1 : SSE = 12.757279388374611
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 46
+--------------------------------------
+Iteration 1 : SSE = 12.319568423690125
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 47
+--------------------------------------
+Iteration 1 : SSE = 15.592255404346833
+Iteration 2 : SSE = 12.93835071878155
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 48
+--------------------------------------
+Iteration 1 : SSE = 12.172690573241082
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 49
+--------------------------------------
+Iteration 1 : SSE = 38.28333159096163
+Iteration 2 : SSE = 23.467365274189767
+Iteration 3 : SSE = 14.979245371272855
+Iteration 4 : SSE = 12.74812983160259
+Iteration 5 : SSE = 12.217183401089095
+Iteration 6 : SSE = 12.186848944729569
+Iteration 7 : SSE = 12.127790750538193
+Iteration 8 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 50
+--------------------------------------
+Iteration 1 : SSE = 28.88469752598548
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 51
+--------------------------------------
+Iteration 1 : SSE = 12.566159267440128
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 52
+--------------------------------------
+Iteration 1 : SSE = 13.817565134942909
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 53
+--------------------------------------
+Iteration 1 : SSE = 13.267585278982631
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 54
+--------------------------------------
+Iteration 1 : SSE = 33.20942560461065
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 55
+--------------------------------------
+Iteration 1 : SSE = 24.848472810537295
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 56
+--------------------------------------
+Iteration 1 : SSE = 18.571578452469694
+Iteration 2 : SSE = 13.668248246552618
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 57
+--------------------------------------
+Iteration 1 : SSE = 13.693494832031059
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 58
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 59
+--------------------------------------
+Iteration 1 : SSE = 14.84700674790048
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 60
+--------------------------------------
+Iteration 1 : SSE = 12.357220648297295
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 61
+--------------------------------------
+Iteration 1 : SSE = 15.44746326883836
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 62
+--------------------------------------
+Iteration 1 : SSE = 12.883006112807402
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 63
+--------------------------------------
+Iteration 1 : SSE = 12.578305625303742
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 64
+--------------------------------------
+Iteration 1 : SSE = 16.94604023862433
+Iteration 2 : SSE = 12.93835071878155
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 65
+--------------------------------------
+Iteration 1 : SSE = 25.40397563426225
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 66
+--------------------------------------
+Iteration 1 : SSE = 15.592255404346833
+Iteration 2 : SSE = 12.93835071878155
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 67
+--------------------------------------
+Iteration 1 : SSE = 12.357220648297295
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 68
+--------------------------------------
+Iteration 1 : SSE = 16.369181280952656
+Iteration 2 : SSE = 13.267585278982631
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 69
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 70
+--------------------------------------
+Iteration 1 : SSE = 13.412385859295354
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 71
+--------------------------------------
+Iteration 1 : SSE = 12.357220648297295
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 72
+--------------------------------------
+Iteration 1 : SSE = 25.886622383734228
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 73
+--------------------------------------
+Iteration 1 : SSE = 13.101226442819453
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 74
+--------------------------------------
+Iteration 1 : SSE = 18.19322416423346
+Iteration 2 : SSE = 13.668248246552618
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 75
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 76
+--------------------------------------
+Iteration 1 : SSE = 13.451227463240508
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 77
+--------------------------------------
+Iteration 1 : SSE = 12.71461375424402
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 78
+--------------------------------------
+Iteration 1 : SSE = 12.566159267440128
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 79
+--------------------------------------
+Iteration 1 : SSE = 12.566159267440128
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 80
+--------------------------------------
+Iteration 1 : SSE = 33.028043293081
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 81
+--------------------------------------
+Iteration 1 : SSE = 15.82418706103563
+Iteration 2 : SSE = 13.267585278982631
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 82
+--------------------------------------
+Iteration 1 : SSE = 14.575544119193841
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 83
+--------------------------------------
+Iteration 1 : SSE = 12.924819582166581
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 84
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 85
+--------------------------------------
+Iteration 1 : SSE = 13.057350704037146
+Iteration 2 : SSE = 12.127790750538193
+Iteration 3 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 86
+--------------------------------------
+Iteration 1 : SSE = 13.136900344665671
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 87
+--------------------------------------
+Iteration 1 : SSE = 13.101226442819453
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 88
+--------------------------------------
+Iteration 1 : SSE = 38.1441158386358
+Iteration 2 : SSE = 18.351708477944836
+Iteration 3 : SSE = 14.240231452153907
+Iteration 4 : SSE = 12.566159267440128
+Iteration 5 : SSE = 12.217183401089095
+Iteration 6 : SSE = 12.186848944729569
+Iteration 7 : SSE = 12.127790750538193
+Iteration 8 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 89
+--------------------------------------
+Iteration 1 : SSE = 27.546303555593816
+Iteration 2 : SSE = 13.451227463240508
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 90
+--------------------------------------
+Iteration 1 : SSE = 14.240231452153907
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 91
+--------------------------------------
+Iteration 1 : SSE = 14.20435941000204
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 92
+--------------------------------------
+Iteration 1 : SSE = 12.127790750538193
+Iteration 2 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 93
+--------------------------------------
+Iteration 1 : SSE = 13.49905635632591
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 94
+--------------------------------------
+Iteration 1 : SSE = 14.751386302338268
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 95
+--------------------------------------
+Iteration 1 : SSE = 14.575544119193841
+Iteration 2 : SSE = 12.566159267440128
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 96
+--------------------------------------
+Iteration 1 : SSE = 15.6001834234115
+Iteration 2 : SSE = 13.101226442819453
+Iteration 3 : SSE = 12.312176423903143
+Iteration 4 : SSE = 12.217183401089095
+Iteration 5 : SSE = 12.186848944729569
+Iteration 6 : SSE = 12.127790750538193
+Iteration 7 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 97
+--------------------------------------
+Iteration 1 : SSE = 13.136900344665671
+Iteration 2 : SSE = 12.312176423903143
+Iteration 3 : SSE = 12.217183401089095
+Iteration 4 : SSE = 12.186848944729569
+Iteration 5 : SSE = 12.127790750538193
+Iteration 6 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 98
+--------------------------------------
+Iteration 1 : SSE = 12.776305574650339
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 99
+--------------------------------------
+Iteration 1 : SSE = 12.566159267440128
+Iteration 2 : SSE = 12.217183401089095
+Iteration 3 : SSE = 12.186848944729569
+Iteration 4 : SSE = 12.127790750538193
+Iteration 5 : SSE = 12.127790750538193
+
+Test for 2 clusters
+Random Partition - Run #: 100
+--------------------------------------
+Iteration 1 : SSE = 12.357220648297295
+Iteration 2 : SSE = 12.186848944729569
+Iteration 3 : SSE = 12.127790750538193
+Iteration 4 : SSE = 12.127790750538193
+
+Best Run: 1: SSE = 12.127790750538193
+CH index(2): 354.3655559107396
+SW index(2): 0.6300471284354711
+ 
+Test for 3 clusters
+Random Partition - Run #: 1
+--------------------------------------
+Iteration 1 : SSE = 12.53798904350325
+Iteration 2 : SSE = 9.94028266009712
+Iteration 3 : SSE = 7.134954636395356
+Iteration 4 : SSE = 7.019311992779083
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 2
+--------------------------------------
+Iteration 1 : SSE = 9.956473064079853
+Iteration 2 : SSE = 8.28747713391777
+Iteration 3 : SSE = 7.481720333117973
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 3
+--------------------------------------
+Iteration 1 : SSE = 9.723815023464592
+Iteration 2 : SSE = 7.217712042013341
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 4
+--------------------------------------
+Iteration 1 : SSE = 11.091555696092863
+Iteration 2 : SSE = 7.422612902637688
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 5
+--------------------------------------
+Iteration 1 : SSE = 12.2424710625335
+Iteration 2 : SSE = 10.18037785708445
+Iteration 3 : SSE = 8.28747713391777
+Iteration 4 : SSE = 7.481720333117973
+Iteration 5 : SSE = 7.256494071414175
+Iteration 6 : SSE = 7.1941642385222515
+Iteration 7 : SSE = 7.174690532040338
+Iteration 8 : SSE = 7.156832553063426
+Iteration 9 : SSE = 7.149094569756065
+Iteration 10 : SSE = 7.12275017294385
+Iteration 11 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 6
+--------------------------------------
+Iteration 1 : SSE = 11.07295961654293
+Iteration 2 : SSE = 10.33706807321318
+Iteration 3 : SSE = 8.754695958156054
+Iteration 4 : SSE = 7.662711324944357
+Iteration 5 : SSE = 7.322123586523113
+Iteration 6 : SSE = 7.212235815081694
+Iteration 7 : SSE = 7.181848906316954
+Iteration 8 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 7
+--------------------------------------
+Iteration 1 : SSE = 12.436775796267488
+Iteration 2 : SSE = 7.760566369495231
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 8
+--------------------------------------
+Iteration 1 : SSE = 12.216721909442237
+Iteration 2 : SSE = 7.482493712668578
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 9
+--------------------------------------
+Iteration 1 : SSE = 8.231948948042515
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 10
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 10
+--------------------------------------
+Iteration 1 : SSE = 12.286268562186667
+Iteration 2 : SSE = 10.96651508702772
+Iteration 3 : SSE = 9.638444546605083
+Iteration 4 : SSE = 8.203552442449713
+Iteration 5 : SSE = 7.430517474747103
+Iteration 6 : SSE = 7.256494071414175
+Iteration 7 : SSE = 7.1941642385222515
+Iteration 8 : SSE = 7.174690532040338
+Iteration 9 : SSE = 7.156832553063426
+Iteration 10 : SSE = 7.149094569756065
+Iteration 11 : SSE = 7.12275017294385
+Iteration 12 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 11
+--------------------------------------
+Iteration 1 : SSE = 12.979161199831873
+Iteration 2 : SSE = 7.694697235283385
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 12
+--------------------------------------
+Iteration 1 : SSE = 9.846372140657214
+Iteration 2 : SSE = 7.19241481256523
+Iteration 3 : SSE = 7.139801011445314
+Iteration 4 : SSE = 7.12275017294385
+Iteration 5 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 13
+--------------------------------------
+Iteration 1 : SSE = 12.468491487498948
+Iteration 2 : SSE = 10.888467691009781
+Iteration 3 : SSE = 10.81532492296579
+Iteration 4 : SSE = 10.212402661129024
+Iteration 5 : SSE = 8.644106258583674
+Iteration 6 : SSE = 7.662711324944357
+Iteration 7 : SSE = 7.322123586523113
+Iteration 8 : SSE = 7.212235815081694
+Iteration 9 : SSE = 7.181848906316954
+Iteration 10 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 14
+--------------------------------------
+Iteration 1 : SSE = 9.516874336540925
+Iteration 2 : SSE = 7.397248945564798
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 15
+--------------------------------------
+Iteration 1 : SSE = 10.464470070204893
+Iteration 2 : SSE = 7.1941642385222515
+Iteration 3 : SSE = 7.174690532040338
+Iteration 4 : SSE = 7.156832553063426
+Iteration 5 : SSE = 7.149094569756065
+Iteration 6 : SSE = 7.12275017294385
+Iteration 7 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 16
+--------------------------------------
+Iteration 1 : SSE = 13.339961784755182
+Iteration 2 : SSE = 7.504242425053013
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 17
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 17
+--------------------------------------
+Iteration 1 : SSE = 14.484331247606132
+Iteration 2 : SSE = 11.794370095809924
+Iteration 3 : SSE = 11.17552012930533
+Iteration 4 : SSE = 11.146040046836028
+Iteration 5 : SSE = 11.127195569941478
+Iteration 6 : SSE = 11.098361551777899
+Iteration 7 : SSE = 10.979067833581674
+Iteration 8 : SSE = 10.933853003369432
+Iteration 9 : SSE = 10.918419737103669
+Iteration 10 : SSE = 10.901824528868373
+Iteration 11 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 18
+--------------------------------------
+Iteration 1 : SSE = 8.117307173137863
+Iteration 2 : SSE = 7.358006297260011
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 19
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 19
+--------------------------------------
+Iteration 1 : SSE = 12.159441548931442
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 20
+--------------------------------------
+Iteration 1 : SSE = 11.788380052798718
+Iteration 2 : SSE = 9.711620672353478
+Iteration 3 : SSE = 8.28747713391777
+Iteration 4 : SSE = 7.481720333117973
+Iteration 5 : SSE = 7.256494071414175
+Iteration 6 : SSE = 7.1941642385222515
+Iteration 7 : SSE = 7.174690532040338
+Iteration 8 : SSE = 7.156832553063426
+Iteration 9 : SSE = 7.149094569756065
+Iteration 10 : SSE = 7.12275017294385
+Iteration 11 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 21
+--------------------------------------
+Iteration 1 : SSE = 14.935424070239995
+Iteration 2 : SSE = 11.593582743353197
+Iteration 3 : SSE = 10.943221556123808
+Iteration 4 : SSE = 10.91366305745158
+Iteration 5 : SSE = 10.893222690792301
+Iteration 6 : SSE = 10.893222690792301
+
+Test for 3 clusters
+Random Partition - Run #: 22
+--------------------------------------
+Iteration 1 : SSE = 10.304017890574821
+Iteration 2 : SSE = 7.29555086483793
+Iteration 3 : SSE = 7.003835360437281
+Iteration 4 : SSE = 6.990176884225563
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 23
+--------------------------------------
+Iteration 1 : SSE = 11.854749301543471
+Iteration 2 : SSE = 7.278591758922333
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 24
+--------------------------------------
+Iteration 1 : SSE = 14.962912851030955
+Iteration 2 : SSE = 8.491121604438478
+Iteration 3 : SSE = 6.990176884225563
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 25
+--------------------------------------
+Iteration 1 : SSE = 12.508703597116702
+Iteration 2 : SSE = 8.09045970802904
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 26
+--------------------------------------
+Iteration 1 : SSE = 11.843944109368353
+Iteration 2 : SSE = 11.078839801602763
+Iteration 3 : SSE = 10.926433494570006
+Iteration 4 : SSE = 10.910252962389126
+Iteration 5 : SSE = 10.892252904461209
+Iteration 6 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 27
+--------------------------------------
+Iteration 1 : SSE = 9.690682532375652
+Iteration 2 : SSE = 7.886457388079136
+Iteration 3 : SSE = 7.430517474747103
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 28
+--------------------------------------
+Iteration 1 : SSE = 15.222916983942198
+Iteration 2 : SSE = 8.067484594569127
+Iteration 3 : SSE = 7.430517474747103
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 29
+--------------------------------------
+Iteration 1 : SSE = 11.86722300835613
+Iteration 2 : SSE = 7.451859949635336
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 30
+--------------------------------------
+Iteration 1 : SSE = 8.78096797904185
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 31
+--------------------------------------
+Iteration 1 : SSE = 15.14848794654521
+Iteration 2 : SSE = 12.309647503390092
+Iteration 3 : SSE = 11.166761450284497
+Iteration 4 : SSE = 11.120940482271616
+Iteration 5 : SSE = 11.018336609584464
+Iteration 6 : SSE = 10.946270692850506
+Iteration 7 : SSE = 10.926433494570006
+Iteration 8 : SSE = 10.910252962389126
+Iteration 9 : SSE = 10.892252904461209
+Iteration 10 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 32
+--------------------------------------
+Iteration 1 : SSE = 12.274117101838346
+Iteration 2 : SSE = 8.024473077993266
+Iteration 3 : SSE = 7.169953513644954
+Iteration 4 : SSE = 7.043959403633014
+Iteration 5 : SSE = 6.998907685940774
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 33
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 33
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 33
+--------------------------------------
+Iteration 1 : SSE = 14.502685537169247
+Iteration 2 : SSE = 7.317648236559617
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 34
+--------------------------------------
+Iteration 1 : SSE = 8.494499159091193
+Iteration 2 : SSE = 7.120160494754142
+Iteration 3 : SSE = 7.02007645792582
+Iteration 4 : SSE = 6.990176884225563
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 35
+--------------------------------------
+Iteration 1 : SSE = 14.281796967859547
+Iteration 2 : SSE = 11.662070721085767
+Iteration 3 : SSE = 11.190683605347648
+Iteration 4 : SSE = 11.137035473805781
+Iteration 5 : SSE = 11.119721514954207
+Iteration 6 : SSE = 11.071111413303264
+Iteration 7 : SSE = 10.9611784466269
+Iteration 8 : SSE = 10.933853003369432
+Iteration 9 : SSE = 10.918419737103669
+Iteration 10 : SSE = 10.901824528868373
+Iteration 11 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 36
+--------------------------------------
+Iteration 1 : SSE = 7.700818882519396
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 37
+--------------------------------------
+Iteration 1 : SSE = 12.454112335451445
+Iteration 2 : SSE = 11.540259083910728
+Iteration 3 : SSE = 9.138763587353111
+Iteration 4 : SSE = 7.101820345454453
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 38
+--------------------------------------
+Iteration 1 : SSE = 9.446483241847766
+Iteration 2 : SSE = 7.094474953988638
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 39
+--------------------------------------
+Iteration 1 : SSE = 12.48246121213729
+Iteration 2 : SSE = 7.5964539688004065
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 40
+--------------------------------------
+Iteration 1 : SSE = 10.003631427150289
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 41
+--------------------------------------
+Iteration 1 : SSE = 12.34947650716865
+Iteration 2 : SSE = 7.164426793569432
+Iteration 3 : SSE = 7.115519914711876
+Iteration 4 : SSE = 7.050139494310043
+Iteration 5 : SSE = 6.990176884225563
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 42
+--------------------------------------
+Iteration 1 : SSE = 11.685364422337779
+Iteration 2 : SSE = 7.358006297260011
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 43
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 43
+--------------------------------------
+Iteration 1 : SSE = 12.51179152969518
+Iteration 2 : SSE = 7.395877023804796
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 44
+--------------------------------------
+Iteration 1 : SSE = 11.313611296245437
+Iteration 2 : SSE = 10.943221556123808
+Iteration 3 : SSE = 10.91366305745158
+Iteration 4 : SSE = 10.893222690792301
+Iteration 5 : SSE = 10.893222690792301
+
+Test for 3 clusters
+Random Partition - Run #: 45
+--------------------------------------
+Iteration 1 : SSE = 10.424201884399967
+Iteration 2 : SSE = 7.481720333117973
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 46
+--------------------------------------
+Iteration 1 : SSE = 12.914610086412956
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 47
+--------------------------------------
+Iteration 1 : SSE = 9.6251389888546
+Iteration 2 : SSE = 7.358006297260011
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 48
+--------------------------------------
+Iteration 1 : SSE = 14.391272442957398
+Iteration 2 : SSE = 7.317648236559617
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 49
+--------------------------------------
+Iteration 1 : SSE = 10.625860320841925
+Iteration 2 : SSE = 7.597593270719557
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 50
+--------------------------------------
+Iteration 1 : SSE = 8.227825103268431
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 51
+--------------------------------------
+Iteration 1 : SSE = 16.183586674871982
+Iteration 2 : SSE = 10.987039255841468
+Iteration 3 : SSE = 8.881991623941174
+Iteration 4 : SSE = 7.662711324944357
+Iteration 5 : SSE = 7.322123586523113
+Iteration 6 : SSE = 7.212235815081694
+Iteration 7 : SSE = 7.181848906316954
+Iteration 8 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 52
+--------------------------------------
+Iteration 1 : SSE = 12.03217397110341
+Iteration 2 : SSE = 7.9740891588420535
+Iteration 3 : SSE = 7.043959403633014
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 53
+--------------------------------------
+Iteration 1 : SSE = 11.304976536453378
+Iteration 2 : SSE = 7.802529640782389
+Iteration 3 : SSE = 7.322123586523113
+Iteration 4 : SSE = 7.212235815081694
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 54
+--------------------------------------
+Iteration 1 : SSE = 11.004204947408988
+Iteration 2 : SSE = 7.2952157613055
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 55
+--------------------------------------
+Iteration 1 : SSE = 13.360745208524454
+Iteration 2 : SSE = 12.07526493642302
+Iteration 3 : SSE = 11.410871004381185
+Iteration 4 : SSE = 11.17552012930533
+Iteration 5 : SSE = 11.146040046836028
+Iteration 6 : SSE = 11.127195569941478
+Iteration 7 : SSE = 11.098361551777899
+Iteration 8 : SSE = 10.979067833581674
+Iteration 9 : SSE = 10.933853003369432
+Iteration 10 : SSE = 10.918419737103669
+Iteration 11 : SSE = 10.901824528868373
+Iteration 12 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 56
+--------------------------------------
+Iteration 1 : SSE = 10.483938428371273
+Iteration 2 : SSE = 7.4379326324459525
+Iteration 3 : SSE = 7.0764115298722015
+Iteration 4 : SSE = 7.035479910591724
+Iteration 5 : SSE = 6.990176884225563
+Iteration 6 : SSE = 6.982216473785234
+Iteration 7 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 57
+--------------------------------------
+Iteration 1 : SSE = 10.278736321045635
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 58
+--------------------------------------
+Iteration 1 : SSE = 10.8270605848461
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 59
+--------------------------------------
+Iteration 1 : SSE = 10.61366154142155
+Iteration 2 : SSE = 7.3998403756714906
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 60
+--------------------------------------
+Iteration 1 : SSE = 14.051652161716182
+Iteration 2 : SSE = 8.203552442449713
+Iteration 3 : SSE = 7.430517474747103
+Iteration 4 : SSE = 7.256494071414175
+Iteration 5 : SSE = 7.1941642385222515
+Iteration 6 : SSE = 7.174690532040338
+Iteration 7 : SSE = 7.156832553063426
+Iteration 8 : SSE = 7.149094569756065
+Iteration 9 : SSE = 7.12275017294385
+Iteration 10 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 61
+--------------------------------------
+Iteration 1 : SSE = 10.315048321535151
+Iteration 2 : SSE = 7.232374384986909
+Iteration 3 : SSE = 7.181848906316954
+Iteration 4 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 62
+--------------------------------------
+Iteration 1 : SSE = 12.495355390446486
+Iteration 2 : SSE = 11.195345537833694
+Iteration 3 : SSE = 8.43415314658589
+Iteration 4 : SSE = 7.086613082944214
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 63
+--------------------------------------
+Iteration 1 : SSE = 8.28747713391777
+Iteration 2 : SSE = 7.481720333117973
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 64
+--------------------------------------
+Iteration 1 : SSE = 13.007076344094822
+Iteration 2 : SSE = 11.457292485168734
+Iteration 3 : SSE = 11.17552012930533
+Iteration 4 : SSE = 11.146040046836028
+Iteration 5 : SSE = 11.127195569941478
+Iteration 6 : SSE = 11.098361551777899
+Iteration 7 : SSE = 10.979067833581674
+Iteration 8 : SSE = 10.933853003369432
+Iteration 9 : SSE = 10.918419737103669
+Iteration 10 : SSE = 10.901824528868373
+Iteration 11 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 65
+--------------------------------------
+Iteration 1 : SSE = 18.245076279470023
+Iteration 2 : SSE = 11.18344481917834
+Iteration 3 : SSE = 10.892252904461209
+Iteration 4 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 66
+--------------------------------------
+Iteration 1 : SSE = 13.255131806734315
+Iteration 2 : SSE = 7.652030867561179
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 67
+--------------------------------------
+Iteration 1 : SSE = 8.777713491981453
+Iteration 2 : SSE = 7.662711324944357
+Iteration 3 : SSE = 7.322123586523113
+Iteration 4 : SSE = 7.212235815081694
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 68
+--------------------------------------
+Iteration 1 : SSE = 16.29163625586969
+Iteration 2 : SSE = 12.148882395431208
+Iteration 3 : SSE = 11.127450222013291
+Iteration 4 : SSE = 10.946270692850506
+Iteration 5 : SSE = 10.926433494570006
+Iteration 6 : SSE = 10.910252962389126
+Iteration 7 : SSE = 10.892252904461209
+Iteration 8 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 69
+--------------------------------------
+Iteration 1 : SSE = 9.702615636173624
+Iteration 2 : SSE = 7.815964348634909
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 70
+--------------------------------------
+Iteration 1 : SSE = 12.8339418661027
+Iteration 2 : SSE = 11.251202803325778
+Iteration 3 : SSE = 10.943221556123808
+Iteration 4 : SSE = 10.91366305745158
+Iteration 5 : SSE = 10.893222690792301
+Iteration 6 : SSE = 10.893222690792301
+
+Test for 3 clusters
+Random Partition - Run #: 71
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 71
+--------------------------------------
+Iteration 1 : SSE = 11.71166512926619
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 72
+--------------------------------------
+Iteration 1 : SSE = 13.789307767999322
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 73
+--------------------------------------
+Iteration 1 : SSE = 14.128064733150213
+Iteration 2 : SSE = 7.364466574714017
+Iteration 3 : SSE = 7.232374384986909
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 74
+--------------------------------------
+Iteration 1 : SSE = 8.38683263770136
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 75
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 75
+--------------------------------------
+Iteration 1 : SSE = 9.064391901286188
+Iteration 2 : SSE = 7.430517474747103
+Iteration 3 : SSE = 7.256494071414175
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 76
+--------------------------------------
+Iteration 1 : SSE = 12.374221422417486
+Iteration 2 : SSE = 11.246998783713668
+Iteration 3 : SSE = 7.926044005869156
+Iteration 4 : SSE = 6.998907685940774
+Iteration 5 : SSE = 6.982216473785234
+Iteration 6 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 77
+--------------------------------------
+Iteration 1 : SSE = 9.138664396979827
+Iteration 2 : SSE = 7.815964348634909
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 78
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 78
+--------------------------------------
+Iteration 1 : SSE = 19.030011034154757
+Iteration 2 : SSE = 7.856342870885917
+Iteration 3 : SSE = 7.097053933251467
+Iteration 4 : SSE = 7.0764115298722015
+Iteration 5 : SSE = 7.035479910591724
+Iteration 6 : SSE = 6.990176884225563
+Iteration 7 : SSE = 6.982216473785234
+Iteration 8 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 79
+--------------------------------------
+Iteration 1 : SSE = 12.47472766755695
+Iteration 2 : SSE = 8.107112013053225
+Iteration 3 : SSE = 7.395877023804796
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 80
+--------------------------------------
+Iteration 1 : SSE = 13.29602375978502
+Iteration 2 : SSE = 10.00154607838029
+Iteration 3 : SSE = 8.28747713391777
+Iteration 4 : SSE = 7.481720333117973
+Iteration 5 : SSE = 7.256494071414175
+Iteration 6 : SSE = 7.1941642385222515
+Iteration 7 : SSE = 7.174690532040338
+Iteration 8 : SSE = 7.156832553063426
+Iteration 9 : SSE = 7.149094569756065
+Iteration 10 : SSE = 7.12275017294385
+Iteration 11 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 81
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 81
+--------------------------------------
+Iteration 1 : SSE = 9.577586117756537
+Iteration 2 : SSE = 7.807664995671259
+Iteration 3 : SSE = 7.358006297260011
+Iteration 4 : SSE = 7.232374384986909
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 82
+--------------------------------------
+Iteration 1 : SSE = 8.715107686485126
+Iteration 2 : SSE = 7.19241481256523
+Iteration 3 : SSE = 7.139801011445314
+Iteration 4 : SSE = 7.12275017294385
+Iteration 5 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 83
+--------------------------------------
+Iteration 1 : SSE = 21.64752472873378
+Iteration 2 : SSE = 12.163803926066066
+Iteration 3 : SSE = 9.778220354125095
+Iteration 4 : SSE = 7.257987176039348
+Iteration 5 : SSE = 7.097053933251467
+Iteration 6 : SSE = 7.0764115298722015
+Iteration 7 : SSE = 7.035479910591724
+Iteration 8 : SSE = 6.990176884225563
+Iteration 9 : SSE = 6.982216473785234
+Iteration 10 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 84
+--------------------------------------
+Iteration 1 : SSE = 12.54657493606201
+Iteration 2 : SSE = 7.694697235283385
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 85
+--------------------------------------
+Iteration 1 : SSE = 8.882471748745898
+Iteration 2 : SSE = 7.322123586523113
+Iteration 3 : SSE = 7.212235815081694
+Iteration 4 : SSE = 7.181848906316954
+Iteration 5 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 86
+--------------------------------------
+Iteration 1 : SSE = 12.546625302879765
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 87
+--------------------------------------
+Iteration 1 : SSE = 12.0417675112388
+Iteration 2 : SSE = 9.57902627576139
+Iteration 3 : SSE = 7.086613082944214
+Iteration 4 : SSE = 6.982216473785234
+Iteration 5 : SSE = 6.982216473785234
+
+Test for 3 clusters
+Random Partition - Run #: 88
+--------------------------------------
+Iteration 1 : SSE = 12.349765935858722
+Iteration 2 : SSE = 7.229473339304837
+Iteration 3 : SSE = 7.12275017294385
+Iteration 4 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 89
+--------------------------------------
+Iteration 1 : SSE = 12.13780623375132
+Iteration 2 : SSE = 7.802529640782389
+Iteration 3 : SSE = 7.322123586523113
+Iteration 4 : SSE = 7.212235815081694
+Iteration 5 : SSE = 7.181848906316954
+Iteration 6 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 90
+--------------------------------------
+Iteration 1 : SSE = 8.54259593146809
+Iteration 2 : SSE = 7.19241481256523
+Iteration 3 : SSE = 7.139801011445314
+Iteration 4 : SSE = 7.12275017294385
+Iteration 5 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 91
+--------------------------------------
+Iteration 1 : SSE = 11.966909500962412
+Iteration 2 : SSE = 7.5964539688004065
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 92
+--------------------------------------
+Iteration 1 : SSE = 7.683447167339055
+Iteration 2 : SSE = 7.256494071414175
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 93
+--------------------------------------
+Iteration 1 : SSE = 12.436775796267488
+Iteration 2 : SSE = 7.760566369495231
+Iteration 3 : SSE = 7.286799356295685
+Iteration 4 : SSE = 7.1941642385222515
+Iteration 5 : SSE = 7.174690532040338
+Iteration 6 : SSE = 7.156832553063426
+Iteration 7 : SSE = 7.149094569756065
+Iteration 8 : SSE = 7.12275017294385
+Iteration 9 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 94
+--------------------------------------
+Iteration 1 : SSE = 13.869895990612102
+Iteration 2 : SSE = 11.436928678520347
+Iteration 3 : SSE = 10.946270692850506
+Iteration 4 : SSE = 10.926433494570006
+Iteration 5 : SSE = 10.910252962389126
+Iteration 6 : SSE = 10.892252904461209
+Iteration 7 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 95
+--------------------------------------
+Empty Cluster found! --> restarting run with new initialization.
+
+Test for 3 clusters
+Random Partition - Run #: 95
+--------------------------------------
+Iteration 1 : SSE = 12.78305331707178
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 96
+--------------------------------------
+Iteration 1 : SSE = 12.858818816099845
+Iteration 2 : SSE = 11.457292485168734
+Iteration 3 : SSE = 11.17552012930533
+Iteration 4 : SSE = 11.146040046836028
+Iteration 5 : SSE = 11.127195569941478
+Iteration 6 : SSE = 11.098361551777899
+Iteration 7 : SSE = 10.979067833581674
+Iteration 8 : SSE = 10.933853003369432
+Iteration 9 : SSE = 10.918419737103669
+Iteration 10 : SSE = 10.901824528868373
+Iteration 11 : SSE = 10.892252904461209
+
+Test for 3 clusters
+Random Partition - Run #: 97
+--------------------------------------
+Iteration 1 : SSE = 10.021659232001927
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 98
+--------------------------------------
+Iteration 1 : SSE = 10.910243777262133
+Iteration 2 : SSE = 8.644106258583674
+Iteration 3 : SSE = 7.662711324944357
+Iteration 4 : SSE = 7.322123586523113
+Iteration 5 : SSE = 7.212235815081694
+Iteration 6 : SSE = 7.181848906316954
+Iteration 7 : SSE = 7.174690532040338
+
+Test for 3 clusters
+Random Partition - Run #: 99
+--------------------------------------
+Iteration 1 : SSE = 11.613234166789102
+Iteration 2 : SSE = 7.286799356295685
+Iteration 3 : SSE = 7.1941642385222515
+Iteration 4 : SSE = 7.174690532040338
+Iteration 5 : SSE = 7.156832553063426
+Iteration 6 : SSE = 7.149094569756065
+Iteration 7 : SSE = 7.12275017294385
+Iteration 8 : SSE = 7.12275017294385
+
+Test for 3 clusters
+Random Partition - Run #: 100
+--------------------------------------
+Iteration 1 : SSE = 13.453019560725847
+Iteration 2 : SSE = 7.706277146722582
+Iteration 3 : SSE = 6.982216473785234
+Iteration 4 : SSE = 6.982216473785234
+
+Best Run: 1: SSE = 6.982216473785234
+CH index(3): 359.8450742083084
+SW index(3): 0.5047687565398588
+ 
+##################################################
+Est Optimal K - CH: 3
+Best CH Val: 359.8450742083084
+##################################################
+##################################################
+Est Optimal K - SW: 2
+Best SW Val: 0.6300471284354711
+##################################################
+ 
+##################################################
+Method: Centroids by Random Partition
+##################################################
