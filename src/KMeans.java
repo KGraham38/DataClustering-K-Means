@@ -556,6 +556,10 @@ public class KMeans {
            so ||ci-cbar||^2 is the squaredEuclideanDistance(bestRun.finalCents[i], overallMean)
 
     //Clearer formula explanation here: https://www.graphpad.com/guides/prism/latest/statistics/stat_clustering_calinski_harabasz.htm
+
+    Basic logic: measure how good cluster separation is by computing how far apart the clus centers arw to how
+    tight the points are in each cluster.
+
     */
 
     //Actually compute the CH index, probably going to be the most complex part of my CH implementation
@@ -640,6 +644,10 @@ public class KMeans {
                      b(i) is min avg dist to another cluster
 
     Page 18 explains the formula great: https://cran.r-project.org/web/packages/clusterCrit/vignettes/clusterCrit.pdf
+
+    Basic logic: measure how good each point fits in its cluster by comparing closeness of it in its
+    cluster vs how far the nearest other cluster is to it
+
     */
 
     //Regular Euclidean Distance
