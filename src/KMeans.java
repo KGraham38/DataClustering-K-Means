@@ -537,6 +537,11 @@ public class KMeans {
 
     //Phase 4 start (for easy search to get back to my phase 4 logic)
 
+    //Phase 4 IMPORTANT IMPLEMENTATION NOTE: Like we talked about in our email I did go ahead and set kmax to theCurrentK-1
+    //if there were an equal num of consecutive empty clusters to sqrt(n/2) for a given dataset. That said I let the current
+    //k keep running since in my previous experiments I found it even with a lot of consecutive empty clusters, the run was
+    //still able to finish eventually so to give me an extra k value for my comparison tables just for completeness.
+
     //Start CH implementation
     /*
     Link for my easy reference of formula: https://en.wikipedia.org/wiki/Calinski%E2%80%93Harabasz_index
