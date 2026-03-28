@@ -105,7 +105,10 @@ public class KMeans {
 
                             if (maxRestartCounter == maxNumOfEmptyClusters)
                             {
-                                kMax = k;
+                                int kTemp = k-1;
+                                System.out.println("Max empty cluster threshold met kMax set to " + kTemp + " from " + kMax);
+                                outFile.println("Max empty cluster threshold met kMax set to " + kTemp + " from " + kMax);
+                                kMax = k-1;
                             }
 
                             continue;
@@ -147,6 +150,9 @@ public class KMeans {
                             bestRun = results;
                         }
 
+                        //Forgot to add this which messed up all of my outputs
+                        maxRestartCounter = 0;
+
                     }
 
                     //Had to add a check because best run can be null it never finishes a run properly
@@ -178,6 +184,7 @@ public class KMeans {
                         bestSWKindex = k;
                         trackBestSWVal = swIndexVal;
                     }
+
 
                     System.out.println(" ");
                     outFile.println(" ");
