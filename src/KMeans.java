@@ -540,7 +540,8 @@ public class KMeans {
     //Phase 4 IMPORTANT IMPLEMENTATION NOTE: Like we talked about in our email I did go ahead and set kmax to theCurrentK-1
     //if there were an equal num of consecutive empty clusters to sqrt(n/2) for a given dataset. That said I let the current
     //k keep running since in my previous experiments I found it even with a lot of consecutive empty clusters, the run was
-    //still able to finish eventually so to give me an extra k value for my comparison tables just for completeness.
+    //still able to finish eventually so to give me an extra k value for my comparison tables just for completeness I let k finish.
+    //Then when it hits the top of the for loop it breaks because the new kmax val is lower than k.
 
     //Start CH implementation
     /*
@@ -684,6 +685,8 @@ public class KMeans {
             }
         }
 
+        //If there are no other points in the assigned cluster, treat it like a singleton cluster and ignore it like
+        //recommended in our discussion board. Just return 0 for avg dist between points in this cluster
         if (inThisCluster == 0) {
             return 0.0;
         }
