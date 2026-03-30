@@ -685,7 +685,7 @@ public class KMeans {
             }
         }
 
-        //If there are no other points in the assigned cluster, treat it like a singleton cluster and ignore it like
+        //If there are no other points in the assigned cluster, its a singleton cluster and ill ignore it like
         //recommended in our discussion board. Just return 0 for avg dist between points in this cluster
         if (inThisCluster == 0) {
             return 0.0;
