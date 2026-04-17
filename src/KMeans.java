@@ -1,6 +1,6 @@
 //Kody Graham
-//03/19/2026
-//Phase 4
+//04/12/2026
+//Phase 5
 //For: Dr. Emre Celebi's Data Clustering Online Class - 4372
 
 
@@ -534,6 +534,55 @@ public class KMeans {
     }
 
     //Anymore helpers for k means will go here
+
+    //Phase 5 start (for easy search to get back to my phase 5 logic)
+
+    /*
+    Phase 5 IMPORTANT IMPLEMENTATION NOTES: both external validation methods use almost the same variables so should
+    be able to create methods to handle them once and call what I need for each
+
+    Likely methods needed: computeTP, computeFN, computeFP, computeN, computeTN
+
+    N = TP+FN+FP+TN
+    TP = 1/2((SUM to r from i = 1 SUM to k from j=1 n^2ij)-n)
+                                                       ^^ subscripts
+    FN = 1/2(SUM to k from j=1 m^2j - SUM to r from i =1 SUM to k from j = 1 n^2ij
+                                  ^ subscripts                                  ^^
+    FP = 1/2(SUM to r from i = 1 n^2i - SUM to r from i = 1 SUM to k from j=1 n^2ij)
+                                    ^                                            ^^
+    TN = N-(TP+FN+FP) going to have to implement this one last so I can just call the others in the formula order
+
+    Might be beneficial to have method for SUM to r from i = 1 and SUM to k from j=1 n^2ij since they are used so frequently
+    also n^2ij is used a lot in these formulas so a method for it will help too
+
+
+
+    */
+
+    //Start the Jaccard external validation method
+    /*
+        From the resource you recommended:https://dataminingbook.info/book_html/chap17/book.html
+        Measures the fraction of true positive point pairs but after ignoring true negatives
+
+        For perfect clustering, the Jaccard Coefficient has value 1 = no false positives or false negatives
+
+
+        Jaccard= TP/TP+FN+FP
+
+        Steps:
+        Compute tp
+        compute fn
+        compute fp
+        then call a computeJaccard function to call the other compute functions and return the results
+
+    */
+
+    private static int[][] buildClustLabelTable(int[] assignedClusters, int[] trueLabel, int numClusters){
+
+        int[][] clusterLabelTable = new int[numClusters][trueLabel];
+        return clusterLabelTable;
+    }
+
 
     //Phase 4 start (for easy search to get back to my phase 4 logic)
 
