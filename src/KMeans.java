@@ -543,7 +543,10 @@ public class KMeans {
 
     Likely methods needed: computeTP, computeFN, computeFP, computeN, computeTN
 
-    N = TP+FN+FP+TN
+    N = TP+FN+FP+TN #Reread the datamining book section and found this formula for N which can be computed more only
+    using just the num of clusters as n for: N= n(n-1)/2
+
+
     TP = 1/2((SUM to r from i = 1 SUM to k from j=1 n^2ij)-n)
                                                        ^^ subscripts
     FN = 1/2(SUM to k from j=1 m^2j - SUM to r from i =1 SUM to k from j = 1 n^2ij
@@ -577,10 +580,54 @@ public class KMeans {
 
     */
 
-    private static int[][] buildClustLabelTable(int[] assignedClusters, int[] trueLabel, int numClusters){
+    //This will be the nij table that will store how many points assigned to i,which is the predicted cluster, but actually in j, the true clust j
+    private static int[][] buildClustLabelTable(int[] assignedClusters, int[] trueLabel, int numClusters, int trueNumClusters) {
 
-        int[][] clusterLabelTable = new int[numClusters][trueLabel];
+        int[][] clusterLabelTable = new int[numClusters][trueNumClusters];
+        for (int i = 0; i < numClusters; i++) {
+            int predictedCluster = assignedClusters[i];
+            int trueCluster = trueLabel[i];
+
+            clusterLabelTable[predictedCluster][trueCluster]++;
+        }
+
         return clusterLabelTable;
+    }
+
+    //Now i will need the form of SUM n^2ij
+    //Just a reminder while implementing n is the total num of points in cluster i
+    private static double computeSumOfNijSquared (int[][] clusterLabelTable) {
+
+        double sumSquared = 0;
+
+        for (int i = 0; i < clusterLabelTable.length; i++) {
+            for (int j = 0; j < clusterLabelTable.length; j++) {
+                double nij = clusterLabelTable[i][j];
+                sumSquared += nij * nij;
+            }
+        }
+        return sumSquared;
+    }
+
+    //Going to use the more simple formula i found in the validation section of the datamining book reference at the beginning of this phases section
+    //N=n(n-1)/2
+    private static double computeN(int numPoints){
+
+        //I really dont like these in line returns but intelliJ marks them as a warning if i dont skip the variable declaration
+        return (numPoints*(numPoints-1)/2.0);
+    }
+
+    //Now TP which counts pairs that are in both the same predicted and true cluster
+    private static double computeTP(int[][] clusterLabelTable, int[] trueLabel, int numPoints) {
+        double sumNIJSquared = computeSumOfNijSquared(clusterLabelTable);
+
+        return  .5* (sumNIJSquared-numPoints);
+    }
+
+    //FN pairs that are in same true cluster but not predicted clust
+    private static double computeFN(int[][] clusterLabelTable) {
+        double sumNijSquared = computeSumOfNijSquared(clusterLabelTable);
+        double simMjSquared = computeSumOfMjSquared(clusterLabelTable);
     }
 
 
