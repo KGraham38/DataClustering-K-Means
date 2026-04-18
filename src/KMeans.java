@@ -578,6 +578,10 @@ public class KMeans {
         compute fp
         then call a computeJaccard function to call the other compute functions and return the results
 
+        *** Note to self: dont get to confident about the structure of the formulas, definitely double check to make sure all formulas
+           are exactly as I described at the start of this phase when I'm done with everything. When computing FN, I thought it was N-M but when re
+           checking, it is actually M-N. Easy to miss but makes the whole equation wrong and since each of these are used by TN anything
+           off in these will cause TN to be off too. ***
     */
 
     //This will be the nij table that will store how many points assigned to i,which is the predicted cluster, but actually in j, the true clust j
@@ -618,7 +622,7 @@ public class KMeans {
     }
 
     //Now TP which counts pairs that are in both the same predicted and true cluster
-    private static double computeTP(int[][] clusterLabelTable, int[] trueLabel, int numPoints) {
+    private static double computeTP(int[][] clusterLabelTable, int numPoints) {
         double sumNIJSquared = computeSumOfNijSquared(clusterLabelTable);
 
         return  .5* (sumNIJSquared-numPoints);
@@ -628,6 +632,102 @@ public class KMeans {
     private static double computeFN(int[][] clusterLabelTable) {
         double sumNijSquared = computeSumOfNijSquared(clusterLabelTable);
         double simMjSquared = computeSumOfMjSquared(clusterLabelTable);
+
+        return .5 * (simMjSquared-sumNijSquared);
+    }
+
+    //Mj is the total number of points in the true cluster j
+    private static double computeSumOfMjSquared (int[][] clusterLabelTable) {
+
+        double sumMjSquared = 0;
+        int trueNumClusters = clusterLabelTable.length;
+
+        for (int i = 0; i < trueNumClusters; i++) {
+
+            double columnTotal= 0;
+            for (int j = 0; j < clusterLabelTable.length; j++) {
+
+                columnTotal += clusterLabelTable[i][j];
+            }
+            sumMjSquared += columnTotal*columnTotal;
+        }
+
+        return sumMjSquared;
+    }
+
+    //Now FP
+
+    //So i dont have to keep scrolling up to review the formula while determining the logic:
+    //FP = 1/2(SUM to r from i = 1 n^2i - SUM to r from i = 1 SUM to k from j=1 n^2ij)
+
+    private static double computeFP(int[][] clusterLabelTable) {
+
+        double sumOfNijSquared = computeSumOfNijSquared(clusterLabelTable);
+        double sumNiSquared = 0.0;
+
+        //loop through each row of my clusterlabelTable and add the row to get ni then just square it and add to total
+        for (int i =0; i < clusterLabelTable.length; i++) {
+            double rowTotal = 0;
+            for (int j = 0; j < clusterLabelTable.length; j++) {
+                rowTotal += clusterLabelTable[i][j];
+            }
+            sumNiSquared += rowTotal*rowTotal;
+        }
+
+
+        return  .5* (sumNiSquared-sumOfNijSquared);
+    }
+
+    //TN = N-(TP+FN+FP)
+    static private double computeTN(int[][] clusterLabelTable, int numPoints) {
+        double N = computeN(numPoints);
+        double TP = computeTP(clusterLabelTable, numPoints);
+        double FN = computeFN(clusterLabelTable);
+        double FP = computeFP(clusterLabelTable);
+
+        double TN = N - (TP+FN+FP);
+
+        return TN;
+    }
+
+    //Jaccard= TP/TP+FN+FP
+    private static double computeJaccardCoefficient(int[] trueLabels, int[] assignedClusters,int numTrueClusts, int numClusts) {
+
+        int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numTrueClusts, numClusts);
+        double TP = computeTP(clustLabelTable, numTrueClusts);
+        double FN = computeFN(clustLabelTable);
+        double FP = computeFP(clustLabelTable);
+
+        double denom= TP+FN+FP;
+
+        if (denom==0){
+            return 0;
+        }
+
+        return TP/denom;
+    }
+
+    //Start the Rand external validation method
+    /*
+        From the resource you recommended:https://dataminingbook.info/book_html/chap17/book.html
+        The Rand statistic measures the fraction of true positives and true negatives over all point pairs; it is defined as
+
+        A prefect clustering has a value of 1 for the statistic
+
+
+        Rand = TP+TN/N
+     */
+
+    static private double computeRandStatistic(int[] trueLabels, int[] assignedClusters,int numTrueClusts, int numClusts) {
+        int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numTrueClusts, numClusts);
+        double TP = computeTP(clustLabelTable, numTrueClusts);
+        double TN = computeTN(clustLabelTable, numTrueClusts);
+        double N = computeN(numTrueClusts);
+
+        if (N==0){
+            return 0.0;
+        }
+        return (TP+TN)/N;
     }
 
 
@@ -963,7 +1063,7 @@ public class KMeans {
             }
         }
 
-        Dataset newDataset = new Dataset(numP, numD, x_scaled);
+        Dataset newDataset = new Dataset(numP, numD, x_scaled, , );
 
         //Return my new dataset with normalized values
         return newDataset;
@@ -1168,7 +1268,7 @@ public class KMeans {
         scanner.close();
 
         //Now, ONLY if were able to fill our matrix properly, I return the built dataset type
-        return new Dataset(numPoints, dimensions, data);
+        return new Dataset(numPoints, dimensions, data, , );
     }
 
     //Method to parse and validate the cmd line arguments
@@ -1246,16 +1346,21 @@ public class KMeans {
     }
 
     //This class will hold the number of points, dimensions, and the actual data values
+    //Phase 5 addition of trueLabels and numTrueClusters
     private static final class Dataset {
         final int numberOfPoints;
         final int numOfDimensions;
         final double[][] data;
+        final int numTrueClusters;
+        final int[] trueLabels;
 
         //Constructor parameters for Dataset class
-        private Dataset(int numPoints, int numDimensions, double[][] data) {
+        private Dataset(int numPoints, int numDimensions, double[][] data, int numTrueClusters, int[] trueLabels) {
             this.numberOfPoints = numPoints;
             this.numOfDimensions = numDimensions;
             this.data = data;
+            this.numTrueClusters = numTrueClusters;
+            this.trueLabels = trueLabels;
         }
     }
 
