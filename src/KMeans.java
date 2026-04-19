@@ -18,244 +18,116 @@ import static java.lang.Math.sqrt;
 public class KMeans {
     public static void main(String[] args) {
 
-        //Removed random selection initialization by starting at 1 instead of 0
-        int centroid_start_method = 1;
+        /*Note for self: Tried to keep all of my old logic in main in case i wanted to use the old phase objectives again later
+        but with so much commented out my code looks messy, if i want access to the old version later just use github,
+        all of my final versions for each phase are saved there
+         */
+        //!!! Run Note -> Required run format for my phase 5: java KMeans ecoli.txt 100  .001  100 ,since k is obviously coming from our dataset now
+        //                                                                   maxIter^  convergeT ^numRuns
 
-        while (centroid_start_method != 2) {
+        //Parse / Validate our required arguments into an object of the class Parameter
+        Parameters parameters = parseUserArguments(args);
 
-            //Parse / Validate our required arguments into an object of the class Parameter
-            Parameters parameters = parseUserArguments(args);
+        //Read our data set file
+        Dataset dataset = readFromDataset(parameters.filename);
 
-            //Read our data set file
-            Dataset dataset = readFromDataset(parameters.filename);
+        //Normalize my data set by column before k means runs using the min max formula
+        dataset = minMaxNorm(dataset);
 
-            //Normalize my data set by column before k means runs using the min max formula
-            dataset = minMaxNorm(dataset);
+        //Print the updated normalized data set for correctness checks
+        String base = new File(parameters.filename).getName();
+        String outFileName = "normalized_output_" + base;
+        printNormDataset(dataset, outFileName);
 
-            //K min normally 2 per our instructions
-            int kMin=2;
-            //K max closest int for sqrt (n/2)
-            int kMax= (int) Math.round(sqrt(dataset.numberOfPoints/2.0));
+        //Also print to my output files
+        //Had to build my file name outside of main since filename is static here
+        String outputFilename = makeOutfileName(parameters.filename);
 
-            int maxNumOfEmptyClusters = (int) Math.round(sqrt(dataset.numberOfPoints/2.0));
+        //append existing file and now that we are doing a comparison
+        try (PrintStream outFile = new PrintStream(new FileOutputStream(outputFilename, true))) {
 
-            //Print the updated normalized data set for correctness checks
-            String base = new File(parameters.filename).getName();
-            String outFileName = "normalized_output_" + base;
-            printNormDataset(dataset, outFileName);
+            Random random = new Random();
 
-            //Also print to my output files
-            //Had to build my file name outside of main since filename is static here
-            String outputFilename = makeOutfileName(parameters.filename);
+            //Phase 5, will use numTrueClusts in the datafile for k
+            int k = dataset.numTrueClusters;
 
-            //Track my best run and may implement a function for tracking the avg total
-            //of all runs and comparing it to the best run
-            //RunResults bestRun = null;
-            //RunResults allRuns = null;
+            Parameters paramsPerNumOfKs = new Parameters(parameters.filename,k,parameters.maxNumOfIterations,parameters.convergenceThreshold, parameters.numOfRuns);
 
-            //append existing file and now that we are doing a comparison
-            try (PrintStream outFile = new PrintStream(new FileOutputStream(outputFilename, true))) {
+            int runIndex = 1;
 
-                Random random = new Random();
+            //track rand and jaccard best vals and val location
+            double bestRandValue = -1.0;
+            int bestRandRunIndex = -1;
 
-                int runIndex = 1;
+            double bestJaccardValue = -1.0;
+            int bestJaccardRunIndex = -1;
 
-                //Track CH
-                double trackBestCHVal = -100;
-                int bestCHKIndex = -100;
+            for (runIndex = 1; runIndex <= parameters.numOfRuns; runIndex++) {
+                System.out.println("Test for "+ k + " clusters");
+                outFile.println("Test for "+ k + " clusters");
 
-                //Track SW
-                double trackBestSWVal = -100;
-                int bestSWKindex = -100;
+                RunResults results= runKMeans(dataset, paramsPerNumOfKs,random, outFile, runIndex);
 
-                //Adding outer loop to loop over our new k range
-                for(int k = kMin; k <= kMax; k++) {
-
-                    //Had to move inside the k's loop for obvious reasons
-                    RunResults bestRun = null;
-                    double bestInitialSSE = Double.POSITIVE_INFINITY;
-                    int bestInitialIndex = -100;
-                    double bestFinalSSE = Double.POSITIVE_INFINITY;
-                    int bestFinalRunIndex = -100;
-                    int bestIterations = Integer.MAX_VALUE;
-                    int bestIterationsIndex = -100;
-
-                    Parameters paramsPerNumKs = new Parameters(parameters.filename, k, parameters.maxNumOfIterations, parameters.convergenceThreshold,parameters.numOfRuns);
-
-                    int maxRestartCounter= 0;
-                    int updatedKMax = 0;
-
-
-
-                    //Each run uses different real random centers just like my original phase 1
-                    for (runIndex = 1; runIndex <= parameters.numOfRuns; runIndex++) {
-
-                        System.out.println("Test for " + k + " clusters");
-                        outFile.println("Test for " + k + " clusters");
-
-
-                        //Run my whole K Means function
-                        RunResults results = runKMeans(dataset, paramsPerNumKs, random, outFile, runIndex, centroid_start_method);
-
-                        //if runKmeans returned with a 0 that means we had an empty cluster re-initialize for this run by
-                        //decrementing my runIndex which in turn repeats the run from the beginning using a new initialization
-                        if (results.iterations == 0) {
-                            runIndex--;
-                            maxRestartCounter++;
-
-                            if (maxRestartCounter == maxNumOfEmptyClusters)
-                            {
-                                int kTemp = k-1;
-                                System.out.println("Max empty cluster threshold met kMax set to " + kTemp + " from " + kMax);
-                                outFile.println("Max empty cluster threshold met kMax set to " + kTemp + " from " + kMax);
-                                kMax = k-1;
-                            }
-
-                            continue;
-                        }
-
-
-
-                        if (results.initialSSE < bestInitialSSE) {
-                            bestInitialSSE = results.initialSSE;
-                            bestInitialIndex = results.runNumber;
-                        }
-
-                        if (results.finalSSE < bestFinalSSE) {
-                            bestFinalSSE = results.finalSSE;
-                            bestFinalRunIndex = results.runNumber;
-
-                        }
-
-                        if (results.iterations < bestIterations) {
-                            bestIterations = results.iterations;
-                            bestIterationsIndex = results.runNumber;
-                        }
-
-                        String methodName = " ";
-                        if (centroid_start_method == 0) {
-                            methodName = "RandomSelection";
-                        } else {
-                            methodName = "RandomPartition";
-
-                        }
-
-                        String csvName = "comparison.csv";
-                        String openFile = parameters.filename;
-
-                        appendComparisonsCSV(csvName, openFile, methodName, results.runNumber, results.initialSSE, results.finalSSE, results.iterations);
-
-                        //If first run or smaller SSE update
-                        if (bestRun == null || results.finalSSE < bestRun.finalSSE) {
-                            bestRun = results;
-                        }
-
-                        //Forgot to add this which messed up all of my outputs
-                        maxRestartCounter = 0;
-
-                    }
-
-                    //Had to add a check because best run can be null it never finishes a run properly
-                    if(bestRun == null){
-                        break;
-                    }
-
-                    System.out.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
-                    outFile.println("Best Run: " + bestRun.runNumber + ": SSE = " + bestRun.finalSSE);
-
-                    //Had to update to use k from paramsPerK
-                    double chIndexVal= computeCHindex(dataset,bestRun, k);
-                    System.out.println("CH index(" + k + "): " + chIndexVal);
-                    outFile.println("CH index(" + k + "): " + chIndexVal);
-
-                    double swIndexVal= computeTheSWindex(dataset,bestRun, k);
-                    System.out.println("SW index(" + k + "): " + swIndexVal);
-                    outFile.println("SW index(" + k + "): " + swIndexVal);
-                    String csvName = "phase_4_results.csv";
-                    appendMyPhase4CSV(csvName, parameters.filename, k, chIndexVal, swIndexVal);
-
-
-                    if (chIndexVal > trackBestCHVal) {
-                        bestCHKIndex = k;
-                        trackBestCHVal = chIndexVal;
-                    }
-
-                    if (swIndexVal > trackBestSWVal) {
-                        bestSWKindex = k;
-                        trackBestSWVal = swIndexVal;
-                    }
-
-
-                    System.out.println(" ");
-                    outFile.println(" ");
+                //Check for empty clust if found just restart the run
+                if(results.iterations == 0){
+                    runIndex--;
+                    continue;
                 }
 
-                //Run Data for best k using CH
-                System.out.println("##################################################");
-                System.out.println("Est Optimal K - CH: " + bestCHKIndex);
-                System.out.println("Best CH Val: " + trackBestCHVal);
-                System.out.println("##################################################");
+                //Call both of my external validity methods
+                double randVal = computeRandStatistic(dataset.trueLabels, results.finalAssignedClusterPerPoint, dataset.numTrueClusters, k);
+                double jaccardValue = computeJaccardCoefficient(dataset.trueLabels, results.finalAssignedClusterPerPoint, dataset.numTrueClusters, k);
 
-                outFile.println("##################################################");
-                outFile.println("Est Optimal K - CH: " + bestCHKIndex);
-                outFile.println("Best CH Val: " + trackBestCHVal);
-                outFile.println("##################################################");
-
-                //Run Data for best k using SW
-                System.out.println("##################################################");
-                System.out.println("Est Optimal K - SW: " + bestSWKindex);
-                System.out.println("Best SW Val: " + trackBestSWVal);
-                System.out.println("##################################################");
-
-                outFile.println("##################################################");
-                outFile.println("Est Optimal K - SW: " + bestSWKindex);
-                outFile.println("Best SW Val: " + trackBestSWVal);
-                outFile.println("##################################################");
-
-
-
-                //Run data for each method of initial centroids
-                System.out.println(" ");
-                System.out.println("##################################################");
-                outFile.println(" ");
-                outFile.println("##################################################");
-
-                if(centroid_start_method==0){
-                    System.out.println("Method: Initial Centroids by Random Selection");
-                    outFile.println("Method: Initial Centroids by Random Selection");
-                } else{
-                    System.out.println("Method: Centroids by Random Partition");
-                    outFile.println("Method: Centroids by Random Partition");
-                }
-                System.out.println("##################################################");
-
-                outFile.println("##################################################");
-
-                //Phase 3, not really needed for phase 4
-                /*
+                System.out.println("Rand -> " + runIndex +": " + randVal);
+                System.out.println("Jaccard -> " + runIndex +": " + jaccardValue);
                 System.out.println();
-                System.out.println("Initial SSE: " + bestInitialSSE + " on Run #: " +  bestInitialIndex);
-                System.out.println("Final SSE: " + bestFinalSSE +  " on Run #: " +  bestFinalRunIndex);
-                System.out.println("Number of Iterations: " + bestIterations + " on Run #: " +  bestIterationsIndex);
-                System.out.println();
-                System.out.println("##################################################");
 
-
-                outFile.println("Initial SSE: " + bestInitialSSE + " on Run #: " +  bestInitialIndex);
-                outFile.println("Final SSE: " + bestFinalSSE +  " on Run #: " +  bestFinalRunIndex);
-                outFile.println("Number of Iterations: " + bestIterations + " on Run #: " +  bestIterationsIndex);
+                outFile.println("Rand -> " + runIndex +": " + randVal);
+                outFile.println("Jaccard -> " + runIndex +": " + jaccardValue);
                 outFile.println();
-                outFile.println("##################################################");
-                */
+
+                if (randVal > bestRandValue) {
+                    bestRandValue = randVal;
+                    bestRandRunIndex = runIndex;
+                }
+
+                if (jaccardValue > bestJaccardValue) {
+                    bestJaccardValue = jaccardValue;
+                    bestJaccardRunIndex = runIndex;
+
+                }
+            }
 
 
+            //Run Data for best rand
+            System.out.println("##################################################");
+            System.out.println("Best Rand Run: " + bestRandRunIndex);
+            System.out.println("Best Rand Value: " + bestRandValue);
+            System.out.println("##################################################");
 
+            outFile.println("##################################################");
+            outFile.println("Best Rand Run: " + bestRandRunIndex);
+            outFile.println("Best Rand Value: " + bestRandValue);
+            outFile.println("##################################################");
+
+            //Run Data for bes Jaccard
+            System.out.println("##################################################");
+            System.out.println("Best Jaccard Run: " + bestJaccardRunIndex);
+            System.out.println("Best Jaccard Value: " + bestJaccardValue);
+            System.out.println("##################################################");
+
+            outFile.println("##################################################");
+            outFile.println("Best Jaccard Run: " + bestJaccardRunIndex);
+            outFile.println("Best Jaccard Value: " + bestJaccardValue);
+            outFile.println("##################################################");
+
+            //Append my comparison csv
+            String comparisonCSV = "JaccardVSRand.csv";
+            appendMyPhase5CSV(comparisonCSV,parameters.filename,k,bestRandValue,bestRandRunIndex,bestJaccardValue,bestJaccardRunIndex);
 
             } catch (FileNotFoundException e) {
                 System.err.println("Error writing to output file: " + outputFilename);
                 System.exit(1);
-            }
-            centroid_start_method += 1;
         }
     }
 
@@ -424,8 +296,10 @@ public class KMeans {
     }
 
     //Run a full sequence of my k mean steps till convergence, basically the main for calling my K Means method
-    private static RunResults runKMeans(Dataset dataset, Parameters params, Random rand, PrintStream fileOut, int runNum, int centroid_start_method) {
+    //Updated for phase 5 no use for centroid start method now but dont want to lose my old logic, please just ignore the commented block of code here
+    private static RunResults runKMeans(Dataset dataset, Parameters params, Random rand, PrintStream fileOut, int runNum) {
 
+        /*
         //Print header in both console and my file
         if (centroid_start_method == 0) {
 
@@ -464,7 +338,10 @@ public class KMeans {
             //Just a safety check
             System.err.println("Error: centroid_start_method has to be either 0 or 1");
         }
+        */
 
+        //Phase 5 random selected centers like our phase 1
+        double[][] centroids = initialCentroids(dataset, params.numOfClusters, rand);
         //Save my start sse
         int[] initialAssignments = assignPointsToClosestCentroid(dataset, centroids);
         double initialSSE = computeSSE(dataset, centroids, initialAssignments);
@@ -588,7 +465,7 @@ public class KMeans {
     private static int[][] buildClustLabelTable(int[] assignedClusters, int[] trueLabel, int numClusters, int trueNumClusters) {
 
         int[][] clusterLabelTable = new int[numClusters][trueNumClusters];
-        for (int i = 0; i < numClusters; i++) {
+        for (int i = 0; i < assignedClusters.length; i++) {
             int predictedCluster = assignedClusters[i];
             int trueCluster = trueLabel[i];
 
@@ -605,7 +482,8 @@ public class KMeans {
         double sumSquared = 0;
 
         for (int i = 0; i < clusterLabelTable.length; i++) {
-            for (int j = 0; j < clusterLabelTable.length; j++) {
+            //clusterLabelTable[i] for the columns
+            for (int j = 0; j < clusterLabelTable[i].length; j++) {
                 double nij = clusterLabelTable[i][j];
                 sumSquared += nij * nij;
             }
@@ -640,12 +518,14 @@ public class KMeans {
     private static double computeSumOfMjSquared (int[][] clusterLabelTable) {
 
         double sumMjSquared = 0;
-        int trueNumClusters = clusterLabelTable.length;
 
-        for (int i = 0; i < trueNumClusters; i++) {
+        //rows only! I forgot this in computeSumOfNijSquared too use [0]
+        int trueNumClusters = clusterLabelTable[0].length;
+
+        for (int j = 0; j < trueNumClusters; j++) {
 
             double columnTotal= 0;
-            for (int j = 0; j < clusterLabelTable.length; j++) {
+            for (int i = 0; i < clusterLabelTable.length; i++) {
 
                 columnTotal += clusterLabelTable[i][j];
             }
@@ -665,10 +545,10 @@ public class KMeans {
         double sumOfNijSquared = computeSumOfNijSquared(clusterLabelTable);
         double sumNiSquared = 0.0;
 
-        //loop through each row of my clusterlabelTable and add the row to get ni then just square it and add to total
+        //loop through each row ,[i], of my clusterlabelTable and add the row to get ni then just square it and add to total
         for (int i =0; i < clusterLabelTable.length; i++) {
             double rowTotal = 0;
-            for (int j = 0; j < clusterLabelTable.length; j++) {
+            for (int j = 0; j < clusterLabelTable[i].length; j++) {
                 rowTotal += clusterLabelTable[i][j];
             }
             sumNiSquared += rowTotal*rowTotal;
@@ -693,8 +573,8 @@ public class KMeans {
     //Jaccard= TP/TP+FN+FP
     private static double computeJaccardCoefficient(int[] trueLabels, int[] assignedClusters,int numTrueClusts, int numClusts) {
 
-        int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numTrueClusts, numClusts);
-        double TP = computeTP(clustLabelTable, numTrueClusts);
+        int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numClusts, numTrueClusts);
+        double TP = computeTP(clustLabelTable, assignedClusters.length);
         double FN = computeFN(clustLabelTable);
         double FP = computeFP(clustLabelTable);
 
@@ -718,11 +598,12 @@ public class KMeans {
         Rand = TP+TN/N
      */
 
+    //Now that i have all of my compute function this method is very straightforward
     static private double computeRandStatistic(int[] trueLabels, int[] assignedClusters,int numTrueClusts, int numClusts) {
-        int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numTrueClusts, numClusts);
-        double TP = computeTP(clustLabelTable, numTrueClusts);
-        double TN = computeTN(clustLabelTable, numTrueClusts);
-        double N = computeN(numTrueClusts);
+        int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numClusts, numTrueClusts);
+        double TP = computeTP(clustLabelTable, assignedClusters.length);
+        double TN = computeTN(clustLabelTable, assignedClusters.length);
+        double N = computeN(assignedClusters.length);
 
         if (N==0){
             return 0.0;
@@ -730,6 +611,26 @@ public class KMeans {
         return (TP+TN)/N;
     }
 
+    //Repurposing my phase 4 csv method for phase 5
+    private static void appendMyPhase5CSV(String csvName, String fileName, int k, double bestRandVal, int bestRandRun, double bestJaccardVal, int bestJaccardRun) {
+
+        File file = new File(csvName);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
+
+            if(file.length() == 0) {
+                writer.write("file,k,bestRandRun,bestRandVal,bestJaccardRun,bestJaccardVal");
+                writer.write("\n");
+            }
+
+            writer.write(fileName + "," + k + "," + bestRandRun + "," + bestRandVal + "," + bestJaccardRun + "," + bestJaccardVal);
+            writer.write("\n");
+
+        } catch (IOException e) {
+            System.err.println("Error writing phase 5 CSV file");
+            System.exit(1);
+        }
+
+    }
 
     //Phase 4 start (for easy search to get back to my phase 4 logic)
 
@@ -1063,7 +964,8 @@ public class KMeans {
             }
         }
 
-        Dataset newDataset = new Dataset(numP, numD, x_scaled, , );
+        //Updated to add the numTrueClusters and true labels for our phase 5
+        Dataset newDataset = new Dataset(numP, numD, x_scaled, dataset.numTrueClusters, dataset.trueLabels);
 
         //Return my new dataset with normalized values
         return newDataset;
@@ -1071,9 +973,13 @@ public class KMeans {
 
     //Just a simple function to print my dataset after normalization to help confirm my normalization is working.
     //Rewrites each run
+    //Also updating for phase 5
     private static void printNormDataset( Dataset dataset, String outputFilename) {
 
         try (PrintStream fileOut = new PrintStream(new FileOutputStream(outputFilename))) {
+
+            //Phase 5, (# points, # attributes + 1, # true clusters)
+            fileOut.println(dataset.numberOfPoints + " " + (dataset.numOfDimensions +1 )+ " " + dataset.numTrueClusters);
 
             for(int point = 0; point < dataset.numberOfPoints; point++) {
                 for(int dim = 0; dim < dataset.numOfDimensions; dim++) {
@@ -1084,6 +990,8 @@ public class KMeans {
 
                     fileOut.print(dataset.data[point][dim]);
                 }
+                //Phase 5, print the true label at the end of the row
+                fileOut.print(" "+ dataset.trueLabels[point]);
                 fileOut.println();
 
             }
@@ -1241,13 +1149,31 @@ public class KMeans {
         int numPoints = scanner.nextInt();
 
         if (!scanner.hasNextInt()){
-            System.err.println("Missing the D for number of dimensions in the first line of: " + filename);
+            System.err.println("Missing the D+1 for number of dimensions in the first line of: " + filename);
             System.exit(1);
         }
+
         int dimensions = scanner.nextInt();
+        //Phase 5 addition
+        if (!scanner.hasNextInt()){
+            System.err.println("Missing the number of true clusters");
+            System.exit(1);
+        }
+        int numTrueClusts = scanner.nextInt();
+
+        dimensions -= 1;
+
+        //Simple check since i am subtracting from dimensions
+        if (dimensions < 1){
+            System.err.println("Num of attributes must be at least 1");
+            System.exit(1);
+        }
 
         //Set up the matrix for all points, NxD sized array
         double[][] data = new double[numPoints][dimensions];
+
+        //Phase 5 need to store an array for the true cluster labels for each point
+        int[] trueLabels = new int[numPoints];
 
         int pointsIndex = 0;
         int dimIndex =0;
@@ -1263,12 +1189,27 @@ public class KMeans {
 
             }
 
+            //Phase 5 addition to check that all points have the true label
+            if (!scanner.hasNextInt()){
+                System.err.println("Missing the true label for point " + pointsIndex);
+                System.exit(1);
+            }
+
+            int label = scanner.nextInt();
+            //Must be between 0 and (# true clusters – 1)
+            if(label<0 || label > numTrueClusts -1){
+                System.err.println("Label must be between 0 and the number of true clusters - 1");
+                System.exit(1);
+            }
+
+            trueLabels[pointsIndex] = label;
+
         }
 
         scanner.close();
 
         //Now, ONLY if were able to fill our matrix properly, I return the built dataset type
-        return new Dataset(numPoints, dimensions, data, , );
+        return new Dataset(numPoints, dimensions, data, numTrueClusts, trueLabels);
     }
 
     //Method to parse and validate the cmd line arguments

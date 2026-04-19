@@ -1,0 +1,883 @@
+Test for 4 clusters
+Iteration 1 : SSE = 3.424603926087137
+Iteration 2 : SSE = 2.15760010338977
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 1: 1.0
+Jaccard -> 1: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.4134376778060664
+Iteration 2 : SSE = 1.3191867406996498
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 2: 1.0
+Jaccard -> 2: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 1.3826538979112228
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 3: 1.0
+Jaccard -> 3: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.9991711289194423
+Iteration 2 : SSE = 0.8905221354206297
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 4: 1.0
+Jaccard -> 4: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.624689818090289
+Iteration 2 : SSE = 4.375650373829975
+Iteration 3 : SSE = 4.2963050398485025
+Iteration 4 : SSE = 4.2854264269074624
+Iteration 5 : SSE = 4.244627233206403
+Iteration 6 : SSE = 3.955212988704343
+Iteration 7 : SSE = 1.58223516317975
+Iteration 8 : SSE = 0.8072960323968901
+Iteration 9 : SSE = 0.8072960323968901
+
+Rand -> 5: 1.0
+Jaccard -> 5: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.4109739967347723
+Iteration 2 : SSE = 3.0114091162838688
+Iteration 3 : SSE = 1.698722877993109
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 6: 1.0
+Jaccard -> 6: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.3558035026237283
+Iteration 2 : SSE = 3.06444183428384
+Iteration 3 : SSE = 3.0619357479023455
+
+Rand -> 7: 0.8450450450450451
+Jaccard -> 7: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.280981098591264
+Iteration 2 : SSE = 3.504796022318086
+Iteration 3 : SSE = 1.4305188841393937
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 8: 1.0
+Jaccard -> 8: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 9: 1.0
+Jaccard -> 9: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.037622867525545
+Iteration 2 : SSE = 0.9754519559612713
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 10: 1.0
+Jaccard -> 10: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.789989940512593
+Iteration 2 : SSE = 3.30724425392941
+Iteration 3 : SSE = 0.9226040430317002
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 11: 1.0
+Jaccard -> 11: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.607035421030017
+Iteration 2 : SSE = 2.7752639468271805
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 12: 1.0
+Jaccard -> 12: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.1263651939776524
+Iteration 2 : SSE = 3.449507614149052
+Iteration 3 : SSE = 3.449507614149052
+
+Rand -> 13: 0.8461261261261261
+Jaccard -> 13: 0.6027906976744186
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.7917028701972404
+Iteration 2 : SSE = 3.363741986940604
+Iteration 3 : SSE = 3.363741986940604
+
+Rand -> 14: 0.8234234234234235
+Jaccard -> 14: 0.5441860465116279
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.0937964253375445
+Iteration 2 : SSE = 3.0619357479023455
+Iteration 3 : SSE = 3.0576680765327864
+Iteration 4 : SSE = 3.0576680765327864
+
+Rand -> 15: 0.8450450450450451
+Jaccard -> 15: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8905221354206297
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 16: 1.0
+Jaccard -> 16: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 1.9820828794777199
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 17: 1.0
+Jaccard -> 17: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.3481164959242036
+Iteration 2 : SSE = 2.0647251672373756
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 18: 1.0
+Jaccard -> 18: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.12262779785607
+Iteration 2 : SSE = 3.2384456328688485
+Iteration 3 : SSE = 0.9226040430317002
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 19: 1.0
+Jaccard -> 19: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.447767253655994
+Iteration 2 : SSE = 3.443185147827884
+Iteration 3 : SSE = 3.4307886313879874
+Iteration 4 : SSE = 3.4307886313879874
+
+Rand -> 20: 0.841081081081081
+Jaccard -> 20: 0.5897674418604651
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.157574960107402
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 21: 1.0
+Jaccard -> 21: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.558480802755508
+Iteration 2 : SSE = 3.028005277057971
+Iteration 3 : SSE = 3.0010689517902627
+Iteration 4 : SSE = 3.0010689517902627
+
+Rand -> 22: 0.8702702702702703
+Jaccard -> 22: 0.6341463414634146
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.0590351904697
+Iteration 2 : SSE = 1.3191867406996498
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 23: 1.0
+Jaccard -> 23: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.586517915408162
+Iteration 2 : SSE = 3.4329498096206623
+Iteration 3 : SSE = 3.4329498096206623
+
+Rand -> 24: 0.8396396396396396
+Jaccard -> 24: 0.586046511627907
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.097073596391658
+Iteration 2 : SSE = 2.998057159867554
+Iteration 3 : SSE = 2.998057159867554
+
+Rand -> 25: 0.8731531531531531
+Jaccard -> 25: 0.6422764227642277
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.5698183929898213
+Iteration 2 : SSE = 3.112480046940761
+Iteration 3 : SSE = 3.045115821937607
+Iteration 4 : SSE = 3.045115821937607
+
+Rand -> 26: 0.8681081081081081
+Jaccard -> 26: 0.6280487804878049
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.251576173461225
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 27: 1.0
+Jaccard -> 27: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.111520978305515
+Iteration 2 : SSE = 3.443185147827884
+Iteration 3 : SSE = 3.4307886313879874
+Iteration 4 : SSE = 3.4307886313879874
+
+Rand -> 28: 0.841081081081081
+Jaccard -> 28: 0.5897674418604651
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 29: 1.0
+Jaccard -> 29: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.269033739915747
+Iteration 2 : SSE = 3.060116159893293
+Iteration 3 : SSE = 3.060116159893293
+
+Rand -> 30: 0.8450450450450451
+Jaccard -> 30: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.48064464592289
+Iteration 2 : SSE = 1.063123863526621
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 31: 1.0
+Jaccard -> 31: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.0802164732787345
+Iteration 2 : SSE = 3.0188835110714427
+Iteration 3 : SSE = 3.0010689517902627
+Iteration 4 : SSE = 3.0010689517902627
+
+Rand -> 32: 0.8702702702702703
+Jaccard -> 32: 0.6341463414634146
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 33: 1.0
+Jaccard -> 33: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 34: 1.0
+Jaccard -> 34: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.9608183330137394
+Iteration 2 : SSE = 1.554755104723216
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 35: 1.0
+Jaccard -> 35: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 8.840446390649221
+Iteration 2 : SSE = 7.375892687312467
+Iteration 3 : SSE = 3.4278814002236047
+Iteration 4 : SSE = 3.058978298559267
+Iteration 5 : SSE = 3.0579878422152964
+
+Rand -> 36: 0.8443243243243244
+Jaccard -> 36: 0.5609756097560976
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.200012769673952
+Iteration 2 : SSE = 1.2858725830757904
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 37: 1.0
+Jaccard -> 37: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.785439479026806
+Iteration 2 : SSE = 4.346852738044318
+Iteration 3 : SSE = 4.309763614151905
+Iteration 4 : SSE = 4.11287928376266
+Iteration 5 : SSE = 2.5152942648569816
+Iteration 6 : SSE = 0.8072960323968901
+Iteration 7 : SSE = 0.8072960323968901
+
+Rand -> 38: 1.0
+Jaccard -> 38: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.1395492453800835
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 39: 1.0
+Jaccard -> 39: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.4490377261390286
+Iteration 2 : SSE = 3.4355001130827025
+Iteration 3 : SSE = 3.4321249408369012
+
+Rand -> 40: 0.841081081081081
+Jaccard -> 40: 0.5897674418604651
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.243001529838313
+Iteration 2 : SSE = 2.9671935499063475
+Iteration 3 : SSE = 0.9460716058620802
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 41: 1.0
+Jaccard -> 41: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.025198549620773
+Iteration 2 : SSE = 3.3880671709163876
+Iteration 3 : SSE = 3.074936699900344
+Iteration 4 : SSE = 3.060116159893293
+Iteration 5 : SSE = 3.060116159893293
+
+Rand -> 42: 0.8450450450450451
+Jaccard -> 42: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 43: 1.0
+Jaccard -> 43: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 44: 1.0
+Jaccard -> 44: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.365664549658884
+Iteration 2 : SSE = 3.3641536777338703
+
+Rand -> 45: 0.8230630630630631
+Jaccard -> 45: 0.5432558139534883
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.952851858573432
+Iteration 2 : SSE = 3.374989377601404
+Iteration 3 : SSE = 3.363741986940604
+Iteration 4 : SSE = 3.363741986940604
+
+Rand -> 46: 0.8234234234234235
+Jaccard -> 46: 0.5441860465116279
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.382497495408971
+Iteration 2 : SSE = 3.916712040727328
+Iteration 3 : SSE = 3.060116159893293
+Iteration 4 : SSE = 3.060116159893293
+
+Rand -> 47: 0.8450450450450451
+Jaccard -> 47: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 1.8539599754663334
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 48: 1.0
+Jaccard -> 48: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.450108393160201
+Iteration 2 : SSE = 3.4483238605632196
+
+Rand -> 49: 0.8389189189189189
+Jaccard -> 49: 0.5841860465116279
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.021253876334948
+Iteration 2 : SSE = 2.9860100986438827
+Iteration 3 : SSE = 2.6171435014235485
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 50: 1.0
+Jaccard -> 50: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.9226040430317002
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 51: 1.0
+Jaccard -> 51: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.3970857485242822
+Iteration 2 : SSE = 3.391158699685808
+Iteration 3 : SSE = 3.384772786569445
+Iteration 4 : SSE = 3.365664549658884
+Iteration 5 : SSE = 3.3641536777338703
+
+Rand -> 52: 0.8230630630630631
+Jaccard -> 52: 0.5432558139534883
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.6171435014235485
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 53: 1.0
+Jaccard -> 53: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.304181764536888
+Iteration 2 : SSE = 1.566060568777702
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 54: 1.0
+Jaccard -> 54: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 55: 1.0
+Jaccard -> 55: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.781378259739068
+Iteration 2 : SSE = 1.1246594799087217
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 56: 1.0
+Jaccard -> 56: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.0647188734043356
+Iteration 2 : SSE = 3.060116159893293
+Iteration 3 : SSE = 3.060116159893293
+
+Rand -> 57: 0.8450450450450451
+Jaccard -> 57: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.4611324209762926
+Iteration 2 : SSE = 3.4554762730079167
+Iteration 3 : SSE = 3.4355001130827025
+Iteration 4 : SSE = 3.4321249408369012
+
+Rand -> 58: 0.841081081081081
+Jaccard -> 58: 0.5897674418604651
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.925216288518127
+Iteration 2 : SSE = 3.0647188734043356
+Iteration 3 : SSE = 3.060116159893293
+Iteration 4 : SSE = 3.060116159893293
+
+Rand -> 59: 0.8450450450450451
+Jaccard -> 59: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 60: 1.0
+Jaccard -> 60: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.131515294966705
+Iteration 2 : SSE = 3.30724425392941
+Iteration 3 : SSE = 0.9226040430317002
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 61: 1.0
+Jaccard -> 61: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.386027393805391
+Iteration 2 : SSE = 3.4118710117052946
+Iteration 3 : SSE = 3.4118710117052946
+
+Rand -> 62: 0.8230630630630631
+Jaccard -> 62: 0.5432558139534883
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.8513380849387926
+Iteration 2 : SSE = 2.5364142673605206
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 63: 1.0
+Jaccard -> 63: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.953144675683423
+Iteration 2 : SSE = 2.8273807576523495
+Iteration 3 : SSE = 1.1326022506170446
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 64: 1.0
+Jaccard -> 64: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.015265653442913
+Iteration 2 : SSE = 3.062297406871554
+Iteration 3 : SSE = 3.0579878422152964
+Iteration 4 : SSE = 3.0579878422152964
+
+Rand -> 65: 0.8443243243243244
+Jaccard -> 65: 0.5609756097560976
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.644600444707593
+Iteration 2 : SSE = 3.0576680765327864
+Iteration 3 : SSE = 3.0576680765327864
+
+Rand -> 66: 0.8450450450450451
+Jaccard -> 66: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.651996048898713
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 67: 1.0
+Jaccard -> 67: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.484369122191048
+Iteration 2 : SSE = 3.41343717231042
+Iteration 3 : SSE = 3.400201064594994
+Iteration 4 : SSE = 3.384772786569445
+Iteration 5 : SSE = 3.365664549658884
+Iteration 6 : SSE = 3.3641536777338703
+
+Rand -> 68: 0.8230630630630631
+Jaccard -> 68: 0.5432558139534883
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.048860550654117
+Iteration 2 : SSE = 3.365664549658884
+Iteration 3 : SSE = 3.3641536777338703
+
+Rand -> 69: 0.8230630630630631
+Jaccard -> 69: 0.5432558139534883
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.0297944400834202
+Iteration 2 : SSE = 1.063123863526621
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 70: 1.0
+Jaccard -> 70: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.843587727589772
+Iteration 2 : SSE = 1.7642608310319736
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 71: 1.0
+Jaccard -> 71: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.319121550037504
+Iteration 2 : SSE = 3.045115821937607
+Iteration 3 : SSE = 3.045115821937607
+
+Rand -> 72: 0.8681081081081081
+Jaccard -> 72: 0.6280487804878049
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.499969668024905
+Iteration 2 : SSE = 3.3721830580408603
+Iteration 3 : SSE = 3.365664549658884
+Iteration 4 : SSE = 3.3641536777338703
+
+Rand -> 73: 0.8230630630630631
+Jaccard -> 73: 0.5432558139534883
+
+Test for 4 clusters
+Iteration 1 : SSE = 1.706561899149428
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 74: 1.0
+Jaccard -> 74: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.508365487795842
+Iteration 2 : SSE = 2.3069048180639706
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 75: 1.0
+Jaccard -> 75: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 76: 1.0
+Jaccard -> 76: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.167647970580613
+Iteration 2 : SSE = 2.557294023345765
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 77: 1.0
+Jaccard -> 77: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.8072960323968901
+Iteration 2 : SSE = 0.8072960323968901
+
+Rand -> 78: 1.0
+Jaccard -> 78: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.192854737227316
+Iteration 2 : SSE = 4.305440612805002
+Iteration 3 : SSE = 4.290800435973343
+Iteration 4 : SSE = 4.244627233206403
+Iteration 5 : SSE = 3.955212988704343
+Iteration 6 : SSE = 1.58223516317975
+Iteration 7 : SSE = 0.8072960323968901
+Iteration 8 : SSE = 0.8072960323968901
+
+Rand -> 79: 1.0
+Jaccard -> 79: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.069060944795797
+Iteration 2 : SSE = 2.5299412739123044
+Iteration 3 : SSE = 0.9460716058620802
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 80: 1.0
+Jaccard -> 80: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.3581472854470156
+Iteration 2 : SSE = 1.063123863526621
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 81: 1.0
+Jaccard -> 81: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.395380301991958
+Iteration 2 : SSE = 4.349001393389643
+Iteration 3 : SSE = 4.270901116853143
+Iteration 4 : SSE = 3.924574174730826
+Iteration 5 : SSE = 3.4330930549252714
+Iteration 6 : SSE = 3.4330930549252714
+
+Rand -> 82: 0.8432432432432433
+Jaccard -> 82: 0.5953488372093023
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.082318051617084
+Iteration 2 : SSE = 3.0713621532155964
+Iteration 3 : SSE = 3.06444183428384
+Iteration 4 : SSE = 3.0619357479023455
+
+Rand -> 83: 0.8450450450450451
+Jaccard -> 83: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.2686090633862945
+Iteration 2 : SSE = 3.046335643300608
+Iteration 3 : SSE = 3.0412679003024756
+Iteration 4 : SSE = 3.028005277057971
+Iteration 5 : SSE = 3.0010689517902627
+Iteration 6 : SSE = 3.0010689517902627
+
+Rand -> 84: 0.8702702702702703
+Jaccard -> 84: 0.6341463414634146
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.160460123132556
+Iteration 2 : SSE = 3.189451107740289
+Iteration 3 : SSE = 3.0576680765327864
+Iteration 4 : SSE = 3.0576680765327864
+
+Rand -> 85: 0.8450450450450451
+Jaccard -> 85: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.0010689517902627
+Iteration 2 : SSE = 3.0010689517902627
+
+Rand -> 86: 0.8702702702702703
+Jaccard -> 86: 0.6341463414634146
+
+Test for 4 clusters
+Iteration 1 : SSE = 1.7572106045537477
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 87: 1.0
+Jaccard -> 87: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 0.9140801621965794
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 88: 1.0
+Jaccard -> 88: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 6.379739766942441
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 89: 1.0
+Jaccard -> 89: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.586403758350741
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 90: 1.0
+Jaccard -> 90: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.588726453690475
+Iteration 2 : SSE = 4.317236816523101
+Iteration 3 : SSE = 4.1917419959480045
+Iteration 4 : SSE = 2.9699915557967174
+Iteration 5 : SSE = 0.8072960323968901
+Iteration 6 : SSE = 0.8072960323968901
+
+Rand -> 91: 1.0
+Jaccard -> 91: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 4.6510879549720086
+Iteration 2 : SSE = 2.599683937985792
+Iteration 3 : SSE = 1.206828938986327
+Iteration 4 : SSE = 0.8072960323968901
+Iteration 5 : SSE = 0.8072960323968901
+
+Rand -> 92: 1.0
+Jaccard -> 92: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.440920390706344
+Iteration 2 : SSE = 3.433322566780098
+Iteration 3 : SSE = 3.4307886313879874
+
+Rand -> 93: 0.841081081081081
+Jaccard -> 93: 0.5897674418604651
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.3958991315809883
+Iteration 2 : SSE = 3.0871488264368065
+Iteration 3 : SSE = 3.0576680765327864
+Iteration 4 : SSE = 3.0576680765327864
+
+Rand -> 94: 0.8450450450450451
+Jaccard -> 94: 0.5630081300813008
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.4145654242142602
+Iteration 2 : SSE = 3.4112424924673013
+
+Rand -> 95: 0.8245045045045045
+Jaccard -> 95: 0.5469767441860465
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.395155446328532
+Iteration 2 : SSE = 0.9460716058620802
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 96: 1.0
+Jaccard -> 96: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 5.14376662520602
+Iteration 2 : SSE = 0.9460716058620802
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 97: 1.0
+Jaccard -> 97: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.4622819238241234
+Iteration 2 : SSE = 0.9460716058620802
+Iteration 3 : SSE = 0.8072960323968901
+Iteration 4 : SSE = 0.8072960323968901
+
+Rand -> 98: 1.0
+Jaccard -> 98: 1.0
+
+Test for 4 clusters
+Iteration 1 : SSE = 3.2462700498419315
+Iteration 2 : SSE = 3.045115821937607
+Iteration 3 : SSE = 3.045115821937607
+
+Rand -> 99: 0.8681081081081081
+Jaccard -> 99: 0.6280487804878049
+
+Test for 4 clusters
+Iteration 1 : SSE = 2.242541557993514
+Iteration 2 : SSE = 0.8072960323968901
+Iteration 3 : SSE = 0.8072960323968901
+
+Rand -> 100: 1.0
+Jaccard -> 100: 1.0
+
+##################################################
+Best Rand Run: 1
+Best Rand Value: 1.0
+##################################################
+##################################################
+Best Jaccard Run: 1
+Best Jaccard Value: 1.0
+##################################################
