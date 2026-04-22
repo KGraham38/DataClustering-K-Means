@@ -25,6 +25,8 @@ public class KMeans {
         //!!! Run Note -> Required run format for my phase 5: java KMeans ecoli.txt 100  .001  100 ,since k is obviously coming from our dataset now
         //                                                                   maxIter^  convergeT ^numRuns
 
+        //No bonus attempt: Unfortunately with other final projects due soon and the symposium last week, i did not give myself enough time to attempt the Fowlkes-Mallows index method too but saving the name here so I can look into it post semester
+
         //Parse / Validate our required arguments into an object of the class Parameter
         Parameters parameters = parseUserArguments(args);
 
@@ -415,13 +417,13 @@ public class KMeans {
     //Phase 5 start (for easy search to get back to my phase 5 logic)
 
     /*
-    Phase 5 IMPORTANT IMPLEMENTATION NOTES: both external validation methods use almost the same variables so should
+    Phase 5 IMPORTANT PRE IMPLEMENTATION NOTES: both external validation methods use almost the same variables so should
     be able to create methods to handle them once and call what I need for each
 
     Likely methods needed: computeTP, computeFN, computeFP, computeN, computeTN
 
-    N = TP+FN+FP+TN #Reread the datamining book section and found this formula for N which can be computed more only
-    using just the num of clusters as n for: N= n(n-1)/2
+    N = TP+FN+FP+TN #Reread the datamining book section and found this formula for N which can be computed using only
+    using just the num of points as n for: N= n(n-1)/2
 
 
     TP = 1/2((SUM to r from i = 1 SUM to k from j=1 n^2ij)-n)
@@ -441,7 +443,7 @@ public class KMeans {
 
     //Start the Jaccard external validation method
     /*
-        From the resource you recommended:https://dataminingbook.info/book_html/chap17/book.html
+        From the resource you recommended:https://dataminingbook.info/book_html/chap17/book.html which was very helpful
         Measures the fraction of true positive point pairs but after ignoring true negatives
 
         For perfect clustering, the Jaccard Coefficient has value 1 = no false positives or false negatives
@@ -456,12 +458,12 @@ public class KMeans {
         then call a computeJaccard function to call the other compute functions and return the results
 
         *** Note to self: dont get to confident about the structure of the formulas, definitely double check to make sure all formulas
-           are exactly as I described at the start of this phase when I'm done with everything. When computing FN, I thought it was N-M but when re
-           checking, it is actually M-N. Easy to miss but makes the whole equation wrong and since each of these are used by TN anything
-           off in these will cause TN to be off too. ***
+           are exactly as I have them at the start of this phases section when I'm done with everything.
+           When computing FN, I thought it was N-M but when re checking, it is actually M-N. Easy to miss but makes the whole equation
+           wrong and since each of these are used by TN anything off in these will cause TN to be off too. ***
     */
 
-    //This will be the nij table that will store how many points assigned to i,which is the predicted cluster, but actually in j, the true clust j
+    //This will be the nij table that will store how many points assigned to i,which is the predicted cluster, but actually in j, the true clust = j
     private static int[][] buildClustLabelTable(int[] assignedClusters, int[] trueLabel, int numClusters, int trueNumClusters) {
 
         int[][] clusterLabelTable = new int[numClusters][trueNumClusters];
@@ -475,8 +477,8 @@ public class KMeans {
         return clusterLabelTable;
     }
 
-    //Now i will need the form of SUM n^2ij
-    //Just a reminder while implementing n is the total num of points in cluster i
+    //Now i will need a method for SUM n^2ij
+    //Just a reminder while implementing nij is the num points in predicted clust = i and true clust = j
     private static double computeSumOfNijSquared (int[][] clusterLabelTable) {
 
         double sumSquared = 0;
@@ -519,19 +521,23 @@ public class KMeans {
 
         double sumMjSquared = 0;
 
-        //rows only! I forgot this in computeSumOfNijSquared too use [0]
+        //columns only, I forgot the index in computeSumOfNijSquared too
         int trueNumClusters = clusterLabelTable[0].length;
 
+        //Loop over the columns/true clusters
         for (int j = 0; j < trueNumClusters; j++) {
 
             double columnTotal= 0;
             for (int i = 0; i < clusterLabelTable.length; i++) {
 
+                //add up the values in column j
                 columnTotal += clusterLabelTable[i][j];
             }
+            //square it
             sumMjSquared += columnTotal*columnTotal;
         }
 
+        //and return
         return sumMjSquared;
     }
 
@@ -539,58 +545,68 @@ public class KMeans {
 
     //So i dont have to keep scrolling up to review the formula while determining the logic:
     //FP = 1/2(SUM to r from i = 1 n^2i - SUM to r from i = 1 SUM to k from j=1 n^2ij)
-
     private static double computeFP(int[][] clusterLabelTable) {
 
         double sumOfNijSquared = computeSumOfNijSquared(clusterLabelTable);
         double sumNiSquared = 0.0;
 
-        //loop through each row ,[i], of my clusterlabelTable and add the row to get ni then just square it and add to total
+        //loop through each row ,[i], of my clusterlabelTable
         for (int i =0; i < clusterLabelTable.length; i++) {
             double rowTotal = 0;
             for (int j = 0; j < clusterLabelTable[i].length; j++) {
+
+                //Add the row to get ni
                 rowTotal += clusterLabelTable[i][j];
             }
+            //then just square it and add to total
             sumNiSquared += rowTotal*rowTotal;
         }
 
-
+        //finally compute and return
         return  .5* (sumNiSquared-sumOfNijSquared);
     }
 
     //TN = N-(TP+FN+FP)
     static private double computeTN(int[][] clusterLabelTable, int numPoints) {
+
+        //Very simple now, just call my methods
         double N = computeN(numPoints);
         double TP = computeTP(clusterLabelTable, numPoints);
         double FN = computeFN(clusterLabelTable);
         double FP = computeFP(clusterLabelTable);
 
+        //compute tn
         double TN = N - (TP+FN+FP);
 
+        //return it
         return TN;
     }
 
     //Jaccard= TP/TP+FN+FP
     private static double computeJaccardCoefficient(int[] trueLabels, int[] assignedClusters,int numTrueClusts, int numClusts) {
 
+        //Just call my methods
         int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numClusts, numTrueClusts);
         double TP = computeTP(clustLabelTable, assignedClusters.length);
         double FN = computeFN(clustLabelTable);
         double FP = computeFP(clustLabelTable);
 
+        //Build the denom
         double denom= TP+FN+FP;
 
+        //Simple safety
         if (denom==0){
             return 0;
         }
 
+        //compute and return
         return TP/denom;
     }
 
     //Start the Rand external validation method
     /*
         From the resource you recommended:https://dataminingbook.info/book_html/chap17/book.html
-        The Rand statistic measures the fraction of true positives and true negatives over all point pairs; it is defined as
+        The Rand statistic measures the fraction of true positives and true negatives over all point pairs
 
         A prefect clustering has a value of 1 for the statistic
 
@@ -600,14 +616,18 @@ public class KMeans {
 
     //Now that i have all of my compute function this method is very straightforward
     static private double computeRandStatistic(int[] trueLabels, int[] assignedClusters,int numTrueClusts, int numClusts) {
+
+        //Just call my methods
         int[][] clustLabelTable= buildClustLabelTable(assignedClusters, trueLabels, numClusts, numTrueClusts);
         double TP = computeTP(clustLabelTable, assignedClusters.length);
         double TN = computeTN(clustLabelTable, assignedClusters.length);
         double N = computeN(assignedClusters.length);
 
+        //Just to prevent potential divide by 0
         if (N==0){
             return 0.0;
         }
+        //and then compute and return the rand value
         return (TP+TN)/N;
     }
 
@@ -631,6 +651,8 @@ public class KMeans {
         }
 
     }
+
+    //End Phase 5
 
     //Phase 4 start (for easy search to get back to my phase 4 logic)
 
